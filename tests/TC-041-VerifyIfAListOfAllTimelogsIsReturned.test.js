@@ -1,14 +1,20 @@
 require("dotenv").config({ path: ".env" });
-const axios = require("axios");
+const requestManager = require("../utils/RequestManager.js");
 
 // Test Case 041: Verify If A List Of All Timelogs Is Returned - ENDPOINT TIMELOGS
 describe("Verify If A List Of All Timelogs is Returned", () => {
   let response;
 
   beforeAll(async () => {
-      response = await axios.get(`${process.env.TIMELOGS_ENDPOINT}`, {
-      headers: { Authorization: `Bearer ${process.env.ACCESS_TOKEN}` },
-    });
+    // Usando requestManager.send ao invés de axios.get
+    response = await requestManager.send(
+      "get",
+      process.env.TIMELOGS_ENDPOINT,
+      {},
+      {
+        Authorization: `Bearer ${process.env.ACCESS_TOKEN}`,
+      }
+    );
   });
 
   test("Status code is 200", () => {

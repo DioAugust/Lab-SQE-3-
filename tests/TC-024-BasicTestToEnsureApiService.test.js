@@ -1,14 +1,19 @@
 require("dotenv").config({ path: ".env" });
-const axios = require("axios");
+const requestManager = require("../utils/RequestManager.js");
 
 // Test Case 024: Basic Test To Ensure Api Service - ENDPOINT WORK SCHEDULES
 describe("Basic Test To Ensure Api Service", () => {
   let response;
 
   beforeAll(async () => {
-    response = await axios.get(`${process.env.BASIC_TEST_ENDPOINT}`, {
-      headers: { Authorization: `Bearer ${process.env.ACCESS_TOKEN}` },
-    });
+    response = await requestManager.send(
+      "get",
+      `${process.env.BASIC_TEST_ENDPOINT}`,
+      {},
+      {
+        Authorization: `Bearer ${process.env.ACCESS_TOKEN}`,
+      }
+    );
   });
 
   test("Status code is 200", () => {

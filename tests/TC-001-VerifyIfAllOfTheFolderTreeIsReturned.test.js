@@ -1,13 +1,13 @@
 require("dotenv").config({ path: ".env" });
-const axios = require("axios");
+const requestManager = require('../utils/RequestManager.js');
 
 // Test Case 001: Verify If All Of The Folder Tree Is Returned - ENDPOINT FOLDERS
 describe("Verify If All Of The Folder Tree Is Returned", () => {
   let response;
 
   beforeAll(async () => {
-    response = await axios.get(`${process.env.FOLDER_ENDPOINT}`, {
-      headers: { Authorization: `Bearer ${process.env.ACCESS_TOKEN}` },
+    response = await requestManager.send('get', `${process.env.FOLDER_ENDPOINT}`, {}, {
+      Authorization: `Bearer ${process.env.ACCESS_TOKEN}`,
     });
   });
 
