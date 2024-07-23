@@ -1,4 +1,5 @@
 const requestManager = require("../utils/RequestManager.js");
+const { combinedLogger, errorLogger } = require("../utils/logger");
 
 // Test Case 033: Check Query For Groups Created by invalid ID - ENDPOINT GROUPS
 describe("Check Query For Groups Created by invalid ID", () => {
@@ -32,10 +33,25 @@ describe("Check Query For Groups Created by invalid ID", () => {
   });
 
   test("Status code is 400", () => {
-    expect(responseStatus).toBe(400);
+    try {
+      expect(responseStatus).toBe(400);
+      combinedLogger.info(`[${expect.getState().currentTestName}] : Sucesso`);
+    } catch (error) {
+      errorLogger.error(
+        `[${expect.getState().currentTestName}] : Falha - ${error.message}`
+      );
+      throw error;
+    }
   });
 
   test("Response is JSON", () => {
-    expect(responseContentType).toMatch(/json/);
+    try {
+      expect(responseContentType).toMatch(/json/);
+      combinedLogger.info(`[${expect.getState().currentTestName}] : Sucesso`);
+    } catch (error) {
+      errorLogger.error(`[${expect.getState().currentTestName}] : Falha - ${error.message}`
+      );
+      throw error;
+    }
   });
 });

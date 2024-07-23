@@ -1,0 +1,22 @@
+2024-07-23T22:29:29.744Z info: [Get Space With ID Status code is 200] : Sucesso
+2024-07-23T22:29:29.747Z info: [Get Space With ID Response is JSON] : Sucesso
+2024-07-23T22:29:29.748Z info: [Get Space With ID Response contains spaces kind] : Sucesso
+2024-07-23T22:29:29.748Z info: [Get Space With ID Data is an array] : Sucesso
+2024-07-23T22:29:29.783Z info: [Basic Test To Ensure Api Service Status code is 200] : Sucesso
+2024-07-23T22:29:29.788Z info: [Basic Test To Ensure Api Service Response is JSON] : Sucesso
+2024-07-23T22:29:29.789Z info:  [Basic Test To Ensure Api Service Response contains version kind] : Sucesso
+2024-07-23T22:29:29.790Z info: [Basic Test To Ensure Api Service Data is an array] : Sucesso
+2024-07-23T22:29:29.794Z info: [Verify 401 response if no token is given Status code is 401] : Sucesso
+2024-07-23T22:29:29.797Z info: [Verify 401 response if no token is given Response is Text/Plain] : Sucesso
+2024-07-23T22:29:29.798Z info: [Verify 401 response if no token is given Response contains error message] : Sucesso
+2024-07-23T22:29:29.799Z info: [Verify 401 response if no token is given Response contains error description] : Sucesso
+2024-07-23T22:29:29.948Z info: [Verify If A List Of All Timelogs is Returned Status code is 200] : Sucesso
+2024-07-23T22:29:29.951Z info: [Verify If A List Of All Timelogs is Returned Response is JSON] : Sucesso
+2024-07-23T22:29:29.952Z info: [Verify If A List Of All Timelogs is Returned Response contains spaces kind] : Sucesso
+2024-07-23T22:29:29.953Z info: [Verify If A List Of All Timelogs is Returned Data is an array] : Sucesso
+2024-07-23T22:29:29.988Z info: [Check Query For Groups Created by invalid ID Status code is 400] : Sucesso
+2024-07-23T22:29:29.992Z info: [Check Query For Groups Created by invalid ID Response is JSON] : Sucesso
+2024-07-23T22:29:30.025Z info: [Verify If All Of The Folder Tree Is Returned Status code is 200] : Sucesso
+2024-07-23T22:29:30.028Z info: [Verify If All Of The Folder Tree Is Returned Response is JSON] : Sucesso
+2024-07-23T22:29:30.029Z info: [Verify If All Of The Folder Tree Is Returned Response contains folderTree kind] : Sucesso
+2024-07-23T22:29:30.031Z info: [Verify If All Of The Folder Tree Is Returned Data is an array] : Sucesso
