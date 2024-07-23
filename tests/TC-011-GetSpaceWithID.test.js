@@ -1,14 +1,19 @@
 require("dotenv").config({ path: ".env" });
-const axios = require("axios");
+const requestManager = require("../utils/RequestManager.js");
 
 // Test Case 011: Get Space With ID - ENDPOINT SPACES
 describe("Get Space With ID", () => {
   let response;
 
   beforeAll(async () => {
-    response = await axios.get(`${process.env.SPACES_ENDPOINT}`, {
-      headers: { Authorization: `Bearer ${process.env.ACCESS_TOKEN}` },
-    });
+    response = await requestManager.send(
+      "get",
+      `${process.env.SPACES_ENDPOINT}`,
+      {},
+      {
+        Authorization: `Bearer ${process.env.ACCESS_TOKEN}`,
+      }
+    );
   });
 
   test("Status code is 200", () => {

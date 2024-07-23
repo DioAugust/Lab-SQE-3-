@@ -1,16 +1,21 @@
-require("dotenv").config({ path: ".env" });
-const axios = require("axios");
+const requestManager = require("../utils/RequestManager.js");
 
-// Test Case 033: Check Query For Groups created by invalid ID - ENDPOINT GROUPS
+// Test Case 033: Check Query For Groups Created by invalid ID - ENDPOINT GROUPS
 describe("Check Query For Groups Created by invalid ID", () => {
   let responseStatus;
   let responseContentType;
 
   beforeAll(async () => {
     try {
-      const response = await axios.get(`${process.env.GROUPS_ENDPOINT}`, {
-        headers: { Authorization: `Bearer ${process.env.ACCESS_TOKEN}` },
-      });
+      // Usando requestManager.send ao invés de axios.get
+      const response = await requestManager.send(
+        "get",
+        `${process.env.GROUPS_ENDPOINT}`,
+        {},
+        {
+          Authorization: `Bearer ${process.env.ACCESS_TOKEN}`,
+        }
+      );
       // Se o código chegar aqui, significa que a resposta foi 2xx, o que não é esperado neste teste
       responseStatus = response.status;
       responseContentType = response.headers["content-type"];
