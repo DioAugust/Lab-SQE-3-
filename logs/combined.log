@@ -20,3 +20,444 @@
 2024-07-23T22:29:30.028Z info: [Verify If All Of The Folder Tree Is Returned Response is JSON] : Sucesso
 2024-07-23T22:29:30.029Z info: [Verify If All Of The Folder Tree Is Returned Response contains folderTree kind] : Sucesso
 2024-07-23T22:29:30.031Z info: [Verify If All Of The Folder Tree Is Returned Data is an array] : Sucesso
+2024-07-27T22:38:47.714Z info: [Basic Test To Ensure Api Service Status code is 200] : Sucesso
+2024-07-27T22:38:47.719Z info: [Basic Test To Ensure Api Service Response is JSON] : Sucesso
+2024-07-27T22:38:47.720Z info:  [Basic Test To Ensure Api Service Response contains version kind] : Sucesso
+2024-07-27T22:38:47.722Z info: [Basic Test To Ensure Api Service Data is an array] : Sucesso
+2024-07-27T22:38:47.729Z info: [Verify If All Of The Folder Tree Is Returned Status code is 200] : Sucesso
+2024-07-27T22:38:47.735Z info: [Verify If All Of The Folder Tree Is Returned Response is JSON] : Sucesso
+2024-07-27T22:38:47.737Z info: [Verify If All Of The Folder Tree Is Returned Response contains folderTree kind] : Sucesso
+2024-07-27T22:38:47.739Z info: [Verify If All Of The Folder Tree Is Returned Data is an array] : Sucesso
+2024-07-27T22:38:47.742Z info: [Verify If A List Of All Timelogs is Returned Status code is 200] : Sucesso
+2024-07-27T22:38:47.749Z info: [Verify If A List Of All Timelogs is Returned Response is JSON] : Sucesso
+2024-07-27T22:38:47.753Z info: [Verify If A List Of All Timelogs is Returned Response contains spaces kind] : Sucesso
+2024-07-27T22:38:47.754Z info: [Verify If A List Of All Timelogs is Returned Data is an array] : Sucesso
+2024-07-27T22:38:47.768Z info: [Get Space With ID Status code is 200] : Sucesso
+2024-07-27T22:38:47.775Z info: [Get Space With ID Response is JSON] : Sucesso
+2024-07-27T22:38:47.778Z info: [Get Space With ID Response contains spaces kind] : Sucesso
+2024-07-27T22:38:47.781Z info: [Get Space With ID Data is an array] : Sucesso
+2024-07-27T22:38:47.917Z info: [Check Query For Groups Created by invalid ID Status code is 400] : Sucesso
+2024-07-27T22:38:47.923Z info: [Check Query For Groups Created by invalid ID Response is JSON] : Sucesso
+2024-07-27T22:38:48.284Z info: [Verify 401 response if no token is given Status code is 401] : Sucesso
+2024-07-27T22:38:48.289Z info: [Verify 401 response if no token is given Response is Text/Plain] : Sucesso
+2024-07-27T22:38:48.291Z info: [Verify 401 response if no token is given Response contains error message] : Sucesso
+2024-07-27T22:38:48.292Z info: [Verify 401 response if no token is given Response contains error description] : Sucesso
+2024-07-27T22:47:24.436Z info: [Verify If A List Of All Timelogs is Returned Status code is 200] : Sucesso
+2024-07-27T22:47:24.446Z info: [Verify If All Of The Folder Tree Is Returned Status code is 200] : Sucesso
+2024-07-27T22:47:24.442Z info: [Verify If A List Of All Timelogs is Returned Response is JSON] : Sucesso
+2024-07-27T22:47:24.445Z info: [Verify If A List Of All Timelogs is Returned Response contains spaces kind] : Sucesso
+2024-07-27T22:47:24.447Z info: [Verify If A List Of All Timelogs is Returned Data is an array] : Sucesso
+2024-07-27T22:47:24.458Z info: [Get Space With ID Status code is 200] : Sucesso
+2024-07-27T22:47:24.453Z info: [Verify If All Of The Folder Tree Is Returned Response is JSON] : Sucesso
+2024-07-27T22:47:24.456Z info: [Verify If All Of The Folder Tree Is Returned Response contains folderTree kind] : Sucesso
+2024-07-27T22:47:24.458Z info: [Verify If All Of The Folder Tree Is Returned Data is an array] : Sucesso
+2024-07-27T22:47:24.467Z info: [Basic Test To Ensure Api Service Status code is 200] : Sucesso
+2024-07-27T22:47:24.466Z info: [Get Space With ID Response is JSON] : Sucesso
+2024-07-27T22:47:24.468Z info: [Get Space With ID Response contains spaces kind] : Sucesso
+2024-07-27T22:47:24.470Z info: [Get Space With ID Data is an array] : Sucesso
+2024-07-27T22:47:24.473Z info: [Basic Test To Ensure Api Service Response is JSON] : Sucesso
+2024-07-27T22:47:24.477Z info:  [Basic Test To Ensure Api Service Response contains version kind] : Sucesso
+2024-07-27T22:47:24.479Z info: [Basic Test To Ensure Api Service Data is an array] : Sucesso
+2024-07-27T22:47:24.612Z info: [Verify 401 response if no token is given Status code is 401] : Sucesso
+2024-07-27T22:47:24.619Z info: [Verify 401 response if no token is given Response is Text/Plain] : Sucesso
+2024-07-27T22:47:24.621Z info: [Verify 401 response if no token is given Response contains error message] : Sucesso
+2024-07-27T22:47:24.622Z info: [Verify 401 response if no token is given Response contains error description] : Sucesso
+2024-07-27T22:47:24.941Z info: [Check Query For Groups Created by invalid ID Status code is 400] : Sucesso
+2024-07-27T22:47:24.947Z info: [Check Query For Groups Created by invalid ID Response is JSON] : Sucesso
+2024-07-27T22:47:25.025Z info: [Verify Wrike API response for folders Response is JSON] : Sucesso
+2024-07-27T22:51:34.812Z info: [Basic Test To Ensure Api Service Status code is 200] : Sucesso
+2024-07-27T22:51:34.819Z info: [Basic Test To Ensure Api Service Response is JSON] : Sucesso
+2024-07-27T22:51:34.823Z info:  [Basic Test To Ensure Api Service Response contains version kind] : Sucesso
+2024-07-27T22:51:34.824Z info: [Basic Test To Ensure Api Service Data is an array] : Sucesso
+2024-07-27T22:51:34.860Z info: [Verify If All Of The Folder Tree Is Returned Status code is 200] : Sucesso
+2024-07-27T22:51:34.868Z info: [Verify If All Of The Folder Tree Is Returned Response is JSON] : Sucesso
+2024-07-27T22:51:34.871Z info: [Verify If All Of The Folder Tree Is Returned Response contains folderTree kind] : Sucesso
+2024-07-27T22:51:34.873Z info: [Verify If All Of The Folder Tree Is Returned Data is an array] : Sucesso
+2024-07-27T22:51:34.878Z info: [Get Space With ID Status code is 200] : Sucesso
+2024-07-27T22:51:34.885Z info: [Get Space With ID Response is JSON] : Sucesso
+2024-07-27T22:51:34.888Z info: [Get Space With ID Response contains spaces kind] : Sucesso
+2024-07-27T22:51:34.889Z info: [Get Space With ID Data is an array] : Sucesso
+2024-07-27T22:51:34.908Z info: [Verify If A List Of All Timelogs is Returned Status code is 200] : Sucesso
+2024-07-27T22:51:34.914Z info: [Verify If A List Of All Timelogs is Returned Response is JSON] : Sucesso
+2024-07-27T22:51:34.918Z info: [Verify If A List Of All Timelogs is Returned Response contains spaces kind] : Sucesso
+2024-07-27T22:51:34.920Z info: [Verify If A List Of All Timelogs is Returned Data is an array] : Sucesso
+2024-07-27T22:51:35.004Z info: [Check Query For Groups Created by invalid ID Status code is 400] : Sucesso
+2024-07-27T22:51:35.010Z info: [Check Query For Groups Created by invalid ID Response is JSON] : Sucesso
+2024-07-27T22:51:35.032Z info: [Verify 401 response if no token is given Status code is 401] : Sucesso
+2024-07-27T22:51:35.039Z info: [Verify 401 response if no token is given Response is Text/Plain] : Sucesso
+2024-07-27T22:51:35.041Z info: [Verify 401 response if no token is given Response contains error message] : Sucesso
+2024-07-27T22:51:35.042Z info: [Verify 401 response if no token is given Response contains error description] : Sucesso
+2024-07-27T22:51:35.884Z info: [Verify Wrike API response for folders Response is JSON] : Sucesso
+2024-07-27T22:55:42.248Z info: [Verify If A List Of All Timelogs is Returned Status code is 200] : Sucesso
+2024-07-27T22:55:42.264Z info: [Get Space With ID Status code is 200] : Sucesso
+2024-07-27T22:55:42.257Z info: [Verify If A List Of All Timelogs is Returned Response is JSON] : Sucesso
+2024-07-27T22:55:42.260Z info: [Verify If A List Of All Timelogs is Returned Response contains spaces kind] : Sucesso
+2024-07-27T22:55:42.262Z info: [Verify If A List Of All Timelogs is Returned Data is an array] : Sucesso
+2024-07-27T22:55:42.268Z info: [Verify If All Of The Folder Tree Is Returned Status code is 200] : Sucesso
+2024-07-27T22:55:42.272Z info: [Get Space With ID Response is JSON] : Sucesso
+2024-07-27T22:55:42.274Z info: [Get Space With ID Response contains spaces kind] : Sucesso
+2024-07-27T22:55:42.275Z info: [Get Space With ID Data is an array] : Sucesso
+2024-07-27T22:55:42.279Z info: [Basic Test To Ensure Api Service Status code is 200] : Sucesso
+2024-07-27T22:55:42.276Z info: [Verify If All Of The Folder Tree Is Returned Response is JSON] : Sucesso
+2024-07-27T22:55:42.278Z info: [Verify If All Of The Folder Tree Is Returned Response contains folderTree kind] : Sucesso
+2024-07-27T22:55:42.280Z info: [Verify If All Of The Folder Tree Is Returned Data is an array] : Sucesso
+2024-07-27T22:55:42.287Z info: [Basic Test To Ensure Api Service Response is JSON] : Sucesso
+2024-07-27T22:55:42.290Z info:  [Basic Test To Ensure Api Service Response contains version kind] : Sucesso
+2024-07-27T22:55:42.291Z info: [Basic Test To Ensure Api Service Data is an array] : Sucesso
+2024-07-27T22:55:42.392Z info: [Check Query For Groups Created by invalid ID Status code is 400] : Sucesso
+2024-07-27T22:55:42.392Z info: [Verify 401 response if no token is given Status code is 401] : Sucesso
+2024-07-27T22:55:42.398Z info: [Check Query For Groups Created by invalid ID Response is JSON] : Sucesso
+2024-07-27T22:55:42.401Z info: [Verify 401 response if no token is given Response is Text/Plain] : Sucesso
+2024-07-27T22:55:42.404Z info: [Verify 401 response if no token is given Response contains error message] : Sucesso
+2024-07-27T22:55:42.405Z info: [Verify 401 response if no token is given Response contains error description] : Sucesso
+2024-07-27T22:55:42.705Z info: [Verify Wrike API response for folders Status code is 200] : Sucesso
+2024-07-27T22:55:42.709Z info: [Verify Wrike API response for folders Response is JSON] : Sucesso
+2024-07-27T22:55:42.710Z info: [Verify Wrike API response for folders Response contains folders kind] : Sucesso
+2024-07-27T22:55:42.711Z info: [Verify Wrike API response for folders Data is an array] : Sucesso
+2024-07-27T22:58:49.183Z info: [Basic Test To Ensure Api Service Status code is 200] : Sucesso
+2024-07-27T22:58:49.191Z info: [Basic Test To Ensure Api Service Response is JSON] : Sucesso
+2024-07-27T22:58:49.194Z info:  [Basic Test To Ensure Api Service Response contains version kind] : Sucesso
+2024-07-27T22:58:49.196Z info: [Basic Test To Ensure Api Service Data is an array] : Sucesso
+2024-07-27T22:58:49.256Z info: [Verify Wrike API response for folders Status code is 200] : Sucesso
+2024-07-27T22:58:49.267Z info: [Get Space With ID Status code is 200] : Sucesso
+2024-07-27T22:58:49.263Z info: [Verify Wrike API response for folders Response is JSON] : Sucesso
+2024-07-27T22:58:49.266Z info: [Verify Wrike API response for folders Response contains folders kind] : Sucesso
+2024-07-27T22:58:49.268Z info: [Verify Wrike API response for folders Data is an array] : Sucesso
+2024-07-27T22:58:49.277Z info: [Get Space With ID Response is JSON] : Sucesso
+2024-07-27T22:58:49.281Z info: [Get Space With ID Response contains spaces kind] : Sucesso
+2024-07-27T22:58:49.283Z info: [Get Space With ID Data is an array] : Sucesso
+2024-07-27T22:58:49.291Z info: [Verify If All Of The Folder Tree Is Returned Status code is 200] : Sucesso
+2024-07-27T22:58:49.300Z info: [Verify If All Of The Folder Tree Is Returned Response is JSON] : Sucesso
+2024-07-27T22:58:49.305Z info: [Verify If All Of The Folder Tree Is Returned Response contains folderTree kind] : Sucesso
+2024-07-27T22:58:49.307Z info: [Verify If All Of The Folder Tree Is Returned Data is an array] : Sucesso
+2024-07-27T22:58:49.336Z info: [Verify If A List Of All Timelogs is Returned Status code is 200] : Sucesso
+2024-07-27T22:58:49.343Z info: [Verify If A List Of All Timelogs is Returned Response is JSON] : Sucesso
+2024-07-27T22:58:49.349Z info: [Verify If A List Of All Timelogs is Returned Response contains spaces kind] : Sucesso
+2024-07-27T22:58:49.351Z info: [Verify If A List Of All Timelogs is Returned Data is an array] : Sucesso
+2024-07-27T22:58:49.432Z info: [Verify 401 response if no token is given Status code is 401] : Sucesso
+2024-07-27T22:58:49.438Z info: [Verify 401 response if no token is given Response is Text/Plain] : Sucesso
+2024-07-27T22:58:49.441Z info: [Verify 401 response if no token is given Response contains error message] : Sucesso
+2024-07-27T22:58:49.442Z info: [Verify 401 response if no token is given Response contains error description] : Sucesso
+2024-07-27T22:58:49.500Z info: [Check Query For Groups Created by invalid ID Status code is 400] : Sucesso
+2024-07-27T22:58:49.506Z info: [Check Query For Groups Created by invalid ID Response is JSON] : Sucesso
+2024-07-27T22:58:49.820Z info: [Verify Wrike API response for folderTree Status code is 200] : Sucesso
+2024-07-27T22:58:49.824Z info: [Verify Wrike API response for folderTree Response is JSON] : Sucesso
+2024-07-27T22:58:49.826Z info: [Verify Wrike API response for folderTree Response contains folderTree kind] : Sucesso
+2024-07-27T22:58:49.827Z info: [Verify Wrike API response for folderTree Data is an array] : Sucesso
+2024-07-27T23:03:56.254Z info: [Verify If A List Of All Timelogs is Returned Status code is 200] : Sucesso
+2024-07-27T23:03:56.261Z info: [Verify If A List Of All Timelogs is Returned Response is JSON] : Sucesso
+2024-07-27T23:03:56.264Z info: [Verify If A List Of All Timelogs is Returned Response contains spaces kind] : Sucesso
+2024-07-27T23:03:56.265Z info: [Verify If A List Of All Timelogs is Returned Data is an array] : Sucesso
+2024-07-27T23:03:56.282Z info: [Verify Wrike API response for folderTree Status code is 200] : Sucesso
+2024-07-27T23:03:56.290Z info: [Verify Wrike API response for folderTree Response is JSON] : Sucesso
+2024-07-27T23:03:56.293Z info: [Verify Wrike API response for folderTree Response contains folderTree kind] : Sucesso
+2024-07-27T23:03:56.296Z info: [Verify Wrike API response for folderTree Data is an array] : Sucesso
+2024-07-27T23:03:56.327Z info: [Verify If All Of The Folder Tree Is Returned Status code is 200] : Sucesso
+2024-07-27T23:03:56.335Z info: [Get Space With ID Status code is 200] : Sucesso
+2024-07-27T23:03:56.335Z info: [Verify If All Of The Folder Tree Is Returned Response is JSON] : Sucesso
+2024-07-27T23:03:56.338Z info: [Verify If All Of The Folder Tree Is Returned Response contains folderTree kind] : Sucesso
+2024-07-27T23:03:56.340Z info: [Verify If All Of The Folder Tree Is Returned Data is an array] : Sucesso
+2024-07-27T23:03:56.342Z info: [Get Space With ID Response is JSON] : Sucesso
+2024-07-27T23:03:56.346Z info: [Get Space With ID Response contains spaces kind] : Sucesso
+2024-07-27T23:03:56.347Z info: [Get Space With ID Data is an array] : Sucesso
+2024-07-27T23:03:56.357Z info: [Verify Wrike API response for folders Status code is 200] : Sucesso
+2024-07-27T23:03:56.368Z info: [Basic Test To Ensure Api Service Status code is 200] : Sucesso
+2024-07-27T23:03:56.367Z info: [Verify Wrike API response for folders Response is JSON] : Sucesso
+2024-07-27T23:03:56.370Z info: [Verify Wrike API response for folders Response contains folders kind] : Sucesso
+2024-07-27T23:03:56.371Z info: [Verify Wrike API response for folders Data is an array] : Sucesso
+2024-07-27T23:03:56.374Z info: [Basic Test To Ensure Api Service Response is JSON] : Sucesso
+2024-07-27T23:03:56.377Z info:  [Basic Test To Ensure Api Service Response contains version kind] : Sucesso
+2024-07-27T23:03:56.380Z info: [Basic Test To Ensure Api Service Data is an array] : Sucesso
+2024-07-27T23:03:56.406Z info: [Check Query For Groups Created by invalid ID Status code is 400] : Sucesso
+2024-07-27T23:03:56.413Z info: [Check Query For Groups Created by invalid ID Response is JSON] : Sucesso
+2024-07-27T23:03:56.500Z info: [Verify 401 response if no token is given Status code is 401] : Sucesso
+2024-07-27T23:03:56.506Z info: [Verify 401 response if no token is given Response is Text/Plain] : Sucesso
+2024-07-27T23:03:56.509Z info: [Verify 401 response if no token is given Response contains error message] : Sucesso
+2024-07-27T23:03:56.511Z info: [Verify 401 response if no token is given Response contains error description] : Sucesso
+2024-07-27T23:03:56.816Z info: [Verify Wrike API response for creating a folder with insufficient permissions Status code is 403] : Sucesso
+2024-07-27T23:03:56.823Z info: [Verify Wrike API response for creating a folder with insufficient permissions Response is JSON] : Sucesso
+2024-07-27T23:03:56.826Z info: [Verify Wrike API response for creating a folder with insufficient permissions Error is not_allowed] : Sucesso
+2024-07-27T23:06:16.355Z info: [Basic Test To Ensure Api Service Status code is 200] : Sucesso
+2024-07-27T23:06:16.361Z info: [Basic Test To Ensure Api Service Response is JSON] : Sucesso
+2024-07-27T23:06:16.363Z info:  [Basic Test To Ensure Api Service Response contains version kind] : Sucesso
+2024-07-27T23:06:16.365Z info: [Basic Test To Ensure Api Service Data is an array] : Sucesso
+2024-07-27T23:06:16.372Z info: [Verify If All Of The Folder Tree Is Returned Status code is 200] : Sucesso
+2024-07-27T23:06:16.373Z info: [Get Space With ID Status code is 200] : Sucesso
+2024-07-27T23:06:16.379Z info: [Verify If All Of The Folder Tree Is Returned Response is JSON] : Sucesso
+2024-07-27T23:06:16.382Z info: [Verify If All Of The Folder Tree Is Returned Response contains folderTree kind] : Sucesso
+2024-07-27T23:06:16.383Z info: [Verify If All Of The Folder Tree Is Returned Data is an array] : Sucesso
+2024-07-27T23:06:16.380Z info: [Get Space With ID Response is JSON] : Sucesso
+2024-07-27T23:06:16.383Z info: [Get Space With ID Response contains spaces kind] : Sucesso
+2024-07-27T23:06:16.385Z info: [Get Space With ID Data is an array] : Sucesso
+2024-07-27T23:06:16.474Z info: [Verify Wrike API response for folderTree Status code is 200] : Sucesso
+2024-07-27T23:06:16.483Z info: [Verify If A List Of All Timelogs is Returned Status code is 200] : Sucesso
+2024-07-27T23:06:16.484Z info: [Verify Wrike API response for folders Status code is 200] : Sucesso
+2024-07-27T23:06:16.483Z info: [Verify Wrike API response for folderTree Response is JSON] : Sucesso
+2024-07-27T23:06:16.486Z info: [Verify Wrike API response for folderTree Response contains folderTree kind] : Sucesso
+2024-07-27T23:06:16.488Z info: [Verify Wrike API response for folderTree Data is an array] : Sucesso
+2024-07-27T23:06:16.491Z info: [Verify Wrike API response for folders Response is JSON] : Sucesso
+2024-07-27T23:06:16.494Z info: [Verify Wrike API response for folders Response contains folders kind] : Sucesso
+2024-07-27T23:06:16.496Z info: [Verify Wrike API response for folders Data is an array] : Sucesso
+2024-07-27T23:06:16.491Z info: [Verify If A List Of All Timelogs is Returned Response is JSON] : Sucesso
+2024-07-27T23:06:16.494Z info: [Verify If A List Of All Timelogs is Returned Response contains spaces kind] : Sucesso
+2024-07-27T23:06:16.496Z info: [Verify If A List Of All Timelogs is Returned Data is an array] : Sucesso
+2024-07-27T23:06:16.525Z info: [Verify Wrike API response for creating a folder with insufficient permissions Status code is 403] : Sucesso
+2024-07-27T23:06:16.534Z info: [Verify Wrike API response for creating a folder with insufficient permissions Response is JSON] : Sucesso
+2024-07-27T23:06:16.537Z info: [Verify Wrike API response for creating a folder with insufficient permissions Error is not_allowed] : Sucesso
+2024-07-27T23:06:16.550Z info: [Check Query For Groups Created by invalid ID Status code is 400] : Sucesso
+2024-07-27T23:06:16.557Z info: [Check Query For Groups Created by invalid ID Response is JSON] : Sucesso
+2024-07-27T23:06:16.567Z info: [Verify 401 response if no token is given Status code is 401] : Sucesso
+2024-07-27T23:06:16.573Z info: [Verify 401 response if no token is given Response is Text/Plain] : Sucesso
+2024-07-27T23:06:16.575Z info: [Verify 401 response if no token is given Response contains error message] : Sucesso
+2024-07-27T23:06:16.576Z info: [Verify 401 response if no token is given Response contains error description] : Sucesso
+2024-07-27T23:06:17.712Z info: [Verify Wrike API response for copying a folder Status code is 200] : Sucesso
+2024-07-27T23:06:17.715Z info: [Verify Wrike API response for copying a folder Response is JSON] : Sucesso
+2024-07-27T23:06:17.716Z info: [Verify Wrike API response for copying a folder Kind is folders] : Sucesso
+2024-07-27T23:06:17.717Z info: [Verify Wrike API response for copying a folder Data is an array] : Sucesso
+2024-07-27T23:07:40.950Z info: [Verify Wrike API response for folderTree Status code is 200] : Sucesso
+2024-07-27T23:07:40.956Z info: [Verify Wrike API response for folderTree Response is JSON] : Sucesso
+2024-07-27T23:07:40.959Z info: [Verify Wrike API response for folderTree Response contains folderTree kind] : Sucesso
+2024-07-27T23:07:40.961Z info: [Verify Wrike API response for folderTree Data is an array] : Sucesso
+2024-07-27T23:07:40.969Z info: [Verify Wrike API response for folders Status code is 200] : Sucesso
+2024-07-27T23:07:40.976Z info: [Verify Wrike API response for folders Response is JSON] : Sucesso
+2024-07-27T23:07:40.979Z info: [Verify Wrike API response for folders Response contains folders kind] : Sucesso
+2024-07-27T23:07:40.982Z info: [Verify Wrike API response for folders Data is an array] : Sucesso
+2024-07-27T23:07:41.035Z info: [Verify 401 response if no token is given Status code is 401] : Sucesso
+2024-07-27T23:07:41.042Z info: [Verify 401 response if no token is given Response is Text/Plain] : Sucesso
+2024-07-27T23:07:41.045Z info: [Verify 401 response if no token is given Response contains error message] : Sucesso
+2024-07-27T23:07:41.047Z info: [Verify 401 response if no token is given Response contains error description] : Sucesso
+2024-07-27T23:07:41.074Z info: [Check Query For Groups Created by invalid ID Status code is 400] : Sucesso
+2024-07-27T23:07:41.081Z info: [Check Query For Groups Created by invalid ID Response is JSON] : Sucesso
+2024-07-27T23:07:41.086Z info: [Verify If All Of The Folder Tree Is Returned Status code is 200] : Sucesso
+2024-07-27T23:07:41.091Z info: [Verify If A List Of All Timelogs is Returned Status code is 200] : Sucesso
+2024-07-27T23:07:41.094Z info: [Verify If All Of The Folder Tree Is Returned Response is JSON] : Sucesso
+2024-07-27T23:07:41.098Z info: [Verify If All Of The Folder Tree Is Returned Response contains folderTree kind] : Sucesso
+2024-07-27T23:07:41.099Z info: [Verify If All Of The Folder Tree Is Returned Data is an array] : Sucesso
+2024-07-27T23:07:41.099Z info: [Verify If A List Of All Timelogs is Returned Response is JSON] : Sucesso
+2024-07-27T23:07:41.101Z info: [Verify If A List Of All Timelogs is Returned Response contains spaces kind] : Sucesso
+2024-07-27T23:07:41.102Z info: [Verify If A List Of All Timelogs is Returned Data is an array] : Sucesso
+2024-07-27T23:07:41.152Z info: [Basic Test To Ensure Api Service Status code is 200] : Sucesso
+2024-07-27T23:07:41.158Z info: [Basic Test To Ensure Api Service Response is JSON] : Sucesso
+2024-07-27T23:07:41.160Z info:  [Basic Test To Ensure Api Service Response contains version kind] : Sucesso
+2024-07-27T23:07:41.162Z info: [Basic Test To Ensure Api Service Data is an array] : Sucesso
+2024-07-27T23:07:41.199Z info: [Verify Wrike API response for creating a folder with insufficient permissions Status code is 403] : Sucesso
+2024-07-27T23:07:41.205Z info: [Verify Wrike API response for creating a folder with insufficient permissions Response is JSON] : Sucesso
+2024-07-27T23:07:41.208Z info: [Verify Wrike API response for creating a folder with insufficient permissions Error is not_allowed] : Sucesso
+2024-07-27T23:07:41.440Z info: [Verify Wrike API response for asynchronous folder copy Status code is 202] : Sucesso
+2024-07-27T23:07:41.443Z info: [Verify Wrike API response for asynchronous folder copy Response is JSON] : Sucesso
+2024-07-27T23:07:41.445Z info: [Verify Wrike API response for asynchronous folder copy Response contains asyncJob kind] : Sucesso
+2024-07-27T23:07:41.445Z info: [Verify Wrike API response for asynchronous folder copy Data is an array] : Sucesso
+2024-07-27T23:07:41.446Z info: [Verify Wrike API response for asynchronous folder copy asyncJob is CopyFolder] : Sucesso
+2024-07-27T23:07:41.535Z info: [Get Space With ID Status code is 200] : Sucesso
+2024-07-27T23:07:41.539Z info: [Get Space With ID Response is JSON] : Sucesso
+2024-07-27T23:07:41.540Z info: [Get Space With ID Response contains spaces kind] : Sucesso
+2024-07-27T23:07:41.541Z info: [Get Space With ID Data is an array] : Sucesso
+2024-07-27T23:07:41.714Z info: [Verify Wrike API response for copying a folder Status code is 200] : Sucesso
+2024-07-27T23:07:41.717Z info: [Verify Wrike API response for copying a folder Response is JSON] : Sucesso
+2024-07-27T23:07:41.718Z info: [Verify Wrike API response for copying a folder Kind is folders] : Sucesso
+2024-07-27T23:07:41.719Z info: [Verify Wrike API response for copying a folder Data is an array] : Sucesso
+2024-07-27T23:09:59.866Z info: [Verify If All Of The Folder Tree Is Returned Status code is 200] : Sucesso
+2024-07-27T23:09:59.873Z info: [Verify If All Of The Folder Tree Is Returned Response is JSON] : Sucesso
+2024-07-27T23:09:59.876Z info: [Verify If All Of The Folder Tree Is Returned Response contains folderTree kind] : Sucesso
+2024-07-27T23:09:59.879Z info: [Verify If All Of The Folder Tree Is Returned Data is an array] : Sucesso
+2024-07-27T23:09:59.897Z info: [Get Space With ID Status code is 200] : Sucesso
+2024-07-27T23:09:59.904Z info: [Get Space With ID Response is JSON] : Sucesso
+2024-07-27T23:09:59.906Z info: [Get Space With ID Response contains spaces kind] : Sucesso
+2024-07-27T23:09:59.908Z info: [Get Space With ID Data is an array] : Sucesso
+2024-07-27T23:09:59.948Z info: [Verify Wrike API response for folderTree Status code is 200] : Sucesso
+2024-07-27T23:09:59.948Z info: [Verify Wrike API response for folders Status code is 200] : Sucesso
+2024-07-27T23:09:59.957Z info: [Verify Wrike API response for folderTree Response is JSON] : Sucesso
+2024-07-27T23:09:59.960Z info: [Verify Wrike API response for folderTree Response contains folderTree kind] : Sucesso
+2024-07-27T23:09:59.962Z info: [Verify Wrike API response for folderTree Data is an array] : Sucesso
+2024-07-27T23:09:59.957Z info: [Verify Wrike API response for folders Response is JSON] : Sucesso
+2024-07-27T23:09:59.961Z info: [Verify Wrike API response for folders Response contains folders kind] : Sucesso
+2024-07-27T23:09:59.963Z info: [Verify Wrike API response for folders Data is an array] : Sucesso
+2024-07-27T23:10:00.000Z info: [Verify 401 response if no token is given Status code is 401] : Sucesso
+2024-07-27T23:10:00.001Z info: [Verify Wrike API response for creating a folder with insufficient permissions Status code is 403] : Sucesso
+2024-07-27T23:10:00.008Z info: [Verify Wrike API response for creating a folder with insufficient permissions Response is JSON] : Sucesso
+2024-07-27T23:10:00.014Z info: [Verify Wrike API response for creating a folder with insufficient permissions Error is not_allowed] : Sucesso
+2024-07-27T23:10:00.008Z info: [Verify 401 response if no token is given Response is Text/Plain] : Sucesso
+2024-07-27T23:10:00.012Z info: [Verify 401 response if no token is given Response contains error message] : Sucesso
+2024-07-27T23:10:00.014Z info: [Verify 401 response if no token is given Response contains error description] : Sucesso
+2024-07-27T23:10:00.085Z info: [Basic Test To Ensure Api Service Status code is 200] : Sucesso
+2024-07-27T23:10:00.092Z info: [Basic Test To Ensure Api Service Response is JSON] : Sucesso
+2024-07-27T23:10:00.096Z info:  [Basic Test To Ensure Api Service Response contains version kind] : Sucesso
+2024-07-27T23:10:00.098Z info: [Basic Test To Ensure Api Service Data is an array] : Sucesso
+2024-07-27T23:10:00.189Z info: [Check Query For Groups Created by invalid ID Status code is 400] : Sucesso
+2024-07-27T23:10:00.193Z info: [Verify Wrike API response for spaces Status code is 200] : Sucesso
+2024-07-27T23:10:00.196Z info: [Check Query For Groups Created by invalid ID Response is JSON] : Sucesso
+2024-07-27T23:10:00.199Z info: [Verify Wrike API response for spaces Response is JSON] : Sucesso
+2024-07-27T23:10:00.201Z info: [Verify Wrike API response for spaces Response contains spaces kind] : Sucesso
+2024-07-27T23:10:00.202Z info: [Verify Wrike API response for spaces Data is an array] : Sucesso
+2024-07-27T23:10:00.271Z info: [Verify Wrike API response for asynchronous folder copy Status code is 202] : Sucesso
+2024-07-27T23:10:00.278Z info: [Verify Wrike API response for asynchronous folder copy Response is JSON] : Sucesso
+2024-07-27T23:10:00.281Z info: [Verify Wrike API response for asynchronous folder copy Response contains asyncJob kind] : Sucesso
+2024-07-27T23:10:00.283Z info: [Verify Wrike API response for asynchronous folder copy Data is an array] : Sucesso
+2024-07-27T23:10:00.285Z info: [Verify Wrike API response for asynchronous folder copy asyncJob is CopyFolder] : Sucesso
+2024-07-27T23:10:00.304Z info: [Verify Wrike API response for copying a folder Status code is 200] : Sucesso
+2024-07-27T23:10:00.310Z info: [Verify Wrike API response for copying a folder Response is JSON] : Sucesso
+2024-07-27T23:10:00.312Z info: [Verify Wrike API response for copying a folder Kind is folders] : Sucesso
+2024-07-27T23:10:00.314Z info: [Verify Wrike API response for copying a folder Data is an array] : Sucesso
+2024-07-27T23:10:00.716Z info: [Verify If A List Of All Timelogs is Returned Status code is 200] : Sucesso
+2024-07-27T23:10:00.718Z info: [Verify If A List Of All Timelogs is Returned Response is JSON] : Sucesso
+2024-07-27T23:10:00.720Z info: [Verify If A List Of All Timelogs is Returned Response contains spaces kind] : Sucesso
+2024-07-27T23:10:00.720Z info: [Verify If A List Of All Timelogs is Returned Data is an array] : Sucesso
+2024-07-27T23:11:58.072Z info: [Verify Wrike API response for asynchronous folder copy Status code is 202] : Sucesso
+2024-07-27T23:11:58.079Z info: [Verify Wrike API response for asynchronous folder copy Response is JSON] : Sucesso
+2024-07-27T23:11:58.083Z info: [Verify Wrike API response for asynchronous folder copy Response contains asyncJob kind] : Sucesso
+2024-07-27T23:11:58.085Z info: [Verify Wrike API response for asynchronous folder copy Data is an array] : Sucesso
+2024-07-27T23:11:58.086Z info: [Verify Wrike API response for asynchronous folder copy asyncJob is CopyFolder] : Sucesso
+2024-07-27T23:11:58.206Z info: [Verify Wrike API response for folders Status code is 200] : Sucesso
+2024-07-27T23:11:58.212Z info: [Verify Wrike API response for folders Response is JSON] : Sucesso
+2024-07-27T23:11:58.215Z info: [Verify Wrike API response for folders Response contains folders kind] : Sucesso
+2024-07-27T23:11:58.217Z info: [Verify Wrike API response for folders Data is an array] : Sucesso
+2024-07-27T23:11:58.254Z info: [Verify If All Of The Folder Tree Is Returned Status code is 200] : Sucesso
+2024-07-27T23:11:58.262Z info: [Verify 401 response if no token is given Status code is 401] : Sucesso
+2024-07-27T23:11:58.262Z info: [Verify If All Of The Folder Tree Is Returned Response is JSON] : Sucesso
+2024-07-27T23:11:58.265Z info: [Verify If All Of The Folder Tree Is Returned Response contains folderTree kind] : Sucesso
+2024-07-27T23:11:58.267Z info: [Verify If All Of The Folder Tree Is Returned Data is an array] : Sucesso
+2024-07-27T23:11:58.270Z info: [Verify 401 response if no token is given Response is Text/Plain] : Sucesso
+2024-07-27T23:11:58.275Z info: [Verify 401 response if no token is given Response contains error message] : Sucesso
+2024-07-27T23:11:58.277Z info: [Verify 401 response if no token is given Response contains error description] : Sucesso
+2024-07-27T23:11:58.356Z info: [Basic Test To Ensure Api Service Status code is 200] : Sucesso
+2024-07-27T23:11:58.367Z info: [Check Query For Groups Created by invalid ID Status code is 400] : Sucesso
+2024-07-27T23:11:58.363Z info: [Basic Test To Ensure Api Service Response is JSON] : Sucesso
+2024-07-27T23:11:58.365Z info:  [Basic Test To Ensure Api Service Response contains version kind] : Sucesso
+2024-07-27T23:11:58.367Z info: [Basic Test To Ensure Api Service Data is an array] : Sucesso
+2024-07-27T23:11:58.374Z info: [Check Query For Groups Created by invalid ID Response is JSON] : Sucesso
+2024-07-27T23:11:58.441Z info: [Verify Wrike API response for creating a folder with insufficient permissions Status code is 403] : Sucesso
+2024-07-27T23:11:58.449Z info: [Verify Wrike API response for creating a folder with insufficient permissions Response is JSON] : Sucesso
+2024-07-27T23:11:58.452Z info: [Verify Wrike API response for creating a folder with insufficient permissions Error is not_allowed] : Sucesso
+2024-07-27T23:11:58.504Z info: [Verify Wrike API response for copying a folder Status code is 200] : Sucesso
+2024-07-27T23:11:58.510Z info: [Verify Wrike API response for copying a folder Response is JSON] : Sucesso
+2024-07-27T23:11:58.515Z info: [Verify Wrike API response for copying a folder Kind is folders] : Sucesso
+2024-07-27T23:11:58.517Z info: [Verify Wrike API response for copying a folder Data is an array] : Sucesso
+2024-07-27T23:11:58.574Z info: [Verify Wrike API response for spaces Status code is 200] : Sucesso
+2024-07-27T23:11:58.581Z info: [Verify Wrike API response for spaces Response is JSON] : Sucesso
+2024-07-27T23:11:58.583Z info: [Verify Wrike API response for spaces Response contains spaces kind] : Sucesso
+2024-07-27T23:11:58.585Z info: [Verify Wrike API response for spaces Data is an array] : Sucesso
+2024-07-27T23:11:58.645Z info: [Get Space With ID Status code is 200] : Sucesso
+2024-07-27T23:11:58.651Z info: [Get Space With ID Response is JSON] : Sucesso
+2024-07-27T23:11:58.654Z info: [Get Space With ID Response contains spaces kind] : Sucesso
+2024-07-27T23:11:58.655Z info: [Get Space With ID Data is an array] : Sucesso
+2024-07-27T23:11:58.915Z info: [Verify Wrike API response for invalid space ID Status code is 400] : Sucesso
+2024-07-27T23:11:58.920Z info: [Verify Wrike API response for invalid space ID Response is JSON] : Sucesso
+2024-07-27T23:11:58.923Z info: [Verify Wrike API response for invalid space ID errorDescription contains error message] : Sucesso
+2024-07-27T23:11:58.948Z info: [Verify Wrike API response for folderTree Status code is 200] : Sucesso
+2024-07-27T23:11:58.951Z info: [Verify Wrike API response for folderTree Response is JSON] : Sucesso
+2024-07-27T23:11:58.953Z info: [Verify Wrike API response for folderTree Response contains folderTree kind] : Sucesso
+2024-07-27T23:11:58.954Z info: [Verify Wrike API response for folderTree Data is an array] : Sucesso
+2024-07-27T23:11:59.028Z info: [Verify If A List Of All Timelogs is Returned Status code is 200] : Sucesso
+2024-07-27T23:11:59.031Z info: [Verify If A List Of All Timelogs is Returned Response is JSON] : Sucesso
+2024-07-27T23:11:59.033Z info: [Verify If A List Of All Timelogs is Returned Response contains spaces kind] : Sucesso
+2024-07-27T23:11:59.033Z info: [Verify If A List Of All Timelogs is Returned Data is an array] : Sucesso
+2024-07-27T23:13:58.074Z info: [Get Space With ID Status code is 200] : Sucesso
+2024-07-27T23:13:58.083Z info: [Get Space With ID Response is JSON] : Sucesso
+2024-07-27T23:13:58.086Z info: [Get Space With ID Response contains spaces kind] : Sucesso
+2024-07-27T23:13:58.090Z info: [Get Space With ID Data is an array] : Sucesso
+2024-07-27T23:13:58.264Z info: [Verify Wrike API response for copying a folder Status code is 200] : Sucesso
+2024-07-27T23:13:58.398Z info: [Verify If All Of The Folder Tree Is Returned Status code is 200] : Sucesso
+2024-07-27T23:13:58.274Z info: [Verify Wrike API response for copying a folder Response is JSON] : Sucesso
+2024-07-27T23:13:58.412Z info: [Verify Wrike API response for copying a folder Kind is folders] : Sucesso
+2024-07-27T23:13:58.429Z info: [Verify Wrike API response for copying a folder Data is an array] : Sucesso
+2024-07-27T23:13:58.488Z info: [Verify Wrike API response for invalid space ID Status code is 400] : Sucesso
+2024-07-27T23:13:58.521Z info: [Verify Wrike API response for invalid space ID Response is JSON] : Sucesso
+2024-07-27T23:13:58.525Z info: [Verify Wrike API response for invalid space ID errorDescription contains error message] : Sucesso
+2024-07-27T23:13:58.576Z info: [Verify Wrike API response for spaces Status code is 200] : Sucesso
+2024-07-27T23:13:58.563Z info: [Verify If All Of The Folder Tree Is Returned Response is JSON] : Sucesso
+2024-07-27T23:13:58.568Z info: [Verify If All Of The Folder Tree Is Returned Response contains folderTree kind] : Sucesso
+2024-07-27T23:13:58.570Z info: [Verify If All Of The Folder Tree Is Returned Data is an array] : Sucesso
+2024-07-27T23:13:58.583Z info: [Verify Wrike API response for asynchronous folder copy Status code is 202] : Sucesso
+2024-07-27T23:13:58.585Z info: [Verify Wrike API response for spaces Response is JSON] : Sucesso
+2024-07-27T23:13:58.588Z info: [Verify Wrike API response for spaces Response contains spaces kind] : Sucesso
+2024-07-27T23:13:58.590Z info: [Verify Wrike API response for spaces Data is an array] : Sucesso
+2024-07-27T23:13:58.591Z info: [Verify Wrike API response for asynchronous folder copy Response is JSON] : Sucesso
+2024-07-27T23:13:58.595Z info: [Verify Wrike API response for asynchronous folder copy Response contains asyncJob kind] : Sucesso
+2024-07-27T23:13:58.597Z info: [Verify Wrike API response for asynchronous folder copy Data is an array] : Sucesso
+2024-07-27T23:13:58.600Z info: [Verify Wrike API response for asynchronous folder copy asyncJob is CopyFolder] : Sucesso
+2024-07-27T23:13:58.780Z info: [Basic Test To Ensure Api Service Status code is 200] : Sucesso
+2024-07-27T23:13:58.788Z info: [Basic Test To Ensure Api Service Response is JSON] : Sucesso
+2024-07-27T23:13:58.791Z info:  [Basic Test To Ensure Api Service Response contains version kind] : Sucesso
+2024-07-27T23:13:58.793Z info: [Basic Test To Ensure Api Service Data is an array] : Sucesso
+2024-07-27T23:13:58.921Z info: [Verify 401 response if no token is given Status code is 401] : Sucesso
+2024-07-27T23:13:58.929Z info: [Check Query For Groups Created by invalid ID Status code is 400] : Sucesso
+2024-07-27T23:13:58.937Z info: [Verify 401 response if no token is given Response is Text/Plain] : Sucesso
+2024-07-27T23:13:58.944Z info: [Verify 401 response if no token is given Response contains error message] : Sucesso
+2024-07-27T23:13:58.948Z info: [Verify 401 response if no token is given Response contains error description] : Sucesso
+2024-07-27T23:13:58.954Z info: [Check Query For Groups Created by invalid ID Response is JSON] : Sucesso
+2024-07-27T23:13:59.140Z info: [Verify Wrike API response for creating a folder with insufficient permissions Status code is 403] : Sucesso
+2024-07-27T23:13:59.167Z info: [Verify Wrike API response for creating a folder with insufficient permissions Response is JSON] : Sucesso
+2024-07-27T23:13:59.174Z info: [Verify Wrike API response for creating a folder with insufficient permissions Error is not_allowed] : Sucesso
+2024-07-27T23:13:59.479Z info: [Verify Wrike API response for all spaces Status code is 200] : Sucesso
+2024-07-27T23:13:59.487Z info: [Verify Wrike API response for all spaces Response is JSON] : Sucesso
+2024-07-27T23:13:59.489Z info: [Verify Wrike API response for all spaces Response contains spaces kind] : Sucesso
+2024-07-27T23:13:59.491Z info: [Verify Wrike API response for all spaces Data is an array] : Sucesso
+2024-07-27T23:13:59.657Z info: [Verify Wrike API response for folders Status code is 200] : Sucesso
+2024-07-27T23:13:59.662Z info: [Verify Wrike API response for folders Response is JSON] : Sucesso
+2024-07-27T23:13:59.665Z info: [Verify Wrike API response for folders Response contains folders kind] : Sucesso
+2024-07-27T23:13:59.667Z info: [Verify Wrike API response for folders Data is an array] : Sucesso
+2024-07-27T23:13:59.724Z info: [Verify If A List Of All Timelogs is Returned Status code is 200] : Sucesso
+2024-07-27T23:13:59.728Z info: [Verify If A List Of All Timelogs is Returned Response is JSON] : Sucesso
+2024-07-27T23:13:59.731Z info: [Verify If A List Of All Timelogs is Returned Response contains spaces kind] : Sucesso
+2024-07-27T23:13:59.733Z info: [Verify If A List Of All Timelogs is Returned Data is an array] : Sucesso
+2024-07-27T23:13:59.795Z info: [Verify Wrike API response for folderTree Status code is 200] : Sucesso
+2024-07-27T23:13:59.799Z info: [Verify Wrike API response for folderTree Response is JSON] : Sucesso
+2024-07-27T23:13:59.802Z info: [Verify Wrike API response for folderTree Response contains folderTree kind] : Sucesso
+2024-07-27T23:13:59.803Z info: [Verify Wrike API response for folderTree Data is an array] : Sucesso
+2024-07-27T23:16:03.286Z info: [Verify If All Of The Folder Tree Is Returned Status code is 200] : Sucesso
+2024-07-27T23:16:03.294Z info: [Verify If All Of The Folder Tree Is Returned Response is JSON] : Sucesso
+2024-07-27T23:16:03.298Z info: [Verify If All Of The Folder Tree Is Returned Response contains folderTree kind] : Sucesso
+2024-07-27T23:16:03.300Z info: [Verify If All Of The Folder Tree Is Returned Data is an array] : Sucesso
+2024-07-27T23:16:03.364Z info: [Verify Wrike API response for all spaces Status code is 200] : Sucesso
+2024-07-27T23:16:03.371Z info: [Verify Wrike API response for all spaces Response is JSON] : Sucesso
+2024-07-27T23:16:03.375Z info: [Verify Wrike API response for all spaces Response contains spaces kind] : Sucesso
+2024-07-27T23:16:03.378Z info: [Verify Wrike API response for all spaces Data is an array] : Sucesso
+2024-07-27T23:16:03.418Z info: [Verify Wrike API response for spaces Status code is 200] : Sucesso
+2024-07-27T23:16:03.432Z info: [Verify Wrike API response for asynchronous folder copy Status code is 202] : Sucesso
+2024-07-27T23:16:03.428Z info: [Verify Wrike API response for spaces Response is JSON] : Sucesso
+2024-07-27T23:16:03.431Z info: [Verify Wrike API response for spaces Response contains spaces kind] : Sucesso
+2024-07-27T23:16:03.433Z info: [Verify Wrike API response for spaces Data is an array] : Sucesso
+2024-07-27T23:16:03.443Z info: [Verify Wrike API response for asynchronous folder copy Response is JSON] : Sucesso
+2024-07-27T23:16:03.446Z info: [Verify Wrike API response for asynchronous folder copy Response contains asyncJob kind] : Sucesso
+2024-07-27T23:16:03.448Z info: [Verify Wrike API response for asynchronous folder copy Data is an array] : Sucesso
+2024-07-27T23:16:03.450Z info: [Verify Wrike API response for asynchronous folder copy asyncJob is CopyFolder] : Sucesso
+2024-07-27T23:16:03.472Z info: [Basic Test To Ensure Api Service Status code is 200] : Sucesso
+2024-07-27T23:16:03.492Z info: [Check Query For Groups Created by invalid ID Status code is 400] : Sucesso
+2024-07-27T23:16:03.481Z info: [Basic Test To Ensure Api Service Response is JSON] : Sucesso
+2024-07-27T23:16:03.487Z info:  [Basic Test To Ensure Api Service Response contains version kind] : Sucesso
+2024-07-27T23:16:03.489Z info: [Basic Test To Ensure Api Service Data is an array] : Sucesso
+2024-07-27T23:16:03.502Z info: [Check Query For Groups Created by invalid ID Response is JSON] : Sucesso
+2024-07-27T23:16:03.506Z info: [Verify Wrike API response for creating a folder with insufficient permissions Status code is 403] : Sucesso
+2024-07-27T23:16:03.524Z info: [Verify Wrike API response for creating a folder with insufficient permissions Response is JSON] : Sucesso
+2024-07-27T23:16:03.529Z info: [Verify Wrike API response for creating a folder with insufficient permissions Error is not_allowed] : Sucesso
+2024-07-27T23:16:03.550Z info: [Verify Wrike API response for invalid space ID Status code is 400] : Sucesso
+2024-07-27T23:16:03.557Z info: [Verify Wrike API response for invalid space ID Response is JSON] : Sucesso
+2024-07-27T23:16:03.565Z info: [Verify Wrike API response for invalid space ID errorDescription contains error message] : Sucesso
+2024-07-27T23:16:03.850Z info: [Verify Wrike API response for copying a folder Status code is 200] : Sucesso
+2024-07-27T23:16:03.856Z info: [Verify Wrike API response for copying a folder Response is JSON] : Sucesso
+2024-07-27T23:16:03.859Z info: [Verify Wrike API response for copying a folder Kind is folders] : Sucesso
+2024-07-27T23:16:03.861Z info: [Verify Wrike API response for copying a folder Data is an array] : Sucesso
+2024-07-27T23:16:03.871Z info: [Verify 401 response if no token is given Status code is 401] : Sucesso
+2024-07-27T23:16:03.878Z info: [Verify 401 response if no token is given Response is Text/Plain] : Sucesso
+2024-07-27T23:16:03.882Z info: [Verify 401 response if no token is given Response contains error message] : Sucesso
+2024-07-27T23:16:03.883Z info: [Verify 401 response if no token is given Response contains error description] : Sucesso
+2024-07-27T23:16:03.897Z info: [Verify Wrike API response for spaces where user is a member Status code is 200] : Sucesso
+2024-07-27T23:16:03.905Z info: [Verify Wrike API response for spaces where user is a member Response is JSON] : Sucesso
+2024-07-27T23:16:03.907Z info: [Verify Wrike API response for spaces where user is a member Response contains spaces kind] : Sucesso
+2024-07-27T23:16:03.908Z info: [Verify Wrike API response for spaces where user is a member Data is an array] : Sucesso
+2024-07-27T23:16:04.289Z info: [Get Space With ID Status code is 200] : Sucesso
+2024-07-27T23:16:04.292Z info: [Get Space With ID Response is JSON] : Sucesso
+2024-07-27T23:16:04.293Z info: [Get Space With ID Response contains spaces kind] : Sucesso
+2024-07-27T23:16:04.294Z info: [Get Space With ID Data is an array] : Sucesso
+2024-07-27T23:16:04.332Z info: [Verify If A List Of All Timelogs is Returned Status code is 200] : Sucesso
+2024-07-27T23:16:04.336Z info: [Verify If A List Of All Timelogs is Returned Response is JSON] : Sucesso
+2024-07-27T23:16:04.338Z info: [Verify If A List Of All Timelogs is Returned Response contains spaces kind] : Sucesso
+2024-07-27T23:16:04.339Z info: [Verify If A List Of All Timelogs is Returned Data is an array] : Sucesso
+2024-07-27T23:16:04.345Z info: [Verify Wrike API response for folderTree Status code is 200] : Sucesso
+2024-07-27T23:16:04.348Z info: [Verify Wrike API response for folderTree Response is JSON] : Sucesso
+2024-07-27T23:16:04.350Z info: [Verify Wrike API response for folderTree Response contains folderTree kind] : Sucesso
+2024-07-27T23:16:04.352Z info: [Verify Wrike API response for folderTree Data is an array] : Sucesso
+2024-07-27T23:16:04.772Z info: [Verify Wrike API response for folders Status code is 200] : Sucesso
+2024-07-27T23:16:04.774Z info: [Verify Wrike API response for folders Response is JSON] : Sucesso
+2024-07-27T23:16:04.775Z info: [Verify Wrike API response for folders Response contains folders kind] : Sucesso
+2024-07-27T23:16:04.775Z info: [Verify Wrike API response for folders Data is an array] : Sucesso
