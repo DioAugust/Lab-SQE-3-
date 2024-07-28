@@ -11,7 +11,7 @@ describe("Check Query For Groups Created by invalid ID", () => {
       // Usando requestManager.send ao invés de axios.get
       const response = await requestManager.send(
         "get",
-        `${process.env.GROUPS_ENDPOINT}`,
+        `${process.env.GROUPS_ENDPOINT}/ASDASD`,
         {},
         {
           Authorization: `Bearer ${process.env.ACCESS_TOKEN}`,

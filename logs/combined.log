@@ -20,6 +20,10 @@
 2024-07-23T22:29:30.028Z info: [Verify If All Of The Folder Tree Is Returned Response is JSON] : Sucesso
 2024-07-23T22:29:30.029Z info: [Verify If All Of The Folder Tree Is Returned Response contains folderTree kind] : Sucesso
 2024-07-23T22:29:30.031Z info: [Verify If All Of The Folder Tree Is Returned Data is an array] : Sucesso
+2024-07-27T03:20:27.576Z info: [Verify 401 response if no token is given Status code is 401] : Sucesso
+2024-07-27T03:20:27.581Z info: [Verify 401 response if no token is given Response is Text/Plain] : Sucesso
+2024-07-27T03:20:27.584Z info: [Verify 401 response if no token is given Response contains error message] : Sucesso
+2024-07-27T03:20:27.585Z info: [Verify 401 response if no token is given Response contains error description] : Sucesso
 2024-07-27T22:38:47.714Z info: [Basic Test To Ensure Api Service Status code is 200] : Sucesso
 2024-07-27T22:38:47.719Z info: [Basic Test To Ensure Api Service Response is JSON] : Sucesso
 2024-07-27T22:38:47.720Z info:  [Basic Test To Ensure Api Service Response contains version kind] : Sucesso
@@ -461,3 +465,36 @@
 2024-07-27T23:16:04.774Z info: [Verify Wrike API response for folders Response is JSON] : Sucesso
 2024-07-27T23:16:04.775Z info: [Verify Wrike API response for folders Response contains folders kind] : Sucesso
 2024-07-27T23:16:04.775Z info: [Verify Wrike API response for folders Data is an array] : Sucesso
+2024-07-28T12:34:38.265Z info: [ Status code is 200] : Sucesso
+2024-07-28T12:35:18.098Z info: [ Response is JSON] : Sucesso
+2024-07-28T12:38:15.972Z info: [Check Query For Groups Created by invalid ID Status code is 400] : Sucesso
+2024-07-28T12:38:15.976Z info: [Check Query For Groups Created by invalid ID Response is JSON] : Sucesso
+2024-07-28T12:38:25.604Z info: [ Status code is 200] : Sucesso
+2024-07-28T12:38:25.612Z info: [ Response is JSON] : Sucesso
+2024-07-28T13:34:01.878Z info: [ Response structure] : Sucesso
+2024-07-28T13:34:28.650Z info: [ Response structure] : Sucesso
+2024-07-28T13:40:02.986Z info: [ Status code is 200] : Sucesso
+2024-07-28T13:40:02.991Z info: [ Response is JSON] : Sucesso
+2024-07-28T13:40:02.995Z info: [ Response structure] : Sucesso
+2024-07-28T13:45:35.213Z info: [ Status code is 200] : Sucesso
+2024-07-28T13:45:35.218Z info: [ Response is JSON] : Sucesso
+2024-07-28T13:45:35.223Z info: [ Response structure] : Sucesso
+2024-07-28T13:56:27.258Z info: [ Status code is 200] : Sucesso
+2024-07-28T13:56:27.263Z info: [ Response is JSON] : Sucesso
+2024-07-28T13:56:27.267Z info: [ Response structure] : Sucesso
+2024-07-28T14:01:45.153Z info: [Verify Wrike API response for creating a folder with insufficient permissions Status code is 403] : Sucesso
+2024-07-28T14:01:45.160Z info: [Verify Wrike API response for creating a folder with insufficient permissions Response is JSON] : Sucesso
+2024-07-28T14:01:45.162Z info: [Verify Wrike API response for creating a folder with insufficient permissions Error is not_allowed] : Sucesso
+2024-07-28T14:08:38.503Z info: [ Status code is 200] : Sucesso
+2024-07-28T14:09:03.488Z info: [ Response is JSON] : Sucesso
+2024-07-28T14:09:51.740Z info: [ Response structure] : Sucesso
+2024-07-28T14:14:58.412Z info: [ Status code is 200] : Sucesso
+2024-07-28T14:14:58.417Z info: [ Response is JSON] : Sucesso
+2024-07-28T14:14:58.421Z info: [ Response structure] : Sucesso
+2024-07-28T14:16:42.551Z info: [ Status code is 200] : Sucesso
+2024-07-28T14:16:42.556Z info: [ Response is JSON] : Sucesso
+2024-07-28T14:16:42.561Z info: [ Response structure] : Sucesso
+2024-07-28T14:18:13.688Z info: [ Status code is 200] : Sucesso
+2024-07-28T14:18:26.079Z info: [ Status code is 200] : Sucesso
+2024-07-28T14:18:26.083Z info: [ Response is JSON] : Sucesso
+2024-07-28T14:18:26.087Z info: [ Response structure] : Sucesso
