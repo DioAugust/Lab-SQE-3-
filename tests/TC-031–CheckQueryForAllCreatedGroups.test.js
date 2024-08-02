@@ -4,7 +4,7 @@ const { combinedLogger, errorLogger } = require("#utils/logger.js");
 
 require("dotenv").config({ path: ".env" });
 
-describe("", () => {
+describe("Check Query For All Created Groups", () => {
   let responseStatus;
   let responseContentType;
   let responseData;

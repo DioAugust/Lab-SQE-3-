@@ -4,7 +4,7 @@ const { combinedLogger, errorLogger } = require("#utils/logger.js");
 
 require("dotenv").config({ path: ".env" });
 
-describe("", () => {
+describe("Test to Ensure API is up and running", () => {
   let responseStatus;
   let responseContentType;
   let responseData;

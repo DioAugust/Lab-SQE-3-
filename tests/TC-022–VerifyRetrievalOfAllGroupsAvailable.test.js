@@ -2,7 +2,7 @@ const { environment: environment } = require("#utils/environment.js");
 const requestManager = require("#utils/RequestManager.js");
 const { combinedLogger, errorLogger } = require("#utils/logger.js");
 
-describe("", () => {
+describe("Verify Retrieval Of All Groups Available", () => {
   let responseStatus;
   let responseContentType;
   let responseData;
@@ -11,7 +11,7 @@ describe("", () => {
     // Usando requestManager.send ao invés de axios.get
     const response = await requestManager.send(
       "get",
-      `${environment.workschedules}/IEAGHUACML7ZYL76`,
+      `${environment.workschedules}`,
       {},
       {
         Authorization: `Bearer ${environment.access_token}`,
