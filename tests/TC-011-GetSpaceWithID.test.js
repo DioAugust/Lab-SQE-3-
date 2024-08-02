@@ -1,6 +1,7 @@
 const { environment: environment } = require("#utils/environment.js");
 const requestManager = require("#utils/RequestManager.js");
 const { combinedLogger, errorLogger } = require("#utils/logger.js");
+const spaceSchema = require("#application/schemas/space.json");
 
 // Test Case 011: Get Space With ID - ENDPOINT SPACES
 describe("Get Space With ID", () => {
@@ -65,5 +66,10 @@ describe("Get Space With ID", () => {
       );
       throw error;
     }
+  });
+
+  test("Responses matches schema", () => {
+    expect(response.data).toBeValidSchema();
+    expect(response.data).toMatchSchema(spaceSchema);
   });
 });

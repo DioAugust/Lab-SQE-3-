@@ -1,6 +1,7 @@
 const { environment: environment } = require("#utils/environment.js");
 const requestManager = require("#utils/RequestManager.js");
 const { combinedLogger, errorLogger } = require("#utils/logger.js");
+const timelogSchema = require("#application/schemas/timelogs.json");
 
 // Test Case 041: Verify If A List Of All Timelogs Is Returned - ENDPOINT TIMELOGS
 describe("Verify If A List Of All Timelogs is Returned", () => {
@@ -64,5 +65,10 @@ describe("Verify If A List Of All Timelogs is Returned", () => {
       );
       throw error;
     }
+  });
+
+  test("Response matches schema", () => {
+    expect(response.data).toBeValidSchema();
+    expect(response.data).toMatchSchema(timelogSchema);
   });
 });

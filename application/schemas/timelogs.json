@@ -1,0 +1,13 @@
+{
+  "type": "object",
+  "required": ["kind", "data"],
+  "properties": {
+    "kind": {
+      "type": "string"
+    },
+    "data": {
+      "type": "array",
+      "items": {}
+    }
+  }
+}

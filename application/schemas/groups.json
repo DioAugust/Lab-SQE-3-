@@ -1,0 +1,56 @@
+{
+  "type": "object",
+  "required": ["kind", "data"],
+  "properties": {
+    "kind": {
+      "type": "string"
+    },
+    "data": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "accountId",
+          "title",
+          "memberIds",
+          "childIds",
+          "parentIds",
+          "avatarUrl",
+          "myTeam"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "accountId": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "memberIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "childIds": {
+            "type": "array",
+            "items": {}
+          },
+          "parentIds": {
+            "type": "array",
+            "items": {}
+          },
+          "avatarUrl": {
+            "type": "string"
+          },
+          "myTeam": {
+            "type": "boolean"
+          }
+        }
+      }
+    }
+  }
+}

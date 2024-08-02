@@ -1,6 +1,7 @@
 const { environment: environment } = require("#utils/environment.js");
 const requestManager = require("#utils/RequestManager.js");
 const { combinedLogger, errorLogger } = require("#utils/logger.js");
+const groupSchema = require('#application/schemas/groups.json');
 
 require("dotenv").config({ path: ".env" });
 
@@ -68,5 +69,10 @@ describe("Check Query For All Created Groups", () => {
       );
       throw error;
     }
+  });
+
+  test("Response matches schema", () => {
+    expect(responseData).toBeValidSchema();
+    expect(responseData).toMatchSchema(groupSchema);
   });
 });

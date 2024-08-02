@@ -1,6 +1,7 @@
 const { environment: environment } = require("#utils/environment.js");
 const requestManager = require("#utils/RequestManager.js");
 const { combinedLogger, errorLogger } = require("#utils/logger.js");
+const workschedulesSchema = require("#application/schemas/workschedule.json");
 
 describe("Verify If it's possible to retrieve a group using it's ID", () => {
   let responseStatus;
@@ -66,5 +67,10 @@ describe("Verify If it's possible to retrieve a group using it's ID", () => {
       );
       throw error;
     }
+  });
+
+  test("Response matches schema", () => {
+    expect(responseData).toBeValidSchema();
+    expect(responseData).toMatchSchema(workschedulesSchema);
   });
 });

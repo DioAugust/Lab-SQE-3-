@@ -1,6 +1,7 @@
 const { environment: environment } = require("#utils/environment.js");
 const requestManager = require("#utils/RequestManager.js");
 const { combinedLogger, errorLogger } = require("#utils/logger.js");
+const schemaFolder = require("#application/schemas/folder.json");
 
 describe("Verify Wrike API response for folders", () => {
   let responseStatus;
@@ -75,5 +76,10 @@ describe("Verify Wrike API response for folders", () => {
       );
       throw error;
     }
+  });
+
+  test("Response matches schema", () => {
+    expect(responseData).toBeValidSchema();
+    expect(responseData).toMatchSchema(schemaFolder);
   });
 });
