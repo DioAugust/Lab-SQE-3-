@@ -1,6 +1,6 @@
-require("dotenv").config({ path: ".env" });
-const requestManager = require("../utils/RequestManager.js");
-const { combinedLogger, errorLogger } = require("../utils/logger");
+const { environment: environment } = require("#utils/environment.js");
+const requestManager = require("#utils/RequestManager.js");
+const { combinedLogger, errorLogger } = require("#utils/logger.js");
 
 // Test Case 024: Basic Test To Ensure Api Service - ENDPOINT WORK SCHEDULES
 describe("Basic Test To Ensure Api Service", () => {
@@ -9,10 +9,10 @@ describe("Basic Test To Ensure Api Service", () => {
   beforeAll(async () => {
     response = await requestManager.send(
       "get",
-      `${process.env.BASIC_TEST_ENDPOINT}`,
+      `${environment.basic_test_endpoint}`,
       {},
       {
-        Authorization: `Bearer ${process.env.ACCESS_TOKEN}`,
+        Authorization: `Bearer ${environment.access_token}`,
       }
     );
   });
@@ -57,7 +57,8 @@ describe("Basic Test To Ensure Api Service", () => {
       expect(Array.isArray(response.data.data)).toBe(true);
       combinedLogger.info(`[${expect.getState().currentTestName}] : Sucesso`);
     } catch (error) {
-      errorLogger.error(`[${expect.getState().currentTestName}] : Falha - ${error.message}`
+      errorLogger.error(
+        `[${expect.getState().currentTestName}] : Falha - ${error.message}`
       );
       throw error;
     }

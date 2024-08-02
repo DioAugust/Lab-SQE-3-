@@ -1,5 +1,6 @@
-const requestManager = require("../utils/RequestManager.js");
-const { combinedLogger, errorLogger } = require("../utils/logger");
+const { environment: environment } = require("#utils/environment.js");
+const requestManager = require("#utils/RequestManager.js");
+const { combinedLogger, errorLogger } = require("#utils/logger.js");
 
 // Test Case 033: Check Query For Groups Created by invalid ID - ENDPOINT GROUPS
 describe("Check Query For Groups Created by invalid ID", () => {
@@ -11,10 +12,10 @@ describe("Check Query For Groups Created by invalid ID", () => {
       // Usando requestManager.send ao invés de axios.get
       const response = await requestManager.send(
         "get",
-        `${process.env.GROUPS_ENDPOINT}/ASDASD`,
+        `${environment.groups_endpoint}/ASDASD`,
         {},
         {
-          Authorization: `Bearer ${process.env.ACCESS_TOKEN}`,
+          Authorization: `Bearer ${environment.access_token}`,
         }
       );
       // Se o código chegar aqui, significa que a resposta foi 2xx, o que não é esperado neste teste
@@ -49,7 +50,8 @@ describe("Check Query For Groups Created by invalid ID", () => {
       expect(responseContentType).toMatch(/json/);
       combinedLogger.info(`[${expect.getState().currentTestName}] : Sucesso`);
     } catch (error) {
-      errorLogger.error(`[${expect.getState().currentTestName}] : Falha - ${error.message}`
+      errorLogger.error(
+        `[${expect.getState().currentTestName}] : Falha - ${error.message}`
       );
       throw error;
     }

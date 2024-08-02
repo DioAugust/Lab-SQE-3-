@@ -1,500 +1,246 @@
-2024-07-23T22:29:29.744Z info: [Get Space With ID Status code is 200] : Sucesso
-2024-07-23T22:29:29.747Z info: [Get Space With ID Response is JSON] : Sucesso
-2024-07-23T22:29:29.748Z info: [Get Space With ID Response contains spaces kind] : Sucesso
-2024-07-23T22:29:29.748Z info: [Get Space With ID Data is an array] : Sucesso
-2024-07-23T22:29:29.783Z info: [Basic Test To Ensure Api Service Status code is 200] : Sucesso
-2024-07-23T22:29:29.788Z info: [Basic Test To Ensure Api Service Response is JSON] : Sucesso
-2024-07-23T22:29:29.789Z info:  [Basic Test To Ensure Api Service Response contains version kind] : Sucesso
-2024-07-23T22:29:29.790Z info: [Basic Test To Ensure Api Service Data is an array] : Sucesso
-2024-07-23T22:29:29.794Z info: [Verify 401 response if no token is given Status code is 401] : Sucesso
-2024-07-23T22:29:29.797Z info: [Verify 401 response if no token is given Response is Text/Plain] : Sucesso
-2024-07-23T22:29:29.798Z info: [Verify 401 response if no token is given Response contains error message] : Sucesso
-2024-07-23T22:29:29.799Z info: [Verify 401 response if no token is given Response contains error description] : Sucesso
-2024-07-23T22:29:29.948Z info: [Verify If A List Of All Timelogs is Returned Status code is 200] : Sucesso
-2024-07-23T22:29:29.951Z info: [Verify If A List Of All Timelogs is Returned Response is JSON] : Sucesso
-2024-07-23T22:29:29.952Z info: [Verify If A List Of All Timelogs is Returned Response contains spaces kind] : Sucesso
-2024-07-23T22:29:29.953Z info: [Verify If A List Of All Timelogs is Returned Data is an array] : Sucesso
-2024-07-23T22:29:29.988Z info: [Check Query For Groups Created by invalid ID Status code is 400] : Sucesso
-2024-07-23T22:29:29.992Z info: [Check Query For Groups Created by invalid ID Response is JSON] : Sucesso
-2024-07-23T22:29:30.025Z info: [Verify If All Of The Folder Tree Is Returned Status code is 200] : Sucesso
-2024-07-23T22:29:30.028Z info: [Verify If All Of The Folder Tree Is Returned Response is JSON] : Sucesso
-2024-07-23T22:29:30.029Z info: [Verify If All Of The Folder Tree Is Returned Response contains folderTree kind] : Sucesso
-2024-07-23T22:29:30.031Z info: [Verify If All Of The Folder Tree Is Returned Data is an array] : Sucesso
-2024-07-27T03:20:27.576Z info: [Verify 401 response if no token is given Status code is 401] : Sucesso
-2024-07-27T03:20:27.581Z info: [Verify 401 response if no token is given Response is Text/Plain] : Sucesso
-2024-07-27T03:20:27.584Z info: [Verify 401 response if no token is given Response contains error message] : Sucesso
-2024-07-27T03:20:27.585Z info: [Verify 401 response if no token is given Response contains error description] : Sucesso
-2024-07-27T22:38:47.714Z info: [Basic Test To Ensure Api Service Status code is 200] : Sucesso
-2024-07-27T22:38:47.719Z info: [Basic Test To Ensure Api Service Response is JSON] : Sucesso
-2024-07-27T22:38:47.720Z info:  [Basic Test To Ensure Api Service Response contains version kind] : Sucesso
-2024-07-27T22:38:47.722Z info: [Basic Test To Ensure Api Service Data is an array] : Sucesso
-2024-07-27T22:38:47.729Z info: [Verify If All Of The Folder Tree Is Returned Status code is 200] : Sucesso
-2024-07-27T22:38:47.735Z info: [Verify If All Of The Folder Tree Is Returned Response is JSON] : Sucesso
-2024-07-27T22:38:47.737Z info: [Verify If All Of The Folder Tree Is Returned Response contains folderTree kind] : Sucesso
-2024-07-27T22:38:47.739Z info: [Verify If All Of The Folder Tree Is Returned Data is an array] : Sucesso
-2024-07-27T22:38:47.742Z info: [Verify If A List Of All Timelogs is Returned Status code is 200] : Sucesso
-2024-07-27T22:38:47.749Z info: [Verify If A List Of All Timelogs is Returned Response is JSON] : Sucesso
-2024-07-27T22:38:47.753Z info: [Verify If A List Of All Timelogs is Returned Response contains spaces kind] : Sucesso
-2024-07-27T22:38:47.754Z info: [Verify If A List Of All Timelogs is Returned Data is an array] : Sucesso
-2024-07-27T22:38:47.768Z info: [Get Space With ID Status code is 200] : Sucesso
-2024-07-27T22:38:47.775Z info: [Get Space With ID Response is JSON] : Sucesso
-2024-07-27T22:38:47.778Z info: [Get Space With ID Response contains spaces kind] : Sucesso
-2024-07-27T22:38:47.781Z info: [Get Space With ID Data is an array] : Sucesso
-2024-07-27T22:38:47.917Z info: [Check Query For Groups Created by invalid ID Status code is 400] : Sucesso
-2024-07-27T22:38:47.923Z info: [Check Query For Groups Created by invalid ID Response is JSON] : Sucesso
-2024-07-27T22:38:48.284Z info: [Verify 401 response if no token is given Status code is 401] : Sucesso
-2024-07-27T22:38:48.289Z info: [Verify 401 response if no token is given Response is Text/Plain] : Sucesso
-2024-07-27T22:38:48.291Z info: [Verify 401 response if no token is given Response contains error message] : Sucesso
-2024-07-27T22:38:48.292Z info: [Verify 401 response if no token is given Response contains error description] : Sucesso
-2024-07-27T22:47:24.436Z info: [Verify If A List Of All Timelogs is Returned Status code is 200] : Sucesso
-2024-07-27T22:47:24.446Z info: [Verify If All Of The Folder Tree Is Returned Status code is 200] : Sucesso
-2024-07-27T22:47:24.442Z info: [Verify If A List Of All Timelogs is Returned Response is JSON] : Sucesso
-2024-07-27T22:47:24.445Z info: [Verify If A List Of All Timelogs is Returned Response contains spaces kind] : Sucesso
-2024-07-27T22:47:24.447Z info: [Verify If A List Of All Timelogs is Returned Data is an array] : Sucesso
-2024-07-27T22:47:24.458Z info: [Get Space With ID Status code is 200] : Sucesso
-2024-07-27T22:47:24.453Z info: [Verify If All Of The Folder Tree Is Returned Response is JSON] : Sucesso
-2024-07-27T22:47:24.456Z info: [Verify If All Of The Folder Tree Is Returned Response contains folderTree kind] : Sucesso
-2024-07-27T22:47:24.458Z info: [Verify If All Of The Folder Tree Is Returned Data is an array] : Sucesso
-2024-07-27T22:47:24.467Z info: [Basic Test To Ensure Api Service Status code is 200] : Sucesso
-2024-07-27T22:47:24.466Z info: [Get Space With ID Response is JSON] : Sucesso
-2024-07-27T22:47:24.468Z info: [Get Space With ID Response contains spaces kind] : Sucesso
-2024-07-27T22:47:24.470Z info: [Get Space With ID Data is an array] : Sucesso
-2024-07-27T22:47:24.473Z info: [Basic Test To Ensure Api Service Response is JSON] : Sucesso
-2024-07-27T22:47:24.477Z info:  [Basic Test To Ensure Api Service Response contains version kind] : Sucesso
-2024-07-27T22:47:24.479Z info: [Basic Test To Ensure Api Service Data is an array] : Sucesso
-2024-07-27T22:47:24.612Z info: [Verify 401 response if no token is given Status code is 401] : Sucesso
-2024-07-27T22:47:24.619Z info: [Verify 401 response if no token is given Response is Text/Plain] : Sucesso
-2024-07-27T22:47:24.621Z info: [Verify 401 response if no token is given Response contains error message] : Sucesso
-2024-07-27T22:47:24.622Z info: [Verify 401 response if no token is given Response contains error description] : Sucesso
-2024-07-27T22:47:24.941Z info: [Check Query For Groups Created by invalid ID Status code is 400] : Sucesso
-2024-07-27T22:47:24.947Z info: [Check Query For Groups Created by invalid ID Response is JSON] : Sucesso
-2024-07-27T22:47:25.025Z info: [Verify Wrike API response for folders Response is JSON] : Sucesso
-2024-07-27T22:51:34.812Z info: [Basic Test To Ensure Api Service Status code is 200] : Sucesso
-2024-07-27T22:51:34.819Z info: [Basic Test To Ensure Api Service Response is JSON] : Sucesso
-2024-07-27T22:51:34.823Z info:  [Basic Test To Ensure Api Service Response contains version kind] : Sucesso
-2024-07-27T22:51:34.824Z info: [Basic Test To Ensure Api Service Data is an array] : Sucesso
-2024-07-27T22:51:34.860Z info: [Verify If All Of The Folder Tree Is Returned Status code is 200] : Sucesso
-2024-07-27T22:51:34.868Z info: [Verify If All Of The Folder Tree Is Returned Response is JSON] : Sucesso
-2024-07-27T22:51:34.871Z info: [Verify If All Of The Folder Tree Is Returned Response contains folderTree kind] : Sucesso
-2024-07-27T22:51:34.873Z info: [Verify If All Of The Folder Tree Is Returned Data is an array] : Sucesso
-2024-07-27T22:51:34.878Z info: [Get Space With ID Status code is 200] : Sucesso
-2024-07-27T22:51:34.885Z info: [Get Space With ID Response is JSON] : Sucesso
-2024-07-27T22:51:34.888Z info: [Get Space With ID Response contains spaces kind] : Sucesso
-2024-07-27T22:51:34.889Z info: [Get Space With ID Data is an array] : Sucesso
-2024-07-27T22:51:34.908Z info: [Verify If A List Of All Timelogs is Returned Status code is 200] : Sucesso
-2024-07-27T22:51:34.914Z info: [Verify If A List Of All Timelogs is Returned Response is JSON] : Sucesso
-2024-07-27T22:51:34.918Z info: [Verify If A List Of All Timelogs is Returned Response contains spaces kind] : Sucesso
-2024-07-27T22:51:34.920Z info: [Verify If A List Of All Timelogs is Returned Data is an array] : Sucesso
-2024-07-27T22:51:35.004Z info: [Check Query For Groups Created by invalid ID Status code is 400] : Sucesso
-2024-07-27T22:51:35.010Z info: [Check Query For Groups Created by invalid ID Response is JSON] : Sucesso
-2024-07-27T22:51:35.032Z info: [Verify 401 response if no token is given Status code is 401] : Sucesso
-2024-07-27T22:51:35.039Z info: [Verify 401 response if no token is given Response is Text/Plain] : Sucesso
-2024-07-27T22:51:35.041Z info: [Verify 401 response if no token is given Response contains error message] : Sucesso
-2024-07-27T22:51:35.042Z info: [Verify 401 response if no token is given Response contains error description] : Sucesso
-2024-07-27T22:51:35.884Z info: [Verify Wrike API response for folders Response is JSON] : Sucesso
-2024-07-27T22:55:42.248Z info: [Verify If A List Of All Timelogs is Returned Status code is 200] : Sucesso
-2024-07-27T22:55:42.264Z info: [Get Space With ID Status code is 200] : Sucesso
-2024-07-27T22:55:42.257Z info: [Verify If A List Of All Timelogs is Returned Response is JSON] : Sucesso
-2024-07-27T22:55:42.260Z info: [Verify If A List Of All Timelogs is Returned Response contains spaces kind] : Sucesso
-2024-07-27T22:55:42.262Z info: [Verify If A List Of All Timelogs is Returned Data is an array] : Sucesso
-2024-07-27T22:55:42.268Z info: [Verify If All Of The Folder Tree Is Returned Status code is 200] : Sucesso
-2024-07-27T22:55:42.272Z info: [Get Space With ID Response is JSON] : Sucesso
-2024-07-27T22:55:42.274Z info: [Get Space With ID Response contains spaces kind] : Sucesso
-2024-07-27T22:55:42.275Z info: [Get Space With ID Data is an array] : Sucesso
-2024-07-27T22:55:42.279Z info: [Basic Test To Ensure Api Service Status code is 200] : Sucesso
-2024-07-27T22:55:42.276Z info: [Verify If All Of The Folder Tree Is Returned Response is JSON] : Sucesso
-2024-07-27T22:55:42.278Z info: [Verify If All Of The Folder Tree Is Returned Response contains folderTree kind] : Sucesso
-2024-07-27T22:55:42.280Z info: [Verify If All Of The Folder Tree Is Returned Data is an array] : Sucesso
-2024-07-27T22:55:42.287Z info: [Basic Test To Ensure Api Service Response is JSON] : Sucesso
-2024-07-27T22:55:42.290Z info:  [Basic Test To Ensure Api Service Response contains version kind] : Sucesso
-2024-07-27T22:55:42.291Z info: [Basic Test To Ensure Api Service Data is an array] : Sucesso
-2024-07-27T22:55:42.392Z info: [Check Query For Groups Created by invalid ID Status code is 400] : Sucesso
-2024-07-27T22:55:42.392Z info: [Verify 401 response if no token is given Status code is 401] : Sucesso
-2024-07-27T22:55:42.398Z info: [Check Query For Groups Created by invalid ID Response is JSON] : Sucesso
-2024-07-27T22:55:42.401Z info: [Verify 401 response if no token is given Response is Text/Plain] : Sucesso
-2024-07-27T22:55:42.404Z info: [Verify 401 response if no token is given Response contains error message] : Sucesso
-2024-07-27T22:55:42.405Z info: [Verify 401 response if no token is given Response contains error description] : Sucesso
-2024-07-27T22:55:42.705Z info: [Verify Wrike API response for folders Status code is 200] : Sucesso
-2024-07-27T22:55:42.709Z info: [Verify Wrike API response for folders Response is JSON] : Sucesso
-2024-07-27T22:55:42.710Z info: [Verify Wrike API response for folders Response contains folders kind] : Sucesso
-2024-07-27T22:55:42.711Z info: [Verify Wrike API response for folders Data is an array] : Sucesso
-2024-07-27T22:58:49.183Z info: [Basic Test To Ensure Api Service Status code is 200] : Sucesso
-2024-07-27T22:58:49.191Z info: [Basic Test To Ensure Api Service Response is JSON] : Sucesso
-2024-07-27T22:58:49.194Z info:  [Basic Test To Ensure Api Service Response contains version kind] : Sucesso
-2024-07-27T22:58:49.196Z info: [Basic Test To Ensure Api Service Data is an array] : Sucesso
-2024-07-27T22:58:49.256Z info: [Verify Wrike API response for folders Status code is 200] : Sucesso
-2024-07-27T22:58:49.267Z info: [Get Space With ID Status code is 200] : Sucesso
-2024-07-27T22:58:49.263Z info: [Verify Wrike API response for folders Response is JSON] : Sucesso
-2024-07-27T22:58:49.266Z info: [Verify Wrike API response for folders Response contains folders kind] : Sucesso
-2024-07-27T22:58:49.268Z info: [Verify Wrike API response for folders Data is an array] : Sucesso
-2024-07-27T22:58:49.277Z info: [Get Space With ID Response is JSON] : Sucesso
-2024-07-27T22:58:49.281Z info: [Get Space With ID Response contains spaces kind] : Sucesso
-2024-07-27T22:58:49.283Z info: [Get Space With ID Data is an array] : Sucesso
-2024-07-27T22:58:49.291Z info: [Verify If All Of The Folder Tree Is Returned Status code is 200] : Sucesso
-2024-07-27T22:58:49.300Z info: [Verify If All Of The Folder Tree Is Returned Response is JSON] : Sucesso
-2024-07-27T22:58:49.305Z info: [Verify If All Of The Folder Tree Is Returned Response contains folderTree kind] : Sucesso
-2024-07-27T22:58:49.307Z info: [Verify If All Of The Folder Tree Is Returned Data is an array] : Sucesso
-2024-07-27T22:58:49.336Z info: [Verify If A List Of All Timelogs is Returned Status code is 200] : Sucesso
-2024-07-27T22:58:49.343Z info: [Verify If A List Of All Timelogs is Returned Response is JSON] : Sucesso
-2024-07-27T22:58:49.349Z info: [Verify If A List Of All Timelogs is Returned Response contains spaces kind] : Sucesso
-2024-07-27T22:58:49.351Z info: [Verify If A List Of All Timelogs is Returned Data is an array] : Sucesso
-2024-07-27T22:58:49.432Z info: [Verify 401 response if no token is given Status code is 401] : Sucesso
-2024-07-27T22:58:49.438Z info: [Verify 401 response if no token is given Response is Text/Plain] : Sucesso
-2024-07-27T22:58:49.441Z info: [Verify 401 response if no token is given Response contains error message] : Sucesso
-2024-07-27T22:58:49.442Z info: [Verify 401 response if no token is given Response contains error description] : Sucesso
-2024-07-27T22:58:49.500Z info: [Check Query For Groups Created by invalid ID Status code is 400] : Sucesso
-2024-07-27T22:58:49.506Z info: [Check Query For Groups Created by invalid ID Response is JSON] : Sucesso
-2024-07-27T22:58:49.820Z info: [Verify Wrike API response for folderTree Status code is 200] : Sucesso
-2024-07-27T22:58:49.824Z info: [Verify Wrike API response for folderTree Response is JSON] : Sucesso
-2024-07-27T22:58:49.826Z info: [Verify Wrike API response for folderTree Response contains folderTree kind] : Sucesso
-2024-07-27T22:58:49.827Z info: [Verify Wrike API response for folderTree Data is an array] : Sucesso
-2024-07-27T23:03:56.254Z info: [Verify If A List Of All Timelogs is Returned Status code is 200] : Sucesso
-2024-07-27T23:03:56.261Z info: [Verify If A List Of All Timelogs is Returned Response is JSON] : Sucesso
-2024-07-27T23:03:56.264Z info: [Verify If A List Of All Timelogs is Returned Response contains spaces kind] : Sucesso
-2024-07-27T23:03:56.265Z info: [Verify If A List Of All Timelogs is Returned Data is an array] : Sucesso
-2024-07-27T23:03:56.282Z info: [Verify Wrike API response for folderTree Status code is 200] : Sucesso
-2024-07-27T23:03:56.290Z info: [Verify Wrike API response for folderTree Response is JSON] : Sucesso
-2024-07-27T23:03:56.293Z info: [Verify Wrike API response for folderTree Response contains folderTree kind] : Sucesso
-2024-07-27T23:03:56.296Z info: [Verify Wrike API response for folderTree Data is an array] : Sucesso
-2024-07-27T23:03:56.327Z info: [Verify If All Of The Folder Tree Is Returned Status code is 200] : Sucesso
-2024-07-27T23:03:56.335Z info: [Get Space With ID Status code is 200] : Sucesso
-2024-07-27T23:03:56.335Z info: [Verify If All Of The Folder Tree Is Returned Response is JSON] : Sucesso
-2024-07-27T23:03:56.338Z info: [Verify If All Of The Folder Tree Is Returned Response contains folderTree kind] : Sucesso
-2024-07-27T23:03:56.340Z info: [Verify If All Of The Folder Tree Is Returned Data is an array] : Sucesso
-2024-07-27T23:03:56.342Z info: [Get Space With ID Response is JSON] : Sucesso
-2024-07-27T23:03:56.346Z info: [Get Space With ID Response contains spaces kind] : Sucesso
-2024-07-27T23:03:56.347Z info: [Get Space With ID Data is an array] : Sucesso
-2024-07-27T23:03:56.357Z info: [Verify Wrike API response for folders Status code is 200] : Sucesso
-2024-07-27T23:03:56.368Z info: [Basic Test To Ensure Api Service Status code is 200] : Sucesso
-2024-07-27T23:03:56.367Z info: [Verify Wrike API response for folders Response is JSON] : Sucesso
-2024-07-27T23:03:56.370Z info: [Verify Wrike API response for folders Response contains folders kind] : Sucesso
-2024-07-27T23:03:56.371Z info: [Verify Wrike API response for folders Data is an array] : Sucesso
-2024-07-27T23:03:56.374Z info: [Basic Test To Ensure Api Service Response is JSON] : Sucesso
-2024-07-27T23:03:56.377Z info:  [Basic Test To Ensure Api Service Response contains version kind] : Sucesso
-2024-07-27T23:03:56.380Z info: [Basic Test To Ensure Api Service Data is an array] : Sucesso
-2024-07-27T23:03:56.406Z info: [Check Query For Groups Created by invalid ID Status code is 400] : Sucesso
-2024-07-27T23:03:56.413Z info: [Check Query For Groups Created by invalid ID Response is JSON] : Sucesso
-2024-07-27T23:03:56.500Z info: [Verify 401 response if no token is given Status code is 401] : Sucesso
-2024-07-27T23:03:56.506Z info: [Verify 401 response if no token is given Response is Text/Plain] : Sucesso
-2024-07-27T23:03:56.509Z info: [Verify 401 response if no token is given Response contains error message] : Sucesso
-2024-07-27T23:03:56.511Z info: [Verify 401 response if no token is given Response contains error description] : Sucesso
-2024-07-27T23:03:56.816Z info: [Verify Wrike API response for creating a folder with insufficient permissions Status code is 403] : Sucesso
-2024-07-27T23:03:56.823Z info: [Verify Wrike API response for creating a folder with insufficient permissions Response is JSON] : Sucesso
-2024-07-27T23:03:56.826Z info: [Verify Wrike API response for creating a folder with insufficient permissions Error is not_allowed] : Sucesso
-2024-07-27T23:06:16.355Z info: [Basic Test To Ensure Api Service Status code is 200] : Sucesso
-2024-07-27T23:06:16.361Z info: [Basic Test To Ensure Api Service Response is JSON] : Sucesso
-2024-07-27T23:06:16.363Z info:  [Basic Test To Ensure Api Service Response contains version kind] : Sucesso
-2024-07-27T23:06:16.365Z info: [Basic Test To Ensure Api Service Data is an array] : Sucesso
-2024-07-27T23:06:16.372Z info: [Verify If All Of The Folder Tree Is Returned Status code is 200] : Sucesso
-2024-07-27T23:06:16.373Z info: [Get Space With ID Status code is 200] : Sucesso
-2024-07-27T23:06:16.379Z info: [Verify If All Of The Folder Tree Is Returned Response is JSON] : Sucesso
-2024-07-27T23:06:16.382Z info: [Verify If All Of The Folder Tree Is Returned Response contains folderTree kind] : Sucesso
-2024-07-27T23:06:16.383Z info: [Verify If All Of The Folder Tree Is Returned Data is an array] : Sucesso
-2024-07-27T23:06:16.380Z info: [Get Space With ID Response is JSON] : Sucesso
-2024-07-27T23:06:16.383Z info: [Get Space With ID Response contains spaces kind] : Sucesso
-2024-07-27T23:06:16.385Z info: [Get Space With ID Data is an array] : Sucesso
-2024-07-27T23:06:16.474Z info: [Verify Wrike API response for folderTree Status code is 200] : Sucesso
-2024-07-27T23:06:16.483Z info: [Verify If A List Of All Timelogs is Returned Status code is 200] : Sucesso
-2024-07-27T23:06:16.484Z info: [Verify Wrike API response for folders Status code is 200] : Sucesso
-2024-07-27T23:06:16.483Z info: [Verify Wrike API response for folderTree Response is JSON] : Sucesso
-2024-07-27T23:06:16.486Z info: [Verify Wrike API response for folderTree Response contains folderTree kind] : Sucesso
-2024-07-27T23:06:16.488Z info: [Verify Wrike API response for folderTree Data is an array] : Sucesso
-2024-07-27T23:06:16.491Z info: [Verify Wrike API response for folders Response is JSON] : Sucesso
-2024-07-27T23:06:16.494Z info: [Verify Wrike API response for folders Response contains folders kind] : Sucesso
-2024-07-27T23:06:16.496Z info: [Verify Wrike API response for folders Data is an array] : Sucesso
-2024-07-27T23:06:16.491Z info: [Verify If A List Of All Timelogs is Returned Response is JSON] : Sucesso
-2024-07-27T23:06:16.494Z info: [Verify If A List Of All Timelogs is Returned Response contains spaces kind] : Sucesso
-2024-07-27T23:06:16.496Z info: [Verify If A List Of All Timelogs is Returned Data is an array] : Sucesso
-2024-07-27T23:06:16.525Z info: [Verify Wrike API response for creating a folder with insufficient permissions Status code is 403] : Sucesso
-2024-07-27T23:06:16.534Z info: [Verify Wrike API response for creating a folder with insufficient permissions Response is JSON] : Sucesso
-2024-07-27T23:06:16.537Z info: [Verify Wrike API response for creating a folder with insufficient permissions Error is not_allowed] : Sucesso
-2024-07-27T23:06:16.550Z info: [Check Query For Groups Created by invalid ID Status code is 400] : Sucesso
-2024-07-27T23:06:16.557Z info: [Check Query For Groups Created by invalid ID Response is JSON] : Sucesso
-2024-07-27T23:06:16.567Z info: [Verify 401 response if no token is given Status code is 401] : Sucesso
-2024-07-27T23:06:16.573Z info: [Verify 401 response if no token is given Response is Text/Plain] : Sucesso
-2024-07-27T23:06:16.575Z info: [Verify 401 response if no token is given Response contains error message] : Sucesso
-2024-07-27T23:06:16.576Z info: [Verify 401 response if no token is given Response contains error description] : Sucesso
-2024-07-27T23:06:17.712Z info: [Verify Wrike API response for copying a folder Status code is 200] : Sucesso
-2024-07-27T23:06:17.715Z info: [Verify Wrike API response for copying a folder Response is JSON] : Sucesso
-2024-07-27T23:06:17.716Z info: [Verify Wrike API response for copying a folder Kind is folders] : Sucesso
-2024-07-27T23:06:17.717Z info: [Verify Wrike API response for copying a folder Data is an array] : Sucesso
-2024-07-27T23:07:40.950Z info: [Verify Wrike API response for folderTree Status code is 200] : Sucesso
-2024-07-27T23:07:40.956Z info: [Verify Wrike API response for folderTree Response is JSON] : Sucesso
-2024-07-27T23:07:40.959Z info: [Verify Wrike API response for folderTree Response contains folderTree kind] : Sucesso
-2024-07-27T23:07:40.961Z info: [Verify Wrike API response for folderTree Data is an array] : Sucesso
-2024-07-27T23:07:40.969Z info: [Verify Wrike API response for folders Status code is 200] : Sucesso
-2024-07-27T23:07:40.976Z info: [Verify Wrike API response for folders Response is JSON] : Sucesso
-2024-07-27T23:07:40.979Z info: [Verify Wrike API response for folders Response contains folders kind] : Sucesso
-2024-07-27T23:07:40.982Z info: [Verify Wrike API response for folders Data is an array] : Sucesso
-2024-07-27T23:07:41.035Z info: [Verify 401 response if no token is given Status code is 401] : Sucesso
-2024-07-27T23:07:41.042Z info: [Verify 401 response if no token is given Response is Text/Plain] : Sucesso
-2024-07-27T23:07:41.045Z info: [Verify 401 response if no token is given Response contains error message] : Sucesso
-2024-07-27T23:07:41.047Z info: [Verify 401 response if no token is given Response contains error description] : Sucesso
-2024-07-27T23:07:41.074Z info: [Check Query For Groups Created by invalid ID Status code is 400] : Sucesso
-2024-07-27T23:07:41.081Z info: [Check Query For Groups Created by invalid ID Response is JSON] : Sucesso
-2024-07-27T23:07:41.086Z info: [Verify If All Of The Folder Tree Is Returned Status code is 200] : Sucesso
-2024-07-27T23:07:41.091Z info: [Verify If A List Of All Timelogs is Returned Status code is 200] : Sucesso
-2024-07-27T23:07:41.094Z info: [Verify If All Of The Folder Tree Is Returned Response is JSON] : Sucesso
-2024-07-27T23:07:41.098Z info: [Verify If All Of The Folder Tree Is Returned Response contains folderTree kind] : Sucesso
-2024-07-27T23:07:41.099Z info: [Verify If All Of The Folder Tree Is Returned Data is an array] : Sucesso
-2024-07-27T23:07:41.099Z info: [Verify If A List Of All Timelogs is Returned Response is JSON] : Sucesso
-2024-07-27T23:07:41.101Z info: [Verify If A List Of All Timelogs is Returned Response contains spaces kind] : Sucesso
-2024-07-27T23:07:41.102Z info: [Verify If A List Of All Timelogs is Returned Data is an array] : Sucesso
-2024-07-27T23:07:41.152Z info: [Basic Test To Ensure Api Service Status code is 200] : Sucesso
-2024-07-27T23:07:41.158Z info: [Basic Test To Ensure Api Service Response is JSON] : Sucesso
-2024-07-27T23:07:41.160Z info:  [Basic Test To Ensure Api Service Response contains version kind] : Sucesso
-2024-07-27T23:07:41.162Z info: [Basic Test To Ensure Api Service Data is an array] : Sucesso
-2024-07-27T23:07:41.199Z info: [Verify Wrike API response for creating a folder with insufficient permissions Status code is 403] : Sucesso
-2024-07-27T23:07:41.205Z info: [Verify Wrike API response for creating a folder with insufficient permissions Response is JSON] : Sucesso
-2024-07-27T23:07:41.208Z info: [Verify Wrike API response for creating a folder with insufficient permissions Error is not_allowed] : Sucesso
-2024-07-27T23:07:41.440Z info: [Verify Wrike API response for asynchronous folder copy Status code is 202] : Sucesso
-2024-07-27T23:07:41.443Z info: [Verify Wrike API response for asynchronous folder copy Response is JSON] : Sucesso
-2024-07-27T23:07:41.445Z info: [Verify Wrike API response for asynchronous folder copy Response contains asyncJob kind] : Sucesso
-2024-07-27T23:07:41.445Z info: [Verify Wrike API response for asynchronous folder copy Data is an array] : Sucesso
-2024-07-27T23:07:41.446Z info: [Verify Wrike API response for asynchronous folder copy asyncJob is CopyFolder] : Sucesso
-2024-07-27T23:07:41.535Z info: [Get Space With ID Status code is 200] : Sucesso
-2024-07-27T23:07:41.539Z info: [Get Space With ID Response is JSON] : Sucesso
-2024-07-27T23:07:41.540Z info: [Get Space With ID Response contains spaces kind] : Sucesso
-2024-07-27T23:07:41.541Z info: [Get Space With ID Data is an array] : Sucesso
-2024-07-27T23:07:41.714Z info: [Verify Wrike API response for copying a folder Status code is 200] : Sucesso
-2024-07-27T23:07:41.717Z info: [Verify Wrike API response for copying a folder Response is JSON] : Sucesso
-2024-07-27T23:07:41.718Z info: [Verify Wrike API response for copying a folder Kind is folders] : Sucesso
-2024-07-27T23:07:41.719Z info: [Verify Wrike API response for copying a folder Data is an array] : Sucesso
-2024-07-27T23:09:59.866Z info: [Verify If All Of The Folder Tree Is Returned Status code is 200] : Sucesso
-2024-07-27T23:09:59.873Z info: [Verify If All Of The Folder Tree Is Returned Response is JSON] : Sucesso
-2024-07-27T23:09:59.876Z info: [Verify If All Of The Folder Tree Is Returned Response contains folderTree kind] : Sucesso
-2024-07-27T23:09:59.879Z info: [Verify If All Of The Folder Tree Is Returned Data is an array] : Sucesso
-2024-07-27T23:09:59.897Z info: [Get Space With ID Status code is 200] : Sucesso
-2024-07-27T23:09:59.904Z info: [Get Space With ID Response is JSON] : Sucesso
-2024-07-27T23:09:59.906Z info: [Get Space With ID Response contains spaces kind] : Sucesso
-2024-07-27T23:09:59.908Z info: [Get Space With ID Data is an array] : Sucesso
-2024-07-27T23:09:59.948Z info: [Verify Wrike API response for folderTree Status code is 200] : Sucesso
-2024-07-27T23:09:59.948Z info: [Verify Wrike API response for folders Status code is 200] : Sucesso
-2024-07-27T23:09:59.957Z info: [Verify Wrike API response for folderTree Response is JSON] : Sucesso
-2024-07-27T23:09:59.960Z info: [Verify Wrike API response for folderTree Response contains folderTree kind] : Sucesso
-2024-07-27T23:09:59.962Z info: [Verify Wrike API response for folderTree Data is an array] : Sucesso
-2024-07-27T23:09:59.957Z info: [Verify Wrike API response for folders Response is JSON] : Sucesso
-2024-07-27T23:09:59.961Z info: [Verify Wrike API response for folders Response contains folders kind] : Sucesso
-2024-07-27T23:09:59.963Z info: [Verify Wrike API response for folders Data is an array] : Sucesso
-2024-07-27T23:10:00.000Z info: [Verify 401 response if no token is given Status code is 401] : Sucesso
-2024-07-27T23:10:00.001Z info: [Verify Wrike API response for creating a folder with insufficient permissions Status code is 403] : Sucesso
-2024-07-27T23:10:00.008Z info: [Verify Wrike API response for creating a folder with insufficient permissions Response is JSON] : Sucesso
-2024-07-27T23:10:00.014Z info: [Verify Wrike API response for creating a folder with insufficient permissions Error is not_allowed] : Sucesso
-2024-07-27T23:10:00.008Z info: [Verify 401 response if no token is given Response is Text/Plain] : Sucesso
-2024-07-27T23:10:00.012Z info: [Verify 401 response if no token is given Response contains error message] : Sucesso
-2024-07-27T23:10:00.014Z info: [Verify 401 response if no token is given Response contains error description] : Sucesso
-2024-07-27T23:10:00.085Z info: [Basic Test To Ensure Api Service Status code is 200] : Sucesso
-2024-07-27T23:10:00.092Z info: [Basic Test To Ensure Api Service Response is JSON] : Sucesso
-2024-07-27T23:10:00.096Z info:  [Basic Test To Ensure Api Service Response contains version kind] : Sucesso
-2024-07-27T23:10:00.098Z info: [Basic Test To Ensure Api Service Data is an array] : Sucesso
-2024-07-27T23:10:00.189Z info: [Check Query For Groups Created by invalid ID Status code is 400] : Sucesso
-2024-07-27T23:10:00.193Z info: [Verify Wrike API response for spaces Status code is 200] : Sucesso
-2024-07-27T23:10:00.196Z info: [Check Query For Groups Created by invalid ID Response is JSON] : Sucesso
-2024-07-27T23:10:00.199Z info: [Verify Wrike API response for spaces Response is JSON] : Sucesso
-2024-07-27T23:10:00.201Z info: [Verify Wrike API response for spaces Response contains spaces kind] : Sucesso
-2024-07-27T23:10:00.202Z info: [Verify Wrike API response for spaces Data is an array] : Sucesso
-2024-07-27T23:10:00.271Z info: [Verify Wrike API response for asynchronous folder copy Status code is 202] : Sucesso
-2024-07-27T23:10:00.278Z info: [Verify Wrike API response for asynchronous folder copy Response is JSON] : Sucesso
-2024-07-27T23:10:00.281Z info: [Verify Wrike API response for asynchronous folder copy Response contains asyncJob kind] : Sucesso
-2024-07-27T23:10:00.283Z info: [Verify Wrike API response for asynchronous folder copy Data is an array] : Sucesso
-2024-07-27T23:10:00.285Z info: [Verify Wrike API response for asynchronous folder copy asyncJob is CopyFolder] : Sucesso
-2024-07-27T23:10:00.304Z info: [Verify Wrike API response for copying a folder Status code is 200] : Sucesso
-2024-07-27T23:10:00.310Z info: [Verify Wrike API response for copying a folder Response is JSON] : Sucesso
-2024-07-27T23:10:00.312Z info: [Verify Wrike API response for copying a folder Kind is folders] : Sucesso
-2024-07-27T23:10:00.314Z info: [Verify Wrike API response for copying a folder Data is an array] : Sucesso
-2024-07-27T23:10:00.716Z info: [Verify If A List Of All Timelogs is Returned Status code is 200] : Sucesso
-2024-07-27T23:10:00.718Z info: [Verify If A List Of All Timelogs is Returned Response is JSON] : Sucesso
-2024-07-27T23:10:00.720Z info: [Verify If A List Of All Timelogs is Returned Response contains spaces kind] : Sucesso
-2024-07-27T23:10:00.720Z info: [Verify If A List Of All Timelogs is Returned Data is an array] : Sucesso
-2024-07-27T23:11:58.072Z info: [Verify Wrike API response for asynchronous folder copy Status code is 202] : Sucesso
-2024-07-27T23:11:58.079Z info: [Verify Wrike API response for asynchronous folder copy Response is JSON] : Sucesso
-2024-07-27T23:11:58.083Z info: [Verify Wrike API response for asynchronous folder copy Response contains asyncJob kind] : Sucesso
-2024-07-27T23:11:58.085Z info: [Verify Wrike API response for asynchronous folder copy Data is an array] : Sucesso
-2024-07-27T23:11:58.086Z info: [Verify Wrike API response for asynchronous folder copy asyncJob is CopyFolder] : Sucesso
-2024-07-27T23:11:58.206Z info: [Verify Wrike API response for folders Status code is 200] : Sucesso
-2024-07-27T23:11:58.212Z info: [Verify Wrike API response for folders Response is JSON] : Sucesso
-2024-07-27T23:11:58.215Z info: [Verify Wrike API response for folders Response contains folders kind] : Sucesso
-2024-07-27T23:11:58.217Z info: [Verify Wrike API response for folders Data is an array] : Sucesso
-2024-07-27T23:11:58.254Z info: [Verify If All Of The Folder Tree Is Returned Status code is 200] : Sucesso
-2024-07-27T23:11:58.262Z info: [Verify 401 response if no token is given Status code is 401] : Sucesso
-2024-07-27T23:11:58.262Z info: [Verify If All Of The Folder Tree Is Returned Response is JSON] : Sucesso
-2024-07-27T23:11:58.265Z info: [Verify If All Of The Folder Tree Is Returned Response contains folderTree kind] : Sucesso
-2024-07-27T23:11:58.267Z info: [Verify If All Of The Folder Tree Is Returned Data is an array] : Sucesso
-2024-07-27T23:11:58.270Z info: [Verify 401 response if no token is given Response is Text/Plain] : Sucesso
-2024-07-27T23:11:58.275Z info: [Verify 401 response if no token is given Response contains error message] : Sucesso
-2024-07-27T23:11:58.277Z info: [Verify 401 response if no token is given Response contains error description] : Sucesso
-2024-07-27T23:11:58.356Z info: [Basic Test To Ensure Api Service Status code is 200] : Sucesso
-2024-07-27T23:11:58.367Z info: [Check Query For Groups Created by invalid ID Status code is 400] : Sucesso
-2024-07-27T23:11:58.363Z info: [Basic Test To Ensure Api Service Response is JSON] : Sucesso
-2024-07-27T23:11:58.365Z info:  [Basic Test To Ensure Api Service Response contains version kind] : Sucesso
-2024-07-27T23:11:58.367Z info: [Basic Test To Ensure Api Service Data is an array] : Sucesso
-2024-07-27T23:11:58.374Z info: [Check Query For Groups Created by invalid ID Response is JSON] : Sucesso
-2024-07-27T23:11:58.441Z info: [Verify Wrike API response for creating a folder with insufficient permissions Status code is 403] : Sucesso
-2024-07-27T23:11:58.449Z info: [Verify Wrike API response for creating a folder with insufficient permissions Response is JSON] : Sucesso
-2024-07-27T23:11:58.452Z info: [Verify Wrike API response for creating a folder with insufficient permissions Error is not_allowed] : Sucesso
-2024-07-27T23:11:58.504Z info: [Verify Wrike API response for copying a folder Status code is 200] : Sucesso
-2024-07-27T23:11:58.510Z info: [Verify Wrike API response for copying a folder Response is JSON] : Sucesso
-2024-07-27T23:11:58.515Z info: [Verify Wrike API response for copying a folder Kind is folders] : Sucesso
-2024-07-27T23:11:58.517Z info: [Verify Wrike API response for copying a folder Data is an array] : Sucesso
-2024-07-27T23:11:58.574Z info: [Verify Wrike API response for spaces Status code is 200] : Sucesso
-2024-07-27T23:11:58.581Z info: [Verify Wrike API response for spaces Response is JSON] : Sucesso
-2024-07-27T23:11:58.583Z info: [Verify Wrike API response for spaces Response contains spaces kind] : Sucesso
-2024-07-27T23:11:58.585Z info: [Verify Wrike API response for spaces Data is an array] : Sucesso
-2024-07-27T23:11:58.645Z info: [Get Space With ID Status code is 200] : Sucesso
-2024-07-27T23:11:58.651Z info: [Get Space With ID Response is JSON] : Sucesso
-2024-07-27T23:11:58.654Z info: [Get Space With ID Response contains spaces kind] : Sucesso
-2024-07-27T23:11:58.655Z info: [Get Space With ID Data is an array] : Sucesso
-2024-07-27T23:11:58.915Z info: [Verify Wrike API response for invalid space ID Status code is 400] : Sucesso
-2024-07-27T23:11:58.920Z info: [Verify Wrike API response for invalid space ID Response is JSON] : Sucesso
-2024-07-27T23:11:58.923Z info: [Verify Wrike API response for invalid space ID errorDescription contains error message] : Sucesso
-2024-07-27T23:11:58.948Z info: [Verify Wrike API response for folderTree Status code is 200] : Sucesso
-2024-07-27T23:11:58.951Z info: [Verify Wrike API response for folderTree Response is JSON] : Sucesso
-2024-07-27T23:11:58.953Z info: [Verify Wrike API response for folderTree Response contains folderTree kind] : Sucesso
-2024-07-27T23:11:58.954Z info: [Verify Wrike API response for folderTree Data is an array] : Sucesso
-2024-07-27T23:11:59.028Z info: [Verify If A List Of All Timelogs is Returned Status code is 200] : Sucesso
-2024-07-27T23:11:59.031Z info: [Verify If A List Of All Timelogs is Returned Response is JSON] : Sucesso
-2024-07-27T23:11:59.033Z info: [Verify If A List Of All Timelogs is Returned Response contains spaces kind] : Sucesso
-2024-07-27T23:11:59.033Z info: [Verify If A List Of All Timelogs is Returned Data is an array] : Sucesso
-2024-07-27T23:13:58.074Z info: [Get Space With ID Status code is 200] : Sucesso
-2024-07-27T23:13:58.083Z info: [Get Space With ID Response is JSON] : Sucesso
-2024-07-27T23:13:58.086Z info: [Get Space With ID Response contains spaces kind] : Sucesso
-2024-07-27T23:13:58.090Z info: [Get Space With ID Data is an array] : Sucesso
-2024-07-27T23:13:58.264Z info: [Verify Wrike API response for copying a folder Status code is 200] : Sucesso
-2024-07-27T23:13:58.398Z info: [Verify If All Of The Folder Tree Is Returned Status code is 200] : Sucesso
-2024-07-27T23:13:58.274Z info: [Verify Wrike API response for copying a folder Response is JSON] : Sucesso
-2024-07-27T23:13:58.412Z info: [Verify Wrike API response for copying a folder Kind is folders] : Sucesso
-2024-07-27T23:13:58.429Z info: [Verify Wrike API response for copying a folder Data is an array] : Sucesso
-2024-07-27T23:13:58.488Z info: [Verify Wrike API response for invalid space ID Status code is 400] : Sucesso
-2024-07-27T23:13:58.521Z info: [Verify Wrike API response for invalid space ID Response is JSON] : Sucesso
-2024-07-27T23:13:58.525Z info: [Verify Wrike API response for invalid space ID errorDescription contains error message] : Sucesso
-2024-07-27T23:13:58.576Z info: [Verify Wrike API response for spaces Status code is 200] : Sucesso
-2024-07-27T23:13:58.563Z info: [Verify If All Of The Folder Tree Is Returned Response is JSON] : Sucesso
-2024-07-27T23:13:58.568Z info: [Verify If All Of The Folder Tree Is Returned Response contains folderTree kind] : Sucesso
-2024-07-27T23:13:58.570Z info: [Verify If All Of The Folder Tree Is Returned Data is an array] : Sucesso
-2024-07-27T23:13:58.583Z info: [Verify Wrike API response for asynchronous folder copy Status code is 202] : Sucesso
-2024-07-27T23:13:58.585Z info: [Verify Wrike API response for spaces Response is JSON] : Sucesso
-2024-07-27T23:13:58.588Z info: [Verify Wrike API response for spaces Response contains spaces kind] : Sucesso
-2024-07-27T23:13:58.590Z info: [Verify Wrike API response for spaces Data is an array] : Sucesso
-2024-07-27T23:13:58.591Z info: [Verify Wrike API response for asynchronous folder copy Response is JSON] : Sucesso
-2024-07-27T23:13:58.595Z info: [Verify Wrike API response for asynchronous folder copy Response contains asyncJob kind] : Sucesso
-2024-07-27T23:13:58.597Z info: [Verify Wrike API response for asynchronous folder copy Data is an array] : Sucesso
-2024-07-27T23:13:58.600Z info: [Verify Wrike API response for asynchronous folder copy asyncJob is CopyFolder] : Sucesso
-2024-07-27T23:13:58.780Z info: [Basic Test To Ensure Api Service Status code is 200] : Sucesso
-2024-07-27T23:13:58.788Z info: [Basic Test To Ensure Api Service Response is JSON] : Sucesso
-2024-07-27T23:13:58.791Z info:  [Basic Test To Ensure Api Service Response contains version kind] : Sucesso
-2024-07-27T23:13:58.793Z info: [Basic Test To Ensure Api Service Data is an array] : Sucesso
-2024-07-27T23:13:58.921Z info: [Verify 401 response if no token is given Status code is 401] : Sucesso
-2024-07-27T23:13:58.929Z info: [Check Query For Groups Created by invalid ID Status code is 400] : Sucesso
-2024-07-27T23:13:58.937Z info: [Verify 401 response if no token is given Response is Text/Plain] : Sucesso
-2024-07-27T23:13:58.944Z info: [Verify 401 response if no token is given Response contains error message] : Sucesso
-2024-07-27T23:13:58.948Z info: [Verify 401 response if no token is given Response contains error description] : Sucesso
-2024-07-27T23:13:58.954Z info: [Check Query For Groups Created by invalid ID Response is JSON] : Sucesso
-2024-07-27T23:13:59.140Z info: [Verify Wrike API response for creating a folder with insufficient permissions Status code is 403] : Sucesso
-2024-07-27T23:13:59.167Z info: [Verify Wrike API response for creating a folder with insufficient permissions Response is JSON] : Sucesso
-2024-07-27T23:13:59.174Z info: [Verify Wrike API response for creating a folder with insufficient permissions Error is not_allowed] : Sucesso
-2024-07-27T23:13:59.479Z info: [Verify Wrike API response for all spaces Status code is 200] : Sucesso
-2024-07-27T23:13:59.487Z info: [Verify Wrike API response for all spaces Response is JSON] : Sucesso
-2024-07-27T23:13:59.489Z info: [Verify Wrike API response for all spaces Response contains spaces kind] : Sucesso
-2024-07-27T23:13:59.491Z info: [Verify Wrike API response for all spaces Data is an array] : Sucesso
-2024-07-27T23:13:59.657Z info: [Verify Wrike API response for folders Status code is 200] : Sucesso
-2024-07-27T23:13:59.662Z info: [Verify Wrike API response for folders Response is JSON] : Sucesso
-2024-07-27T23:13:59.665Z info: [Verify Wrike API response for folders Response contains folders kind] : Sucesso
-2024-07-27T23:13:59.667Z info: [Verify Wrike API response for folders Data is an array] : Sucesso
-2024-07-27T23:13:59.724Z info: [Verify If A List Of All Timelogs is Returned Status code is 200] : Sucesso
-2024-07-27T23:13:59.728Z info: [Verify If A List Of All Timelogs is Returned Response is JSON] : Sucesso
-2024-07-27T23:13:59.731Z info: [Verify If A List Of All Timelogs is Returned Response contains spaces kind] : Sucesso
-2024-07-27T23:13:59.733Z info: [Verify If A List Of All Timelogs is Returned Data is an array] : Sucesso
-2024-07-27T23:13:59.795Z info: [Verify Wrike API response for folderTree Status code is 200] : Sucesso
-2024-07-27T23:13:59.799Z info: [Verify Wrike API response for folderTree Response is JSON] : Sucesso
-2024-07-27T23:13:59.802Z info: [Verify Wrike API response for folderTree Response contains folderTree kind] : Sucesso
-2024-07-27T23:13:59.803Z info: [Verify Wrike API response for folderTree Data is an array] : Sucesso
-2024-07-27T23:16:03.286Z info: [Verify If All Of The Folder Tree Is Returned Status code is 200] : Sucesso
-2024-07-27T23:16:03.294Z info: [Verify If All Of The Folder Tree Is Returned Response is JSON] : Sucesso
-2024-07-27T23:16:03.298Z info: [Verify If All Of The Folder Tree Is Returned Response contains folderTree kind] : Sucesso
-2024-07-27T23:16:03.300Z info: [Verify If All Of The Folder Tree Is Returned Data is an array] : Sucesso
-2024-07-27T23:16:03.364Z info: [Verify Wrike API response for all spaces Status code is 200] : Sucesso
-2024-07-27T23:16:03.371Z info: [Verify Wrike API response for all spaces Response is JSON] : Sucesso
-2024-07-27T23:16:03.375Z info: [Verify Wrike API response for all spaces Response contains spaces kind] : Sucesso
-2024-07-27T23:16:03.378Z info: [Verify Wrike API response for all spaces Data is an array] : Sucesso
-2024-07-27T23:16:03.418Z info: [Verify Wrike API response for spaces Status code is 200] : Sucesso
-2024-07-27T23:16:03.432Z info: [Verify Wrike API response for asynchronous folder copy Status code is 202] : Sucesso
-2024-07-27T23:16:03.428Z info: [Verify Wrike API response for spaces Response is JSON] : Sucesso
-2024-07-27T23:16:03.431Z info: [Verify Wrike API response for spaces Response contains spaces kind] : Sucesso
-2024-07-27T23:16:03.433Z info: [Verify Wrike API response for spaces Data is an array] : Sucesso
-2024-07-27T23:16:03.443Z info: [Verify Wrike API response for asynchronous folder copy Response is JSON] : Sucesso
-2024-07-27T23:16:03.446Z info: [Verify Wrike API response for asynchronous folder copy Response contains asyncJob kind] : Sucesso
-2024-07-27T23:16:03.448Z info: [Verify Wrike API response for asynchronous folder copy Data is an array] : Sucesso
-2024-07-27T23:16:03.450Z info: [Verify Wrike API response for asynchronous folder copy asyncJob is CopyFolder] : Sucesso
-2024-07-27T23:16:03.472Z info: [Basic Test To Ensure Api Service Status code is 200] : Sucesso
-2024-07-27T23:16:03.492Z info: [Check Query For Groups Created by invalid ID Status code is 400] : Sucesso
-2024-07-27T23:16:03.481Z info: [Basic Test To Ensure Api Service Response is JSON] : Sucesso
-2024-07-27T23:16:03.487Z info:  [Basic Test To Ensure Api Service Response contains version kind] : Sucesso
-2024-07-27T23:16:03.489Z info: [Basic Test To Ensure Api Service Data is an array] : Sucesso
-2024-07-27T23:16:03.502Z info: [Check Query For Groups Created by invalid ID Response is JSON] : Sucesso
-2024-07-27T23:16:03.506Z info: [Verify Wrike API response for creating a folder with insufficient permissions Status code is 403] : Sucesso
-2024-07-27T23:16:03.524Z info: [Verify Wrike API response for creating a folder with insufficient permissions Response is JSON] : Sucesso
-2024-07-27T23:16:03.529Z info: [Verify Wrike API response for creating a folder with insufficient permissions Error is not_allowed] : Sucesso
-2024-07-27T23:16:03.550Z info: [Verify Wrike API response for invalid space ID Status code is 400] : Sucesso
-2024-07-27T23:16:03.557Z info: [Verify Wrike API response for invalid space ID Response is JSON] : Sucesso
-2024-07-27T23:16:03.565Z info: [Verify Wrike API response for invalid space ID errorDescription contains error message] : Sucesso
-2024-07-27T23:16:03.850Z info: [Verify Wrike API response for copying a folder Status code is 200] : Sucesso
-2024-07-27T23:16:03.856Z info: [Verify Wrike API response for copying a folder Response is JSON] : Sucesso
-2024-07-27T23:16:03.859Z info: [Verify Wrike API response for copying a folder Kind is folders] : Sucesso
-2024-07-27T23:16:03.861Z info: [Verify Wrike API response for copying a folder Data is an array] : Sucesso
-2024-07-27T23:16:03.871Z info: [Verify 401 response if no token is given Status code is 401] : Sucesso
-2024-07-27T23:16:03.878Z info: [Verify 401 response if no token is given Response is Text/Plain] : Sucesso
-2024-07-27T23:16:03.882Z info: [Verify 401 response if no token is given Response contains error message] : Sucesso
-2024-07-27T23:16:03.883Z info: [Verify 401 response if no token is given Response contains error description] : Sucesso
-2024-07-27T23:16:03.897Z info: [Verify Wrike API response for spaces where user is a member Status code is 200] : Sucesso
-2024-07-27T23:16:03.905Z info: [Verify Wrike API response for spaces where user is a member Response is JSON] : Sucesso
-2024-07-27T23:16:03.907Z info: [Verify Wrike API response for spaces where user is a member Response contains spaces kind] : Sucesso
-2024-07-27T23:16:03.908Z info: [Verify Wrike API response for spaces where user is a member Data is an array] : Sucesso
-2024-07-27T23:16:04.289Z info: [Get Space With ID Status code is 200] : Sucesso
-2024-07-27T23:16:04.292Z info: [Get Space With ID Response is JSON] : Sucesso
-2024-07-27T23:16:04.293Z info: [Get Space With ID Response contains spaces kind] : Sucesso
-2024-07-27T23:16:04.294Z info: [Get Space With ID Data is an array] : Sucesso
-2024-07-27T23:16:04.332Z info: [Verify If A List Of All Timelogs is Returned Status code is 200] : Sucesso
-2024-07-27T23:16:04.336Z info: [Verify If A List Of All Timelogs is Returned Response is JSON] : Sucesso
-2024-07-27T23:16:04.338Z info: [Verify If A List Of All Timelogs is Returned Response contains spaces kind] : Sucesso
-2024-07-27T23:16:04.339Z info: [Verify If A List Of All Timelogs is Returned Data is an array] : Sucesso
-2024-07-27T23:16:04.345Z info: [Verify Wrike API response for folderTree Status code is 200] : Sucesso
-2024-07-27T23:16:04.348Z info: [Verify Wrike API response for folderTree Response is JSON] : Sucesso
-2024-07-27T23:16:04.350Z info: [Verify Wrike API response for folderTree Response contains folderTree kind] : Sucesso
-2024-07-27T23:16:04.352Z info: [Verify Wrike API response for folderTree Data is an array] : Sucesso
-2024-07-27T23:16:04.772Z info: [Verify Wrike API response for folders Status code is 200] : Sucesso
-2024-07-27T23:16:04.774Z info: [Verify Wrike API response for folders Response is JSON] : Sucesso
-2024-07-27T23:16:04.775Z info: [Verify Wrike API response for folders Response contains folders kind] : Sucesso
-2024-07-27T23:16:04.775Z info: [Verify Wrike API response for folders Data is an array] : Sucesso
-2024-07-28T12:34:38.265Z info: [ Status code is 200] : Sucesso
-2024-07-28T12:35:18.098Z info: [ Response is JSON] : Sucesso
-2024-07-28T12:38:15.972Z info: [Check Query For Groups Created by invalid ID Status code is 400] : Sucesso
-2024-07-28T12:38:15.976Z info: [Check Query For Groups Created by invalid ID Response is JSON] : Sucesso
-2024-07-28T12:38:25.604Z info: [ Status code is 200] : Sucesso
-2024-07-28T12:38:25.612Z info: [ Response is JSON] : Sucesso
-2024-07-28T13:34:01.878Z info: [ Response structure] : Sucesso
-2024-07-28T13:34:28.650Z info: [ Response structure] : Sucesso
-2024-07-28T13:40:02.986Z info: [ Status code is 200] : Sucesso
-2024-07-28T13:40:02.991Z info: [ Response is JSON] : Sucesso
-2024-07-28T13:40:02.995Z info: [ Response structure] : Sucesso
-2024-07-28T13:45:35.213Z info: [ Status code is 200] : Sucesso
-2024-07-28T13:45:35.218Z info: [ Response is JSON] : Sucesso
-2024-07-28T13:45:35.223Z info: [ Response structure] : Sucesso
-2024-07-28T13:56:27.258Z info: [ Status code is 200] : Sucesso
-2024-07-28T13:56:27.263Z info: [ Response is JSON] : Sucesso
-2024-07-28T13:56:27.267Z info: [ Response structure] : Sucesso
-2024-07-28T14:01:45.153Z info: [Verify Wrike API response for creating a folder with insufficient permissions Status code is 403] : Sucesso
-2024-07-28T14:01:45.160Z info: [Verify Wrike API response for creating a folder with insufficient permissions Response is JSON] : Sucesso
-2024-07-28T14:01:45.162Z info: [Verify Wrike API response for creating a folder with insufficient permissions Error is not_allowed] : Sucesso
-2024-07-28T14:08:38.503Z info: [ Status code is 200] : Sucesso
-2024-07-28T14:09:03.488Z info: [ Response is JSON] : Sucesso
-2024-07-28T14:09:51.740Z info: [ Response structure] : Sucesso
-2024-07-28T14:14:58.412Z info: [ Status code is 200] : Sucesso
-2024-07-28T14:14:58.417Z info: [ Response is JSON] : Sucesso
-2024-07-28T14:14:58.421Z info: [ Response structure] : Sucesso
-2024-07-28T14:16:42.551Z info: [ Status code is 200] : Sucesso
-2024-07-28T14:16:42.556Z info: [ Response is JSON] : Sucesso
-2024-07-28T14:16:42.561Z info: [ Response structure] : Sucesso
-2024-07-28T14:18:13.688Z info: [ Status code is 200] : Sucesso
-2024-07-28T14:18:26.079Z info: [ Status code is 200] : Sucesso
-2024-07-28T14:18:26.083Z info: [ Response is JSON] : Sucesso
-2024-07-28T14:18:26.087Z info: [ Response structure] : Sucesso
+2024-08-02T19:43:39.806Z info: Starting test session...
+2024-08-02T19:43:39.823Z debug: Base URL: https://www.wrike.com/api/v4/
+        Environment UAT: test 
+        Timeout Set: 2000
+2024-08-02T19:43:39.825Z info: Send POST request to https://www.wrike.com/api/v4//copy_folder/IEAGHUACI5LFXEBP
+2024-08-02T19:43:39.832Z debug: Request params: {"parent":"IEAGHUACI5LFXEBH","title":"Test folder copy"}
+2024-08-02T19:43:39.833Z debug: Request headers: {"Authorization":"Bearer eyJ0dCI6InAiLCJhbGciOiJIUzI1NiIsInR2IjoiMSJ9.eyJkIjoie1wiYVwiOjY1NDEzMTQsXCJpXCI6OTEyMzQwMCxcImNcIjo0Njg3MDUzLFwidVwiOjE5OTgwNzIzLFwiclwiOlwiVVNcIixcInNcIjpbXCJXXCIsXCJGXCIsXCJJXCIsXCJVXCIsXCJLXCIsXCJDXCIsXCJEXCIsXCJNXCIsXCJBXCIsXCJMXCIsXCJQXCJdLFwielwiOltdLFwidFwiOjB9IiwiaWF0IjoxNzIwOTgxOTE5fQ.XU_bqqc0KD55QfjFr9dI2NNe7ebkca9964BaRy3CqYA"}
+2024-08-02T19:43:39.821Z info: Starting test session...
+2024-08-02T19:43:39.838Z debug: Base URL: https://www.wrike.com/api/v4/
+        Environment UAT: test 
+        Timeout Set: 2000
+2024-08-02T19:43:39.841Z info: Send GET request to https://www.wrike.com/api/v4/workschedules/IEAGHUACML7ZYL76
+2024-08-02T19:43:39.849Z debug: Request params: {}
+2024-08-02T19:43:39.852Z debug: Request headers: {"Authorization":"Bearer eyJ0dCI6InAiLCJhbGciOiJIUzI1NiIsInR2IjoiMSJ9.eyJkIjoie1wiYVwiOjY1NDEzMTQsXCJpXCI6OTEyMzQwMCxcImNcIjo0Njg3MDUzLFwidVwiOjE5OTgwNzIzLFwiclwiOlwiVVNcIixcInNcIjpbXCJXXCIsXCJGXCIsXCJJXCIsXCJVXCIsXCJLXCIsXCJDXCIsXCJEXCIsXCJNXCIsXCJBXCIsXCJMXCIsXCJQXCJdLFwielwiOltdLFwidFwiOjB9IiwiaWF0IjoxNzIwOTgxOTE5fQ.XU_bqqc0KD55QfjFr9dI2NNe7ebkca9964BaRy3CqYA"}
+2024-08-02T19:43:39.827Z info: Starting test session...
+2024-08-02T19:43:39.847Z debug: Base URL: https://www.wrike.com/api/v4/
+        Environment UAT: test 
+        Timeout Set: 2000
+2024-08-02T19:43:39.850Z info: Send GET request to https://www.wrike.com/api/v4/groups/KX7XYC4U
+2024-08-02T19:43:39.858Z debug: Request params: {}
+2024-08-02T19:43:39.860Z debug: Request headers: {"Authorization":"Bearer eyJ0dCI6InAiLCJhbGciOiJIUzI1NiIsInR2IjoiMSJ9.eyJkIjoie1wiYVwiOjY1NDEzMTQsXCJpXCI6OTEyMzQwMCxcImNcIjo0Njg3MDUzLFwidVwiOjE5OTgwNzIzLFwiclwiOlwiVVNcIixcInNcIjpbXCJXXCIsXCJGXCIsXCJJXCIsXCJVXCIsXCJLXCIsXCJDXCIsXCJEXCIsXCJNXCIsXCJBXCIsXCJMXCIsXCJQXCJdLFwielwiOltdLFwidFwiOjB9IiwiaWF0IjoxNzIwOTgxOTE5fQ.XU_bqqc0KD55QfjFr9dI2NNe7ebkca9964BaRy3CqYA"}
+2024-08-02T19:43:39.837Z info: Starting test session...
+2024-08-02T19:43:39.862Z debug: Base URL: https://www.wrike.com/api/v4/
+        Environment UAT: test 
+        Timeout Set: 2000
+2024-08-02T19:43:39.864Z info: Send GET request to https://www.wrike.com/api/v4/groups/ASDASD
+2024-08-02T19:43:39.874Z debug: Request params: {}
+2024-08-02T19:43:39.875Z debug: Request headers: {"Authorization":"Bearer eyJ0dCI6InAiLCJhbGciOiJIUzI1NiIsInR2IjoiMSJ9.eyJkIjoie1wiYVwiOjY1NDEzMTQsXCJpXCI6OTEyMzQwMCxcImNcIjo0Njg3MDUzLFwidVwiOjE5OTgwNzIzLFwiclwiOlwiVVNcIixcInNcIjpbXCJXXCIsXCJGXCIsXCJJXCIsXCJVXCIsXCJLXCIsXCJDXCIsXCJEXCIsXCJNXCIsXCJBXCIsXCJMXCIsXCJQXCJdLFwielwiOltdLFwidFwiOjB9IiwiaWF0IjoxNzIwOTgxOTE5fQ.XU_bqqc0KD55QfjFr9dI2NNe7ebkca9964BaRy3CqYA"}
+2024-08-02T19:43:39.841Z info: Starting test session...
+2024-08-02T19:43:39.863Z debug: Base URL: https://www.wrike.com/api/v4/
+        Environment UAT: test 
+        Timeout Set: 2000
+2024-08-02T19:43:39.865Z info: Send GET request to https://www.wrike.com/api/v4//spaces
+2024-08-02T19:43:39.875Z debug: Request params: {}
+2024-08-02T19:43:39.876Z debug: Request headers: {"Authorization":"Bearer eyJ0dCI6InAiLCJhbGciOiJIUzI1NiIsInR2IjoiMSJ9.eyJkIjoie1wiYVwiOjY1NDEzMTQsXCJpXCI6OTEyMzQwMCxcImNcIjo0Njg3MDUzLFwidVwiOjE5OTgwNzIzLFwiclwiOlwiVVNcIixcInNcIjpbXCJXXCIsXCJGXCIsXCJJXCIsXCJVXCIsXCJLXCIsXCJDXCIsXCJEXCIsXCJNXCIsXCJBXCIsXCJMXCIsXCJQXCJdLFwielwiOltdLFwidFwiOjB9IiwiaWF0IjoxNzIwOTgxOTE5fQ.XU_bqqc0KD55QfjFr9dI2NNe7ebkca9964BaRy3CqYA"}
+2024-08-02T19:43:39.878Z info: Starting test session...
+2024-08-02T19:43:39.893Z debug: Base URL: https://www.wrike.com/api/v4/
+        Environment UAT: test 
+        Timeout Set: 2000
+2024-08-02T19:43:39.895Z info: Send GET request to https://www.wrike.com/api/v4/spaces/IEAGHUA3I5L22F2R
+2024-08-02T19:43:39.901Z debug: Request params: {}
+2024-08-02T19:43:39.903Z debug: Request headers: {"Authorization":"Bearer eyJ0dCI6InAiLCJhbGciOiJIUzI1NiIsInR2IjoiMSJ9.eyJkIjoie1wiYVwiOjY1NDEzMTQsXCJpXCI6OTEyMzQwMCxcImNcIjo0Njg3MDUzLFwidVwiOjE5OTgwNzIzLFwiclwiOlwiVVNcIixcInNcIjpbXCJXXCIsXCJGXCIsXCJJXCIsXCJVXCIsXCJLXCIsXCJDXCIsXCJEXCIsXCJNXCIsXCJBXCIsXCJMXCIsXCJQXCJdLFwielwiOltdLFwidFwiOjB9IiwiaWF0IjoxNzIwOTgxOTE5fQ.XU_bqqc0KD55QfjFr9dI2NNe7ebkca9964BaRy3CqYA"}
+2024-08-02T19:43:39.874Z info: Starting test session...
+2024-08-02T19:43:39.890Z debug: Base URL: https://www.wrike.com/api/v4/
+        Environment UAT: test 
+        Timeout Set: 2000
+2024-08-02T19:43:39.892Z info: Send GET request to https://www.wrike.com/api/v4/spaces/IEAGHUACI5LGLFOR
+2024-08-02T19:43:39.898Z debug: Request params: {}
+2024-08-02T19:43:39.900Z debug: Request headers: {"Authorization":"Bearer eyJ0dCI6InAiLCJhbGciOiJIUzI1NiIsInR2IjoiMSJ9.eyJkIjoie1wiYVwiOjY1NDEzMTQsXCJpXCI6OTEyMzQwMCxcImNcIjo0Njg3MDUzLFwidVwiOjE5OTgwNzIzLFwiclwiOlwiVVNcIixcInNcIjpbXCJXXCIsXCJGXCIsXCJJXCIsXCJVXCIsXCJLXCIsXCJDXCIsXCJEXCIsXCJNXCIsXCJBXCIsXCJMXCIsXCJQXCJdLFwielwiOltdLFwidFwiOjB9IiwiaWF0IjoxNzIwOTgxOTE5fQ.XU_bqqc0KD55QfjFr9dI2NNe7ebkca9964BaRy3CqYA"}
+2024-08-02T19:43:40.219Z debug: Request response data: {"kind":"workschedules","data":[{"id":"IEAGHUACML7ZYL76","scheduleType":"Default","title":"Default Schedule","workweek":[{"workDays":["Mon","Tue","Wed","Thu","Fri"],"capacityMinutes":480}]}]}
+2024-08-02T19:43:40.234Z debug: Request response data: {"kind":"groups","data":[{"id":"KX7XYC4U","accountId":"IEAGHUAC","title":"My Team","memberIds":["KUATCOKI","KUATBYNT","KUATCEEU","KUATCOKM"],"childIds":[],"parentIds":[],"avatarUrl":"default/internal_users_group.png","myTeam":true}]}
+2024-08-02T19:43:40.227Z info: [ Status code is 200] : Sucesso
+2024-08-02T19:43:40.229Z info: [ Response is JSON] : Sucesso
+2024-08-02T19:43:40.232Z info: [ Response structure] : Sucesso
+2024-08-02T19:43:40.233Z info: Finished test session.
+2024-08-02T19:43:40.247Z debug: Request response data: {"kind":"spaces","data":[{"id":"IEAGHUACI5LFXEBH","title":"Modified Title via Postman","description":"This space was modified using a API call.","avatarUrl":"https://www.wrike.com/static/spaceicons2/v3/1/1-speaker.png","accessType":"Private","archived":false,"defaultProjectWorkflowId":"IEAGHUACK4E6MDKO","defaultTaskWorkflowId":"IEAGHUACK4E6MDJG"},{"id":"IEAGHUACI5LGLFOR","title":"Projects","avatarUrl":"https://www.wrike.com/static/spaceicons2/v3/1/1-speaker.png","accessType":"Private","archived":false,"defaultProjectWorkflowId":"IEAGHUACK4E6POAG","defaultTaskWorkflowId":"IEAGHUACK4E6POBE"}]}
+2024-08-02T19:43:40.244Z info: [ Status code is 200] : Sucesso
+2024-08-02T19:43:40.246Z info: [ Response is JSON] : Sucesso
+2024-08-02T19:43:40.249Z info: [ Response structure] : Sucesso
+2024-08-02T19:43:40.251Z info: Finished test session.
+2024-08-02T19:43:40.267Z debug: Request response data: {"kind":"spaces","data":[{"id":"IEAGHUACI5LGLFOR","title":"Projects","avatarUrl":"https://www.wrike.com/static/spaceicons2/v3/1/1-speaker.png","accessType":"Private","archived":false,"defaultProjectWorkflowId":"IEAGHUACK4E6POAG","defaultTaskWorkflowId":"IEAGHUACK4E6POBE"}]}
+2024-08-02T19:43:40.257Z info: [Verify Wrike API response for all spaces Status code is 200] : Sucesso
+2024-08-02T19:43:40.259Z info: [Verify Wrike API response for all spaces Response is JSON] : Sucesso
+2024-08-02T19:43:40.261Z info: [Verify Wrike API response for all spaces Response contains spaces kind] : Sucesso
+2024-08-02T19:43:40.263Z info: [Verify Wrike API response for all spaces Data is an array] : Sucesso
+2024-08-02T19:43:40.265Z info: Finished test session.
+2024-08-02T19:43:40.280Z info: [Get Space With ID Status code is 200] : Sucesso
+2024-08-02T19:43:40.282Z info: [Get Space With ID Response is JSON] : Sucesso
+2024-08-02T19:43:40.284Z info: [Get Space With ID Response contains spaces kind] : Sucesso
+2024-08-02T19:43:40.287Z info: [Get Space With ID Data is an array] : Sucesso
+2024-08-02T19:43:40.288Z info: Finished test session.
+2024-08-02T19:43:40.351Z info: [Check Query For Groups Created by invalid ID Status code is 400] : Sucesso
+2024-08-02T19:43:40.355Z info: [Check Query For Groups Created by invalid ID Response is JSON] : Sucesso
+2024-08-02T19:43:40.356Z info: Finished test session.
+2024-08-02T19:43:40.449Z info: [Verify Wrike API response for invalid space ID Status code is 400] : Sucesso
+2024-08-02T19:43:40.457Z info: [Verify Wrike API response for invalid space ID Response is JSON] : Sucesso
+2024-08-02T19:43:40.462Z info: [Verify Wrike API response for invalid space ID errorDescription contains error message] : Sucesso
+2024-08-02T19:43:40.465Z info: Finished test session.
+2024-08-02T19:43:40.596Z debug: Request response data: {"kind":"folders","data":[{"id":"IEAGHUACI5LYGEPR","accountId":"IEAGHUAC","title":"Test folder copy","createdDate":"2024-08-02T19:42:19Z","updatedDate":"2024-08-02T19:42:19Z","description":"","sharedIds":["KUATCOKI","KX7XYC4U","KUATCOKM","KUATBYNT","KUATCEEU"],"parentIds":["IEAGHUACI5LFXEBH"],"childIds":[],"superParentIds":[],"scope":"WsFolder","hasAttachments":false,"permalink":"https://www.wrike.com/open.htm?id=1468207601","workflowId":"IEAGHUACK4E6MDJG","metadata":[],"customFields":[],"project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-08-02T19:42:19Z"}}]}
+2024-08-02T19:43:40.609Z info: [Verify Wrike API response for copying a folder Status code is 200] : Sucesso
+2024-08-02T19:43:40.612Z info: [Verify Wrike API response for copying a folder Response is JSON] : Sucesso
+2024-08-02T19:43:40.616Z info: [Verify Wrike API response for copying a folder Kind is folders] : Sucesso
+2024-08-02T19:43:40.618Z info: [Verify Wrike API response for copying a folder Data is an array] : Sucesso
+2024-08-02T19:43:40.620Z info: Finished test session.
+2024-08-02T19:43:40.693Z info: Starting test session...
+2024-08-02T19:43:40.694Z debug: Base URL: https://www.wrike.com/api/v4/
+        Environment UAT: test 
+        Timeout Set: 2000
+2024-08-02T19:43:40.696Z info: Send GET request to https://www.wrike.com/api/v4/folders/IEAGHUACI7777777/folders
+2024-08-02T19:43:40.700Z debug: Request params: {}
+2024-08-02T19:43:40.701Z debug: Request headers: {"Authorization":"Bearer eyJ0dCI6InAiLCJhbGciOiJIUzI1NiIsInR2IjoiMSJ9.eyJkIjoie1wiYVwiOjY1NDEzMTQsXCJpXCI6OTEyMzQwMCxcImNcIjo0Njg3MDUzLFwidVwiOjE5OTgwNzIzLFwiclwiOlwiVVNcIixcInNcIjpbXCJXXCIsXCJGXCIsXCJJXCIsXCJVXCIsXCJLXCIsXCJDXCIsXCJEXCIsXCJNXCIsXCJBXCIsXCJMXCIsXCJQXCJdLFwielwiOltdLFwidFwiOjB9IiwiaWF0IjoxNzIwOTgxOTE5fQ.XU_bqqc0KD55QfjFr9dI2NNe7ebkca9964BaRy3CqYA"}
+2024-08-02T19:43:40.738Z info: Starting test session...
+2024-08-02T19:43:40.739Z debug: Base URL: https://www.wrike.com/api/v4/
+        Environment UAT: test 
+        Timeout Set: 2000
+2024-08-02T19:43:40.741Z info: Send GET request to https://www.wrike.com/api/v4/version
+2024-08-02T19:43:40.748Z debug: Request params: {}
+2024-08-02T19:43:40.750Z debug: Request headers: {"Authorization":"Bearer eyJ0dCI6InAiLCJhbGciOiJIUzI1NiIsInR2IjoiMSJ9.eyJkIjoie1wiYVwiOjY1NDEzMTQsXCJpXCI6OTEyMzQwMCxcImNcIjo0Njg3MDUzLFwidVwiOjE5OTgwNzIzLFwiclwiOlwiVVNcIixcInNcIjpbXCJXXCIsXCJGXCIsXCJJXCIsXCJVXCIsXCJLXCIsXCJDXCIsXCJEXCIsXCJNXCIsXCJBXCIsXCJMXCIsXCJQXCJdLFwielwiOltdLFwidFwiOjB9IiwiaWF0IjoxNzIwOTgxOTE5fQ.XU_bqqc0KD55QfjFr9dI2NNe7ebkca9964BaRy3CqYA"}
+2024-08-02T19:43:40.759Z info: Starting test session...
+2024-08-02T19:43:40.779Z debug: Base URL: https://www.wrike.com/api/v4/
+        Environment UAT: test 
+        Timeout Set: 2000
+2024-08-02T19:43:40.782Z info: Send GET request to https://www.wrike.com/api/v4/spaces?userIsMember=true
+2024-08-02T19:43:40.813Z debug: Request params: {}
+2024-08-02T19:43:40.815Z debug: Request headers: {"Authorization":"Bearer eyJ0dCI6InAiLCJhbGciOiJIUzI1NiIsInR2IjoiMSJ9.eyJkIjoie1wiYVwiOjY1NDEzMTQsXCJpXCI6OTEyMzQwMCxcImNcIjo0Njg3MDUzLFwidVwiOjE5OTgwNzIzLFwiclwiOlwiVVNcIixcInNcIjpbXCJXXCIsXCJGXCIsXCJJXCIsXCJVXCIsXCJLXCIsXCJDXCIsXCJEXCIsXCJNXCIsXCJBXCIsXCJMXCIsXCJQXCJdLFwielwiOltdLFwidFwiOjB9IiwiaWF0IjoxNzIwOTgxOTE5fQ.XU_bqqc0KD55QfjFr9dI2NNe7ebkca9964BaRy3CqYA"}
+2024-08-02T19:43:40.820Z info: Starting test session...
+2024-08-02T19:43:40.822Z debug: Base URL: https://www.wrike.com/api/v4/
+        Environment UAT: test 
+        Timeout Set: 2000
+2024-08-02T19:43:40.836Z info: Send GET request to https://www.wrike.com/api/v4/timelogs
+2024-08-02T19:43:40.843Z debug: Request params: {}
+2024-08-02T19:43:40.844Z debug: Request headers: {"Authorization":"Bearer eyJ0dCI6InAiLCJhbGciOiJIUzI1NiIsInR2IjoiMSJ9.eyJkIjoie1wiYVwiOjY1NDEzMTQsXCJpXCI6OTEyMzQwMCxcImNcIjo0Njg3MDUzLFwidVwiOjE5OTgwNzIzLFwiclwiOlwiVVNcIixcInNcIjpbXCJXXCIsXCJGXCIsXCJJXCIsXCJVXCIsXCJLXCIsXCJDXCIsXCJEXCIsXCJNXCIsXCJBXCIsXCJMXCIsXCJQXCJdLFwielwiOltdLFwidFwiOjB9IiwiaWF0IjoxNzIwOTgxOTE5fQ.XU_bqqc0KD55QfjFr9dI2NNe7ebkca9964BaRy3CqYA"}
+2024-08-02T19:43:40.925Z debug: Request response data: {"kind":"folderTree","data":[{"id":"IEAGHUACI7777777","title":"Root","childIds":["IEAGHUACI5LFXD3J","IEAGHUACI5LGLFOR","IEAGHUACI5LFXEBH"],"scope":"WsRoot"},{"id":"IEAGHUACI5LYGEPR","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-08-02T19:42:19Z"}},{"id":"IEAGHUACI5LYF5O5","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-08-02T19:32:33Z"}},{"id":"IEAGHUACI5LYF5NC","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-08-02T19:32:27Z"}},{"id":"IEAGHUACI5LYFDVW","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-08-02T18:58:57Z"}},{"id":"IEAGHUACI5LYFDVV","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-08-02T18:58:57Z"}},{"id":"IEAGHUACI5LYFDVE","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-08-02T18:58:57Z"}},{"id":"IEAGHUACI5LYFDVD","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-08-02T18:58:57Z"}},{"id":"IEAGHUACI5LYFDSW","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-08-02T18:58:53Z"}},{"id":"IEAGHUACI5LYFDSU","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-08-02T18:58:53Z"}},{"id":"IEAGHUACI5LYFDSR","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-08-02T18:58:53Z"}},{"id":"IEAGHUACI5LYFDSQ","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-08-02T18:58:53Z"}},{"id":"IEAGHUACI5LYFDRM","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-08-02T18:58:52Z"}},{"id":"IEAGHUACI5LYFDRK","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-08-02T18:58:52Z"}},{"id":"IEAGHUACI5LYE6OK","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-08-02T18:52:05Z"}},{"id":"IEAGHUACI5LYE6OJ","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-08-02T18:52:05Z"}},{"id":"IEAGHUACI5LYEXAW","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-08-02T18:41:15Z"}},{"id":"IEAGHUACI5LYEXAS","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-08-02T18:41:14Z"}},{"id":"IEAGHUACI5LYDIAI","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-08-02T17:43:49Z"}},{"id":"IEAGHUACI5LYDIAH","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-08-02T17:43:49Z"}},{"id":"IEAGHUACI5LYAT7B","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-08-02T15:36:22Z"}},{"id":"IEAGHUACI5LYAT67","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-08-02T15:36:22Z"}},{"id":"IEAGHUACI5LYAR7P","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-08-02T15:33:23Z"}},{"id":"IEAGHUACI5LYAR7O","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-08-02T15:33:23Z"}},{"id":"IEAGHUACI5LVY4CC","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-30T23:36:10Z"}},{"id":"IEAGHUACI5LVY4CB","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-30T23:36:10Z"}},{"id":"IEAGHUACI5LVWCT2","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-30T20:24:09Z"}},{"id":"IEAGHUACI5LVWCTZ","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-30T20:24:09Z"}},{"id":"IEAGHUACI5LLG2NZ","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-17T22:49:55Z"}},{"id":"IEAGHUACI5LT657N","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-27T23:16:04Z"}},{"id":"IEAGHUACI5LT657M","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-27T23:16:04Z"}},{"id":"IEAGHUACI5LT656S","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-27T23:13:59Z"}},{"id":"IEAGHUACI5LT656L","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-27T23:13:58Z"}},{"id":"IEAGHUACI5LT654R","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-27T23:11:59Z"}},{"id":"IEAGHUACI5LT654Q","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-27T23:11:58Z"}},{"id":"IEAGHUACI5LT6532","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-27T23:10:01Z"}},{"id":"IEAGHUACI5LT653T","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-27T23:10:00Z"}},{"id":"IEAGHUACI5LT652L","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-27T23:07:42Z"}},{"id":"IEAGHUACI5LT652K","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-27T23:07:42Z"}},{"id":"IEAGHUACI5LT65X2","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-27T23:06:53Z"}},{"id":"IEAGHUACI5LT65XK","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-27T23:06:18Z"}},{"id":"IEAGHUACI5LT65WD","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-27T23:04:24Z"}},{"id":"IEAGHUACI5LFXEBH","title":"Modified Title via Postman","childIds":["IEAGHUACI5LITG4I","IEAGHUACI5LYDIAH","IEAGHUACI5LITYUP","IEAGHUACI5LYDIAI","IEAGHUACI5LITJYA","IEAGHUACI5LLG2NZ","IEAGHUACI5LITJYH","IEAGHUACI5LITYUG","IEAGHUACI5LYEXAS","IEAGHUACI5LJQXIK","IEAGHUACI5LYEXAW","IEAGHUACI5LLG2NG","IEAGHUACI5LJ2YEL","IEAGHUACI5LKFWNV","IEAGHUACI5LITCMR","IEAGHUACI5LVY4CB","IEAGHUACI5LVY4CC","IEAGHUACI5LYF5NC","IEAGHUACI5LYFDVD","IEAGHUACI5LVWCT2","IEAGHUACI5LVWCTZ","IEAGHUACI5LLG24W","IEAGHUACI5LYFDVE","IEAGHUACI5LYFDRK","IEAGHUACI5LYFDRM","IEAGHUACI5LT654R","IEAGHUACI5LLG245","IEAGHUACI5LT654Q","IEAGHUACI5LITBVZ","IEAGHUACI5LITCB3","IEAGHUACI5LYFDVW","IEAGHUACI5LYFDVV","IEAGHUACI5LKMLDH","IEAGHUACI5LT6532","IEAGHUACI5LT65X2","IEAGHUACI5LYE6OK","IEAGHUACI5LYE6OJ","IEAGHUACI5LJFNCZ","IEAGHUACI5LT653T","IEAGHUACI5LITKSH","IEAGHUACI5LYFDSQ","IEAGHUACI5LT657N","IEAGHUACI5LYFDSR","IEAGHUACI5LT657M","IEAGHUACI5LYFDSW","IEAGHUACI5LT65XK","IEAGHUACI5LYFDSU","IEAGHUACI5LKMLDR","IEAGHUACI5LITPOQ","IEAGHUACI5LITKSQ","IEAGHUACI5LYF5O5","IEAGHUACI5LYAT67","IEAGHUACI5LJQXHY","IEAGHUACI5LYAT7B","IEAGHUACI5LKFWOE","IEAGHUACI5LJQX3S","IEAGHUACI5LJ2YDR","IEAGHUACI5LT656S","IEAGHUACI5LYAR7O","IEAGHUACI5LYAR7P","IEAGHUACI5LYGEPR","IEAGHUACI5LIR2L2","IEAGHUACI5LJQX3K","IEAGHUACI5LT656L","IEAGHUACI5LT652L","IEAGHUACI5LJFNDG","IEAGHUACI5LITAD5","IEAGHUACI5LFXEBP","IEAGHUACI5LT652K","IEAGHUACI5LITG37","IEAGHUACI5LITGX7","IEAGHUACI5LITCDR","IEAGHUACI5LT65WD","IEAGHUACI5LITGXX"],"scope":"WsFolder"},{"id":"IEAGHUACI5LLG245","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-17T22:50:43Z"}},{"id":"IEAGHUACI5LLG24W","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-17T22:50:42Z"}},{"id":"IEAGHUACI5LLG2NG","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-17T22:49:54Z"}},{"id":"IEAGHUACI5LKMLDR","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-17T01:01:28Z"}},{"id":"IEAGHUACI5LKMLDH","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-17T01:01:27Z"}},{"id":"IEAGHUACI5LKFWOE","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-16T19:05:21Z"}},{"id":"IEAGHUACI5LKFWNV","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-16T19:05:20Z"}},{"id":"IEAGHUACI5LJ2YEL","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-16T13:18:49Z"}},{"id":"IEAGHUACI5LJ2YDR","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-16T13:18:49Z"}},{"id":"IEAGHUACI5LIR2L2","title":"Lab","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDKO","startDate":"2024-07-10","endDate":"2024-07-17","createdDate":"2024-07-14T19:09:48Z"}},{"id":"IEAGHUACI5LJQX3S","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-16T01:19:27Z"}},{"id":"IEAGHUACI5LJQX3K","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-16T01:19:26Z"}},{"id":"IEAGHUACI5LJQXIK","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-16T01:17:02Z"}},{"id":"IEAGHUACI5LJQXHY","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-16T01:17:01Z"}},{"id":"IEAGHUACI5LJFNDG","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-15T16:46:41Z"}},{"id":"IEAGHUACI5LJFNCZ","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-15T16:46:40Z"}},{"id":"IEAGHUACI5LITYUP","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-15T00:19:44Z"}},{"id":"IEAGHUACI5LITYUG","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-15T00:19:43Z"}},{"id":"IEAGHUACI5LITPOQ","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-14T23:35:32Z"}},{"id":"IEAGHUACI5LITKSQ","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-14T23:15:35Z"}},{"id":"IEAGHUACI5LITKSH","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-14T23:15:34Z"}},{"id":"IEAGHUACI5LITJYH","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-14T23:12:13Z"}},{"id":"IEAGHUACI5LITJYA","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-14T23:12:12Z"}},{"id":"IEAGHUACI5LITG4I","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-14T22:59:37Z"}},{"id":"IEAGHUACI5LITG37","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-14T22:59:37Z"}},{"id":"IEAGHUACI5LITGX7","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-14T22:59:11Z"}},{"id":"IEAGHUACI5LITGXX","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-14T22:59:10Z"}},{"id":"IEAGHUACI5LITCMR","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-14T22:43:24Z"}},{"id":"IEAGHUACI5LITCDR","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-14T22:41:59Z"}},{"id":"IEAGHUACI5LITCB3","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-14T22:41:37Z"}},{"id":"IEAGHUACI5LITBVZ","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-14T22:39:48Z"}},{"id":"IEAGHUACI5LITAD5","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-14T22:33:21Z"}},{"id":"IEAGHUACI5LFXEBP","title":"First project 🚀","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-10T12:18:17Z"}},{"id":"IEAGHUACI5LGLFOT","title":"Criar uma requisição ótima","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":[],"customStatusId":"IEAGHUACJME6POA2","createdDate":"2024-07-11T01:22:21Z"}},{"id":"IEAGHUACI5LGLFOR","title":"Projects","childIds":["IEAGHUACI5LGLFOT"],"scope":"WsFolder"},{"id":"IEAGHUACI5LFXD3J","title":"Personal","childIds":[],"scope":"WsFolder"}]}
+2024-08-02T19:43:40.928Z info: [Verify Wrike API response for folderTree Status code is 200] : Sucesso
+2024-08-02T19:43:40.930Z info: [Verify Wrike API response for folderTree Response is JSON] : Sucesso
+2024-08-02T19:43:40.932Z info: [Verify Wrike API response for folderTree Response contains folderTree kind] : Sucesso
+2024-08-02T19:43:40.933Z info: [Verify Wrike API response for folderTree Data is an array] : Sucesso
+2024-08-02T19:43:40.934Z info: Finished test session.
+2024-08-02T19:43:40.928Z info: Starting test session...
+2024-08-02T19:43:40.958Z debug: Request response data: {"kind":"version","data":[{"major":1,"minor":0}]}
+2024-08-02T19:43:40.929Z debug: Base URL: https://www.wrike.com/api/v4/
+        Environment UAT: test 
+        Timeout Set: 2000
+2024-08-02T19:43:40.936Z info: Send GET request to https://www.wrike.com/api/v4/workschedules
+2024-08-02T19:43:40.939Z debug: Request params: {}
+2024-08-02T19:43:40.940Z debug: Request headers: {"Authorization":"Bearer eyJ0dCI6InAiLCJhbGciOiJIUzI1NiIsInR2IjoiMSJ9.eyJkIjoie1wiYVwiOjY1NDEzMTQsXCJpXCI6OTEyMzQwMCxcImNcIjo0Njg3MDUzLFwidVwiOjE5OTgwNzIzLFwiclwiOlwiVVNcIixcInNcIjpbXCJXXCIsXCJGXCIsXCJJXCIsXCJVXCIsXCJLXCIsXCJDXCIsXCJEXCIsXCJNXCIsXCJBXCIsXCJMXCIsXCJQXCJdLFwielwiOltdLFwidFwiOjB9IiwiaWF0IjoxNzIwOTgxOTE5fQ.XU_bqqc0KD55QfjFr9dI2NNe7ebkca9964BaRy3CqYA"}
+2024-08-02T19:43:40.960Z info: [Basic Test To Ensure Api Service Status code is 200] : Sucesso
+2024-08-02T19:43:40.962Z info: [Basic Test To Ensure Api Service Response is JSON] : Sucesso
+2024-08-02T19:43:40.964Z info:  [Basic Test To Ensure Api Service Response contains version kind] : Sucesso
+2024-08-02T19:43:40.966Z info: [Basic Test To Ensure Api Service Data is an array] : Sucesso
+2024-08-02T19:43:40.968Z info: Finished test session.
+2024-08-02T19:43:41.014Z info: Starting test session...
+2024-08-02T19:43:41.054Z debug: Request response data: {"kind":"spaces","data":[{"id":"IEAGHUACI5LFXEBH","title":"Modified Title via Postman","description":"This space was modified using a API call.","avatarUrl":"https://www.wrike.com/static/spaceicons2/v3/1/1-speaker.png","accessType":"Private","archived":false,"defaultProjectWorkflowId":"IEAGHUACK4E6MDKO","defaultTaskWorkflowId":"IEAGHUACK4E6MDJG"},{"id":"IEAGHUACI5LGLFOR","title":"Projects","avatarUrl":"https://www.wrike.com/static/spaceicons2/v3/1/1-speaker.png","accessType":"Private","archived":false,"defaultProjectWorkflowId":"IEAGHUACK4E6POAG","defaultTaskWorkflowId":"IEAGHUACK4E6POBE"}]}
+2024-08-02T19:43:41.015Z debug: Base URL: https://www.wrike.com/api/v4/
+        Environment UAT: test 
+        Timeout Set: 2000
+2024-08-02T19:43:41.026Z info: Send GET request to https://www.wrike.com/api/v4/version
+2024-08-02T19:43:41.031Z debug: Request params: {}
+2024-08-02T19:43:41.034Z debug: Request headers: {"Authorization":"Bearer eyJ0dCI6InAiLCJhbGciOiJIUzI1NiIsInR2IjoiMSJ9.eyJkIjoie1wiYVwiOjY1NDEzMTQsXCJpXCI6OTEyMzQwMCxcImNcIjo0Njg3MDUzLFwidVwiOjE5OTgwNzIzLFwiclwiOlwiVVNcIixcInNcIjpbXCJXXCIsXCJGXCIsXCJJXCIsXCJVXCIsXCJLXCIsXCJDXCIsXCJEXCIsXCJNXCIsXCJBXCIsXCJMXCIsXCJQXCJdLFwielwiOltdLFwidFwiOjB9IiwiaWF0IjoxNzIwOTgxOTE5fQ.XU_bqqc0KD55QfjFr9dI2NNe7ebkca9964BaRy3CqYA"}
+2024-08-02T19:43:41.057Z info: [Verify Wrike API response for spaces where user is a member Status code is 200] : Sucesso
+2024-08-02T19:43:41.059Z info: [Verify Wrike API response for spaces where user is a member Response is JSON] : Sucesso
+2024-08-02T19:43:41.061Z info: [Verify Wrike API response for spaces where user is a member Response contains spaces kind] : Sucesso
+2024-08-02T19:43:41.063Z info: [Verify Wrike API response for spaces where user is a member Data is an array] : Sucesso
+2024-08-02T19:43:41.064Z info: Finished test session.
+2024-08-02T19:43:41.068Z debug: Request response data: {"kind":"timelogs","data":[]}
+2024-08-02T19:43:41.071Z info: [Verify If A List Of All Timelogs is Returned Status code is 200] : Sucesso
+2024-08-02T19:43:41.073Z info: [Verify If A List Of All Timelogs is Returned Response is JSON] : Sucesso
+2024-08-02T19:43:41.074Z info: [Verify If A List Of All Timelogs is Returned Response contains spaces kind] : Sucesso
+2024-08-02T19:43:41.076Z info: [Verify If A List Of All Timelogs is Returned Data is an array] : Sucesso
+2024-08-02T19:43:41.077Z info: Finished test session.
+2024-08-02T19:43:41.162Z debug: Request response data: {"kind":"workschedules","data":[{"id":"IEAGHUACML7ZYL76","scheduleType":"Default","title":"Default Schedule","workweek":[{"workDays":["Mon","Tue","Wed","Thu","Fri"],"capacityMinutes":480}]}]}
+2024-08-02T19:43:41.165Z info: [ Status code is 200] : Sucesso
+2024-08-02T19:43:41.167Z info: [ Response is JSON] : Sucesso
+2024-08-02T19:43:41.172Z info: [ Response structure] : Sucesso
+2024-08-02T19:43:41.173Z info: Finished test session.
+2024-08-02T19:43:41.139Z info: Starting test session...
+2024-08-02T19:43:41.141Z debug: Base URL: https://www.wrike.com/api/v4/
+        Environment UAT: test 
+        Timeout Set: 2000
+2024-08-02T19:43:41.144Z info: Send GET request to https://www.wrike.com/api/v4/groups
+2024-08-02T19:43:41.147Z debug: Request params: {}
+2024-08-02T19:43:41.149Z debug: Request headers: {"Authorization":"Bearer eyJ0dCI6InAiLCJhbGciOiJIUzI1NiIsInR2IjoiMSJ9.eyJkIjoie1wiYVwiOjY1NDEzMTQsXCJpXCI6OTEyMzQwMCxcImNcIjo0Njg3MDUzLFwidVwiOjE5OTgwNzIzLFwiclwiOlwiVVNcIixcInNcIjpbXCJXXCIsXCJGXCIsXCJJXCIsXCJVXCIsXCJLXCIsXCJDXCIsXCJEXCIsXCJNXCIsXCJBXCIsXCJMXCIsXCJQXCJdLFwielwiOltdLFwidFwiOjB9IiwiaWF0IjoxNzIwOTgxOTE5fQ.XU_bqqc0KD55QfjFr9dI2NNe7ebkca9964BaRy3CqYA"}
+2024-08-02T19:43:41.263Z debug: Request response data: {"kind":"version","data":[{"major":1,"minor":0}]}
+2024-08-02T19:43:41.265Z info: [ Status code is 200] : Sucesso
+2024-08-02T19:43:41.267Z info: [ Response is JSON] : Sucesso
+2024-08-02T19:43:41.271Z info: [ Response structure] : Sucesso
+2024-08-02T19:43:41.272Z info: Finished test session.
+2024-08-02T19:43:41.340Z info: Starting test session...
+2024-08-02T19:43:41.341Z debug: Base URL: https://www.wrike.com/api/v4/
+        Environment UAT: test 
+        Timeout Set: 2000
+2024-08-02T19:43:41.343Z info: Send GET request to https://www.wrike.com/api/v4/groups
+2024-08-02T19:43:41.370Z info: Starting test session...
+2024-08-02T19:43:41.371Z debug: Base URL: https://www.wrike.com/api/v4/
+        Environment UAT: test 
+        Timeout Set: 2000
+2024-08-02T19:43:41.373Z info: Send GET request to https://www.wrike.com/api/v4/spaces/IEAGHUACI5LGLFOR
+2024-08-02T19:43:41.375Z debug: Request params: {}
+2024-08-02T19:43:41.376Z debug: Request headers: {"Authorization":"Bearer eyJ0dCI6InAiLCJhbGciOiJIUzI1NiIsInR2IjoiMSJ9.eyJkIjoie1wiYVwiOjY1NDEzMTQsXCJpXCI6OTEyMzQwMCxcImNcIjo0Njg3MDUzLFwidVwiOjE5OTgwNzIzLFwiclwiOlwiVVNcIixcInNcIjpbXCJXXCIsXCJGXCIsXCJJXCIsXCJVXCIsXCJLXCIsXCJDXCIsXCJEXCIsXCJNXCIsXCJBXCIsXCJMXCIsXCJQXCJdLFwielwiOltdLFwidFwiOjB9IiwiaWF0IjoxNzIwOTgxOTE5fQ.XU_bqqc0KD55QfjFr9dI2NNe7ebkca9964BaRy3CqYA"}
+2024-08-02T19:43:41.383Z debug: Request response data: {"kind":"groups","data":[{"id":"KX7XYC4U","accountId":"IEAGHUAC","title":"My Team","memberIds":["KUATCOKI","KUATBYNT","KUATCEEU","KUATCOKM"],"childIds":[],"parentIds":[],"avatarUrl":"default/internal_users_group.png","myTeam":true}]}
+2024-08-02T19:43:41.386Z info: [ Status code is 200] : Sucesso
+2024-08-02T19:43:41.388Z info: [ Response is JSON] : Sucesso
+2024-08-02T19:43:41.391Z info: [ Response structure] : Sucesso
+2024-08-02T19:43:41.392Z info: Finished test session.
+2024-08-02T19:43:41.399Z info: Starting test session...
+2024-08-02T19:43:41.401Z debug: Base URL: https://www.wrike.com/api/v4/
+        Environment UAT: test 
+        Timeout Set: 2000
+2024-08-02T19:43:41.402Z info: Send POST request to https://www.wrike.com/api/v4/folders
+2024-08-02T19:43:41.404Z debug: Request params: {"title":"randomFolder"}
+2024-08-02T19:43:41.405Z debug: Request headers: {"Authorization":"Bearer eyJ0dCI6InAiLCJhbGciOiJIUzI1NiIsInR2IjoiMSJ9.eyJkIjoie1wiYVwiOjY1NDEzMTQsXCJpXCI6OTEyMzQwMCxcImNcIjo0Njg3MDUzLFwidVwiOjE5OTgwNzIzLFwiclwiOlwiVVNcIixcInNcIjpbXCJXXCIsXCJGXCIsXCJJXCIsXCJVXCIsXCJLXCIsXCJDXCIsXCJEXCIsXCJNXCIsXCJBXCIsXCJMXCIsXCJQXCJdLFwielwiOltdLFwidFwiOjB9IiwiaWF0IjoxNzIwOTgxOTE5fQ.XU_bqqc0KD55QfjFr9dI2NNe7ebkca9964BaRy3CqYA"}
+2024-08-02T19:43:41.421Z info: Starting test session...
+2024-08-02T19:43:41.422Z debug: Base URL: https://www.wrike.com/api/v4/
+        Environment UAT: test 
+        Timeout Set: 2000
+2024-08-02T19:43:41.423Z info: Send POST request to https://www.wrike.com/api/v4//copy_folder_async/IEAGHUACI5LFXEBP
+2024-08-02T19:43:41.425Z debug: Request params: {"parent":"IEAGHUACI5LFXEBH","title":"Test Folder Copy async"}
+2024-08-02T19:43:41.427Z debug: Request headers: {"Authorization":"Bearer eyJ0dCI6InAiLCJhbGciOiJIUzI1NiIsInR2IjoiMSJ9.eyJkIjoie1wiYVwiOjY1NDEzMTQsXCJpXCI6OTEyMzQwMCxcImNcIjo0Njg3MDUzLFwidVwiOjE5OTgwNzIzLFwiclwiOlwiVVNcIixcInNcIjpbXCJXXCIsXCJGXCIsXCJJXCIsXCJVXCIsXCJLXCIsXCJDXCIsXCJEXCIsXCJNXCIsXCJBXCIsXCJMXCIsXCJQXCJdLFwielwiOltdLFwidFwiOjB9IiwiaWF0IjoxNzIwOTgxOTE5fQ.XU_bqqc0KD55QfjFr9dI2NNe7ebkca9964BaRy3CqYA"}
+2024-08-02T19:43:41.476Z info: Starting test session...
+2024-08-02T19:43:41.477Z debug: Base URL: https://www.wrike.com/api/v4/
+        Environment UAT: test 
+        Timeout Set: 2000
+2024-08-02T19:43:41.478Z info: Send GET request to https://www.wrike.com/api/v4/folders
+2024-08-02T19:43:41.480Z debug: Request params: {}
+2024-08-02T19:43:41.481Z debug: Request headers: {"Authorization":"Bearer eyJ0dCI6InAiLCJhbGciOiJIUzI1NiIsInR2IjoiMSJ9.eyJkIjoie1wiYVwiOjY1NDEzMTQsXCJpXCI6OTEyMzQwMCxcImNcIjo0Njg3MDUzLFwidVwiOjE5OTgwNzIzLFwiclwiOlwiVVNcIixcInNcIjpbXCJXXCIsXCJGXCIsXCJJXCIsXCJVXCIsXCJLXCIsXCJDXCIsXCJEXCIsXCJNXCIsXCJBXCIsXCJMXCIsXCJQXCJdLFwielwiOltdLFwidFwiOjB9IiwiaWF0IjoxNzIwOTgxOTE5fQ.XU_bqqc0KD55QfjFr9dI2NNe7ebkca9964BaRy3CqYA"}
+2024-08-02T19:43:41.524Z info: Starting test session...
+2024-08-02T19:43:41.525Z debug: Base URL: https://www.wrike.com/api/v4/
+        Environment UAT: test 
+        Timeout Set: 2000
+2024-08-02T19:43:41.525Z info: Send GET request to https://www.wrike.com/api/v4/folders/IEAGHUACI5LGLFOR,
+2024-08-02T19:43:41.527Z debug: Request params: {}
+2024-08-02T19:43:41.528Z debug: Request headers: {"Authorization":"Bearer eyJ0dCI6InAiLCJhbGciOiJIUzI1NiIsInR2IjoiMSJ9.eyJkIjoie1wiYVwiOjY1NDEzMTQsXCJpXCI6OTEyMzQwMCxcImNcIjo0Njg3MDUzLFwidVwiOjE5OTgwNzIzLFwiclwiOlwiVVNcIixcInNcIjpbXCJXXCIsXCJGXCIsXCJJXCIsXCJVXCIsXCJLXCIsXCJDXCIsXCJEXCIsXCJNXCIsXCJBXCIsXCJMXCIsXCJQXCJdLFwielwiOltdLFwidFwiOjB9IiwiaWF0IjoxNzIwOTgxOTE5fQ.XU_bqqc0KD55QfjFr9dI2NNe7ebkca9964BaRy3CqYA"}
+2024-08-02T19:43:41.614Z debug: Request response data: {"kind":"spaces","data":[{"id":"IEAGHUACI5LGLFOR","title":"Projects","avatarUrl":"https://www.wrike.com/static/spaceicons2/v3/1/1-speaker.png","accessType":"Private","archived":false,"defaultProjectWorkflowId":"IEAGHUACK4E6POAG","defaultTaskWorkflowId":"IEAGHUACK4E6POBE"}]}
+2024-08-02T19:43:41.615Z info: [Verify Wrike API response for spaces Status code is 200] : Sucesso
+2024-08-02T19:43:41.616Z info: [Verify Wrike API response for spaces Response is JSON] : Sucesso
+2024-08-02T19:43:41.617Z info: [Verify Wrike API response for spaces Response contains spaces kind] : Sucesso
+2024-08-02T19:43:41.618Z info: [Verify Wrike API response for spaces Data is an array] : Sucesso
+2024-08-02T19:43:41.619Z info: Finished test session.
+2024-08-02T19:43:41.623Z info: [Verify 401 response if no token is given Status code is 401] : Sucesso
+2024-08-02T19:43:41.626Z info: [Verify 401 response if no token is given Response is Text/Plain] : Sucesso
+2024-08-02T19:43:41.627Z info: [Verify 401 response if no token is given Response contains error message] : Sucesso
+2024-08-02T19:43:41.628Z info: [Verify 401 response if no token is given Response contains error description] : Sucesso
+2024-08-02T19:43:41.628Z info: Finished test session.
+2024-08-02T19:43:41.677Z debug: Request response data: {"kind":"asyncJob","data":[{"id":"IEAGHUACNJDGOUZXMM2EYTQ","status":"InQueue","progressPercent":0,"type":"CopyFolder"}]}
+2024-08-02T19:43:41.679Z info: [Verify Wrike API response for asynchronous folder copy Status code is 202] : Sucesso
+2024-08-02T19:43:41.680Z info: [Verify Wrike API response for asynchronous folder copy Response is JSON] : Sucesso
+2024-08-02T19:43:41.682Z info: [Verify Wrike API response for asynchronous folder copy Response contains asyncJob kind] : Sucesso
+2024-08-02T19:43:41.684Z info: [Verify Wrike API response for asynchronous folder copy Data is an array] : Sucesso
+2024-08-02T19:43:41.686Z info: [Verify Wrike API response for asynchronous folder copy asyncJob is CopyFolder] : Sucesso
+2024-08-02T19:43:41.687Z info: Finished test session.
+2024-08-02T19:43:41.712Z debug: Request response data: {"kind":"folderTree","data":[{"id":"IEAGHUACI7777777","title":"Root","childIds":["IEAGHUACI5LFXD3J","IEAGHUACI5LGLFOR","IEAGHUACI5LFXEBH"],"scope":"WsRoot"},{"id":"IEAGHUACI7777776","title":"Recycle Bin","childIds":["IEAGHUACI5LITA4J","IEAGHUACI5LISHPM","IEAGHUACI5LISDLP","IEAGHUACI5LISGM6"],"scope":"RbRoot"},{"id":"IEAGHUACI5LYGEPR","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-08-02T19:42:19Z"}},{"id":"IEAGHUACI5LYF5O5","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-08-02T19:32:33Z"}},{"id":"IEAGHUACI5LYF5NC","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-08-02T19:32:27Z"}},{"id":"IEAGHUACI5LYFDVW","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-08-02T18:58:57Z"}},{"id":"IEAGHUACI5LYFDVV","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-08-02T18:58:57Z"}},{"id":"IEAGHUACI5LYFDVE","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-08-02T18:58:57Z"}},{"id":"IEAGHUACI5LYFDVD","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-08-02T18:58:57Z"}},{"id":"IEAGHUACI5LYFDSW","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-08-02T18:58:53Z"}},{"id":"IEAGHUACI5LYFDSU","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-08-02T18:58:53Z"}},{"id":"IEAGHUACI5LYFDSR","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-08-02T18:58:53Z"}},{"id":"IEAGHUACI5LYFDSQ","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-08-02T18:58:53Z"}},{"id":"IEAGHUACI5LYFDRM","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-08-02T18:58:52Z"}},{"id":"IEAGHUACI5LYFDRK","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-08-02T18:58:52Z"}},{"id":"IEAGHUACI5LYE6OK","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-08-02T18:52:05Z"}},{"id":"IEAGHUACI5LYE6OJ","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-08-02T18:52:05Z"}},{"id":"IEAGHUACI5LYEXAW","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-08-02T18:41:15Z"}},{"id":"IEAGHUACI5LYEXAS","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-08-02T18:41:14Z"}},{"id":"IEAGHUACI5LYDIAI","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-08-02T17:43:49Z"}},{"id":"IEAGHUACI5LYDIAH","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-08-02T17:43:49Z"}},{"id":"IEAGHUACI5LYAT7B","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-08-02T15:36:22Z"}},{"id":"IEAGHUACI5LYAT67","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-08-02T15:36:22Z"}},{"id":"IEAGHUACI5LYAR7P","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-08-02T15:33:23Z"}},{"id":"IEAGHUACI5LYAR7O","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-08-02T15:33:23Z"}},{"id":"IEAGHUACI5LVY4CC","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-30T23:36:10Z"}},{"id":"IEAGHUACI5LVY4CB","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-30T23:36:10Z"}},{"id":"IEAGHUACI5LVWCT2","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-30T20:24:09Z"}},{"id":"IEAGHUACI5LVWCTZ","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-30T20:24:09Z"}},{"id":"IEAGHUACI5LLG2NZ","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-17T22:49:55Z"}},{"id":"IEAGHUACI5LT657N","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-27T23:16:04Z"}},{"id":"IEAGHUACI5LT657M","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-27T23:16:04Z"}},{"id":"IEAGHUACI5LT656S","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-27T23:13:59Z"}},{"id":"IEAGHUACI5LT656L","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-27T23:13:58Z"}},{"id":"IEAGHUACI5LT654R","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-27T23:11:59Z"}},{"id":"IEAGHUACI5LT654Q","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-27T23:11:58Z"}},{"id":"IEAGHUACI5LT6532","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-27T23:10:01Z"}},{"id":"IEAGHUACI5LT653T","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-27T23:10:00Z"}},{"id":"IEAGHUACI5LT652L","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-27T23:07:42Z"}},{"id":"IEAGHUACI5LT652K","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-27T23:07:42Z"}},{"id":"IEAGHUACI5LT65X2","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-27T23:06:53Z"}},{"id":"IEAGHUACI5LT65XK","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-27T23:06:18Z"}},{"id":"IEAGHUACI5LT65WD","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-27T23:04:24Z"}},{"id":"IEAGHUACI5LFXEBH","title":"Modified Title via Postman","childIds":["IEAGHUACI5LITG4I","IEAGHUACI5LYDIAH","IEAGHUACI5LITYUP","IEAGHUACI5LYDIAI","IEAGHUACI5LITJYA","IEAGHUACI5LLG2NZ","IEAGHUACI5LITJYH","IEAGHUACI5LITYUG","IEAGHUACI5LYEXAS","IEAGHUACI5LJQXIK","IEAGHUACI5LYEXAW","IEAGHUACI5LLG2NG","IEAGHUACI5LJ2YEL","IEAGHUACI5LKFWNV","IEAGHUACI5LITCMR","IEAGHUACI5LVY4CB","IEAGHUACI5LVY4CC","IEAGHUACI5LYF5NC","IEAGHUACI5LYFDVD","IEAGHUACI5LVWCT2","IEAGHUACI5LVWCTZ","IEAGHUACI5LLG24W","IEAGHUACI5LYFDVE","IEAGHUACI5LYFDRK","IEAGHUACI5LYFDRM","IEAGHUACI5LT654R","IEAGHUACI5LLG245","IEAGHUACI5LT654Q","IEAGHUACI5LITBVZ","IEAGHUACI5LITCB3","IEAGHUACI5LYFDVW","IEAGHUACI5LYFDVV","IEAGHUACI5LKMLDH","IEAGHUACI5LT6532","IEAGHUACI5LT65X2","IEAGHUACI5LYE6OK","IEAGHUACI5LYE6OJ","IEAGHUACI5LJFNCZ","IEAGHUACI5LT653T","IEAGHUACI5LITKSH","IEAGHUACI5LYFDSQ","IEAGHUACI5LT657N","IEAGHUACI5LYFDSR","IEAGHUACI5LT657M","IEAGHUACI5LYFDSW","IEAGHUACI5LT65XK","IEAGHUACI5LYFDSU","IEAGHUACI5LKMLDR","IEAGHUACI5LITPOQ","IEAGHUACI5LITKSQ","IEAGHUACI5LYF5O5","IEAGHUACI5LYAT67","IEAGHUACI5LJQXHY","IEAGHUACI5LYAT7B","IEAGHUACI5LKFWOE","IEAGHUACI5LJQX3S","IEAGHUACI5LJ2YDR","IEAGHUACI5LT656S","IEAGHUACI5LYAR7O","IEAGHUACI5LYAR7P","IEAGHUACI5LYGEPR","IEAGHUACI5LIR2L2","IEAGHUACI5LJQX3K","IEAGHUACI5LT656L","IEAGHUACI5LT652L","IEAGHUACI5LJFNDG","IEAGHUACI5LITAD5","IEAGHUACI5LFXEBP","IEAGHUACI5LT652K","IEAGHUACI5LITG37","IEAGHUACI5LITGX7","IEAGHUACI5LITCDR","IEAGHUACI5LT65WD","IEAGHUACI5LITGXX"],"scope":"WsFolder"},{"id":"IEAGHUACI5LLG245","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-17T22:50:43Z"}},{"id":"IEAGHUACI5LLG24W","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-17T22:50:42Z"}},{"id":"IEAGHUACI5LLG2NG","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-17T22:49:54Z"}},{"id":"IEAGHUACI5LKMLDR","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-17T01:01:28Z"}},{"id":"IEAGHUACI5LKMLDH","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-17T01:01:27Z"}},{"id":"IEAGHUACI5LKFWOE","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-16T19:05:21Z"}},{"id":"IEAGHUACI5LKFWNV","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-16T19:05:20Z"}},{"id":"IEAGHUACI5LJ2YEL","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-16T13:18:49Z"}},{"id":"IEAGHUACI5LJ2YDR","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-16T13:18:49Z"}},{"id":"IEAGHUACI5LIR2L2","title":"Lab","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDKO","startDate":"2024-07-10","endDate":"2024-07-17","createdDate":"2024-07-14T19:09:48Z"}},{"id":"IEAGHUACI5LJQX3S","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-16T01:19:27Z"}},{"id":"IEAGHUACI5LJQX3K","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-16T01:19:26Z"}},{"id":"IEAGHUACI5LJQXIK","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-16T01:17:02Z"}},{"id":"IEAGHUACI5LJQXHY","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-16T01:17:01Z"}},{"id":"IEAGHUACI5LJFNDG","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-15T16:46:41Z"}},{"id":"IEAGHUACI5LJFNCZ","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-15T16:46:40Z"}},{"id":"IEAGHUACI5LITYUP","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-15T00:19:44Z"}},{"id":"IEAGHUACI5LITYUG","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-15T00:19:43Z"}},{"id":"IEAGHUACI5LITPOQ","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-14T23:35:32Z"}},{"id":"IEAGHUACI5LITKSQ","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-14T23:15:35Z"}},{"id":"IEAGHUACI5LITKSH","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-14T23:15:34Z"}},{"id":"IEAGHUACI5LITJYH","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-14T23:12:13Z"}},{"id":"IEAGHUACI5LITJYA","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-14T23:12:12Z"}},{"id":"IEAGHUACI5LITG4I","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-14T22:59:37Z"}},{"id":"IEAGHUACI5LITG37","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-14T22:59:37Z"}},{"id":"IEAGHUACI5LITGX7","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-14T22:59:11Z"}},{"id":"IEAGHUACI5LITGXX","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-14T22:59:10Z"}},{"id":"IEAGHUACI5LITA4J","title":"Test folder copy - UPDATED via postman","childIds":[],"scope":"RbFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-14T22:35:51Z"}},{"id":"IEAGHUACI5LITCMR","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-14T22:43:24Z"}},{"id":"IEAGHUACI5LITCDR","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-14T22:41:59Z"}},{"id":"IEAGHUACI5LITCB3","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-14T22:41:37Z"}},{"id":"IEAGHUACI5LITBVZ","title":"Test Folder Copy async","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-14T22:39:48Z"}},{"id":"IEAGHUACI5LITAD5","title":"Test folder copy","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-14T22:33:21Z"}},{"id":"IEAGHUACI5LFXEBP","title":"First project 🚀","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":["KUATCEEU"],"customStatusId":"IEAGHUACJME6MDLC","createdDate":"2024-07-10T12:18:17Z"}},{"id":"IEAGHUACI5LISHPQ","title":"Company project 🚩","childIds":[],"scope":"RbFolder","project":{"authorId":"KUATBYNT","ownerIds":[],"customStatusId":"IEAGHUACJME6ZMGW","createdDate":"2024-07-14T20:19:01Z"}},{"id":"IEAGHUACI5LISHPM","title":"SPACE TO BE DELETED","childIds":["IEAGHUACI5LISHPQ"],"scope":"RbFolder"},{"id":"IEAGHUACI5LISGNA","title":"Company project 🚩","childIds":[],"scope":"RbFolder","project":{"authorId":"KUATBYNT","ownerIds":[],"customStatusId":"IEAGHUACJME6ZL3E","createdDate":"2024-07-14T20:13:13Z"}},{"id":"IEAGHUACI5LISGM6","title":"SPACE TO DELETE","childIds":["IEAGHUACI5LISGNA"],"scope":"RbFolder"},{"id":"IEAGHUACI5LISDLR","title":"Company project 🚩","childIds":[],"scope":"RbFolder","project":{"authorId":"KUATBYNT","ownerIds":[],"customStatusId":"IEAGHUACJME6ZLLG","createdDate":"2024-07-14T19:54:38Z"}},{"id":"IEAGHUACI5LISDLP","title":"Projects","childIds":["IEAGHUACI5LISDLR"],"scope":"RbFolder"},{"id":"IEAGHUACI5LGLFOT","title":"Criar uma requisição ótima","childIds":[],"scope":"WsFolder","project":{"authorId":"KUATBYNT","ownerIds":[],"customStatusId":"IEAGHUACJME6POA2","createdDate":"2024-07-11T01:22:21Z"}},{"id":"IEAGHUACI5LGLFOR","title":"Projects","childIds":["IEAGHUACI5LGLFOT"],"scope":"WsFolder"},{"id":"IEAGHUACI5LFXD3J","title":"Personal","childIds":[],"scope":"WsFolder"}]}
+2024-08-02T19:43:41.714Z info: [Verify If All Of The Folder Tree Is Returned Status code is 200] : Sucesso
+2024-08-02T19:43:41.726Z info: [Verify Wrike API response for creating a folder with insufficient permissions Status code is 403] : Sucesso
+2024-08-02T19:43:41.716Z info: [Verify If All Of The Folder Tree Is Returned Response is JSON] : Sucesso
+2024-08-02T19:43:41.718Z info: [Verify If All Of The Folder Tree Is Returned Response contains folderTree kind] : Sucesso
+2024-08-02T19:43:41.720Z info: [Verify If All Of The Folder Tree Is Returned Data is an array] : Sucesso
+2024-08-02T19:43:41.721Z info: Finished test session.
+2024-08-02T19:43:41.729Z info: [Verify Wrike API response for creating a folder with insufficient permissions Response is JSON] : Sucesso
+2024-08-02T19:43:41.730Z info: [Verify Wrike API response for creating a folder with insufficient permissions Error is not_allowed] : Sucesso
+2024-08-02T19:43:41.731Z info: Finished test session.
+2024-08-02T19:43:41.755Z debug: Request response data: {"kind":"folders","data":[{"id":"IEAGHUACI5LGLFOR","accountId":"IEAGHUAC","title":"Projects","createdDate":"2024-07-11T01:22:21Z","updatedDate":"2024-07-11T01:22:21Z","description":"","sharedIds":["KX7XYC4U","KUATBYNT"],"parentIds":["IEAGHUACI7777777"],"childIds":["IEAGHUACI5LGLFOT"],"superParentIds":[],"scope":"WsFolder","hasAttachments":false,"permalink":"https://www.wrike.com/open.htm?id=1449498065","workflowId":"IEAGHUACK4E6POBE","metadata":[],"customFields":[]}]}
+2024-08-02T19:43:41.756Z info: [Verify Wrike API response for folders Status code is 200] : Sucesso
+2024-08-02T19:43:41.759Z info: [Verify Wrike API response for folders Response is JSON] : Sucesso
+2024-08-02T19:43:41.761Z info: [Verify Wrike API response for folders Response contains folders kind] : Sucesso
+2024-08-02T19:43:41.762Z info: [Verify Wrike API response for folders Data is an array] : Sucesso
+2024-08-02T19:43:41.763Z info: Finished test session.

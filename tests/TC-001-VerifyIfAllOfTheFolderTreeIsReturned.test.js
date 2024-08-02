@@ -1,6 +1,6 @@
-require("dotenv").config({ path: ".env" });
-const requestManager = require("../utils/RequestManager.js");
-const { combinedLogger, errorLogger } = require("../utils/logger"); // Importa os loggers
+const { environment: environment } = require("#utils/environment.js");
+const requestManager = require("#utils/RequestManager.js");
+const { combinedLogger, errorLogger } = require("#utils/logger.js"); // Importa os loggers
 
 // Test Case 001: Verify If All Of The Folder Tree Is Returned - ENDPOINT FOLDERS
 describe("Verify If All Of The Folder Tree Is Returned", () => {
@@ -9,10 +9,10 @@ describe("Verify If All Of The Folder Tree Is Returned", () => {
   beforeAll(async () => {
     response = await requestManager.send(
       "get",
-      `${process.env.FOLDER_ENDPOINT}`,
+      `${environment.folder_endpoint}`,
       {},
       {
-        Authorization: `Bearer ${process.env.ACCESS_TOKEN}`,
+        Authorization: `Bearer ${environment.access_token}`,
       }
     );
   });
@@ -34,7 +34,8 @@ describe("Verify If All Of The Folder Tree Is Returned", () => {
       expect(response.headers["content-type"]).toMatch(/json/);
       combinedLogger.info(`[${expect.getState().currentTestName}] : Sucesso`);
     } catch (error) {
-      errorLogger.error(`[${expect.getState().currentTestName}] : Falha - ${error.message}`
+      errorLogger.error(
+        `[${expect.getState().currentTestName}] : Falha - ${error.message}`
       );
       throw error;
     }
@@ -45,7 +46,8 @@ describe("Verify If All Of The Folder Tree Is Returned", () => {
       expect(response.data.kind).toEqual("folderTree");
       combinedLogger.info(`[${expect.getState().currentTestName}] : Sucesso`);
     } catch (error) {
-      errorLogger.error(`[${expect.getState().currentTestName}] : Falha - ${error.message}`
+      errorLogger.error(
+        `[${expect.getState().currentTestName}] : Falha - ${error.message}`
       );
       throw error;
     }
@@ -56,7 +58,8 @@ describe("Verify If All Of The Folder Tree Is Returned", () => {
       expect(Array.isArray(response.data.data)).toBe(true);
       combinedLogger.info(`[${expect.getState().currentTestName}] : Sucesso`);
     } catch (error) {
-      errorLogger.error(`[${expect.getState().currentTestName}] : Falha - ${error.message}`
+      errorLogger.error(
+        `[${expect.getState().currentTestName}] : Falha - ${error.message}`
       );
       throw error;
     }

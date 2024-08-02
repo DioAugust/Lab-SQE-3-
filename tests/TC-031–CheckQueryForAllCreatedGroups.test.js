@@ -1,5 +1,6 @@
-const requestManager = require("../utils/RequestManager.js");
-const { combinedLogger, errorLogger } = require("../utils/logger");
+const { environment: environment } = require("#utils/environment.js");
+const requestManager = require("#utils/RequestManager.js");
+const { combinedLogger, errorLogger } = require("#utils/logger.js");
 
 require("dotenv").config({ path: ".env" });
 
@@ -12,10 +13,10 @@ describe("", () => {
     // Usando requestManager.send ao invés de axios.get
     const response = await requestManager.send(
       "get",
-      process.env.GROUPS_ENDPOINT,
+      `${environment.groups_endpoint}`,
       {},
       {
-        Authorization: `Bearer ${process.env.ACCESS_TOKEN}`,
+        Authorization: `Bearer ${environment.access_token}`,
       }
     );
 
@@ -41,7 +42,8 @@ describe("", () => {
       expect(responseContentType).toMatch(/json/);
       combinedLogger.info(`[${expect.getState().currentTestName}] : Sucesso`);
     } catch (error) {
-      errorLogger.error(`[${expect.getState().currentTestName}] : Falha - ${error.message}`
+      errorLogger.error(
+        `[${expect.getState().currentTestName}] : Falha - ${error.message}`
       );
       throw error;
     }
@@ -55,13 +57,14 @@ describe("", () => {
       expect(responseData).toHaveProperty("data");
       expect(responseData.data).toBeInstanceOf(Array);
 
-      responseData.data.forEach(item => {
+      responseData.data.forEach((item) => {
         expect(item).toBeInstanceOf(Object);
       });
 
       combinedLogger.info(`[${expect.getState().currentTestName}] : Sucesso`);
     } catch (error) {
-      errorLogger.error(`[${expect.getState().currentTestName}] : Falha - ${error.message}`
+      errorLogger.error(
+        `[${expect.getState().currentTestName}] : Falha - ${error.message}`
       );
       throw error;
     }

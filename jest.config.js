@@ -107,7 +107,16 @@ const config = {
   // projects: undefined,
 
   // Use this configuration option to add custom reporters to Jest
-  // reporters: undefined,
+  reporters: [
+    "default",
+    [
+      "./node_modules/jest-html-reporter",
+      {
+        pageTitle: "Test Report (Wrike API)",
+        outputPath: "./reports/test-report-wrike-api.html",
+      },
+    ],
+  ],
 
   // Automatically reset mock state before every test
   // resetMocks: false,
@@ -136,7 +145,7 @@ const config = {
   // setupFiles: [],
 
   // A list of paths to modules that run some code to configure or set up the testing framework before each test
-  // setupFilesAfterEnv: [],
+  setupFilesAfterEnv: ["./jest.setup.js"],
 
   // The number of seconds after which a test is considered as slow and reported as such in the results.
   // slowTestThreshold: 5,
@@ -159,6 +168,10 @@ const config = {
     "**/?(*.)+(spec|test).[tj]s?(x)",
   ],
 
+  moduleNameMapper: {
+    "^#utils/(.*)$": "<rootDir>/utils/$1",
+    "^#application/(.*)$": "<rootDir>/application/$1",
+  },
   // An array of regexp pattern strings that are matched against all test paths, matched tests are skipped
   // testPathIgnorePatterns: [
   //   "\\\\node_modules\\\\"

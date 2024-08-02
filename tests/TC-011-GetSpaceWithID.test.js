@@ -1,6 +1,6 @@
-require("dotenv").config({ path: ".env" });
-const requestManager = require("../utils/RequestManager.js");
-const { combinedLogger, errorLogger } = require("../utils/logger");
+const { environment: environment } = require("#utils/environment.js");
+const requestManager = require("#utils/RequestManager.js");
+const { combinedLogger, errorLogger } = require("#utils/logger.js");
 
 // Test Case 011: Get Space With ID - ENDPOINT SPACES
 describe("Get Space With ID", () => {
@@ -9,10 +9,10 @@ describe("Get Space With ID", () => {
   beforeAll(async () => {
     response = await requestManager.send(
       "get",
-      `${process.env.SPACES_ENDPOINT}`,
+      `${environment.spaces_endpoint}`,
       {},
       {
-        Authorization: `Bearer ${process.env.ACCESS_TOKEN}`,
+        Authorization: `Bearer ${environment.access_token}`,
       }
     );
   });
