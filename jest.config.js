@@ -208,4 +208,17 @@ const config = {
   // watchman: true,
 };
 
-module.exports = config;
+
+
+module.exports = {
+  // Outras configurações do Jest
+  reporters: [
+    'default',
+    [ 'jest-html-reporter', {
+      pageTitle: 'Relatório de Execução de Testes',
+      outputPath: './reports/test-report.html',
+      includeFailureMsg: true,
+      includeConsoleLog: true
+    }]
+  ],
+};

@@ -22,7 +22,7 @@ describe("Verify 401 response if no token is given", () => {
     }
   });
 
-  test("Status code is 401", () => {
+  test("@smoke Status code is 401", () => {
     try {
       expect(responseStatus).toBe(401);
       combinedLogger.info(`[${expect.getState().currentTestName}] : Sucesso`);
@@ -34,7 +34,7 @@ describe("Verify 401 response if no token is given", () => {
     }
   });
 
-  test("Response is Text/Plain", () => {
+  test("@regression Response is Text/Plain", () => {
     try {
       expect(responseContentType).toMatch(/text\/plain/);
       combinedLogger.info(`[${expect.getState().currentTestName}] : Sucesso`);
@@ -46,7 +46,7 @@ describe("Verify 401 response if no token is given", () => {
     }
   });
 
-  test("Response contains error message", () => {
+  test("@smoke Response contains error message", () => {
     try {
       expect(responseData.error).toEqual("not_authorized");
       combinedLogger.info(`[${expect.getState().currentTestName}] : Sucesso`);
@@ -58,7 +58,7 @@ describe("Verify 401 response if no token is given", () => {
     }
   });
 
-  test("Response contains error description", () => {
+  test("@regression Response contains error description", () => {
     try {
       expect(responseData.errorDescription).toEqual(
         "Authorization method unknown"

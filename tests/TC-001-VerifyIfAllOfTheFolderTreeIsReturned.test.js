@@ -17,7 +17,7 @@ describe("Verify If All Of The Folder Tree Is Returned", () => {
     );
   });
 
-  test("Status code is 200", () => {
+  test("@smoke Status code is 200", () => {
     try {
       expect(response.status).toBe(200);
       combinedLogger.info(`[${expect.getState().currentTestName}] : Sucesso`);
@@ -29,7 +29,7 @@ describe("Verify If All Of The Folder Tree Is Returned", () => {
     }
   });
 
-  test("Response is JSON", () => {
+  test("@smoke Response is JSON", () => {
     try {
       expect(response.headers["content-type"]).toMatch(/json/);
       combinedLogger.info(`[${expect.getState().currentTestName}] : Sucesso`);
@@ -41,7 +41,7 @@ describe("Verify If All Of The Folder Tree Is Returned", () => {
     }
   });
 
-  test("Response contains folderTree kind", () => {
+  test("@regression Response contains folderTree kind", () => {
     try {
       expect(response.data.kind).toEqual("folderTree");
       combinedLogger.info(`[${expect.getState().currentTestName}] : Sucesso`);
@@ -53,7 +53,7 @@ describe("Verify If All Of The Folder Tree Is Returned", () => {
     }
   });
 
-  test("Data is an array", () => {
+  test("@regression Data is an array", () => {
     try {
       expect(Array.isArray(response.data.data)).toBe(true);
       combinedLogger.info(`[${expect.getState().currentTestName}] : Sucesso`);

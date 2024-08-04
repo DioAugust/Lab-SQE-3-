@@ -30,7 +30,7 @@ describe("Verify Wrike API response for folders", () => {
     }
   });
 
-  test("Status code is 200", () => {
+  test("@smoke Status code is 200", () => {
     try {
       expect(responseStatus).toBe(200);
       combinedLogger.info(`[${expect.getState().currentTestName}] : Sucesso`);
@@ -42,7 +42,7 @@ describe("Verify Wrike API response for folders", () => {
     }
   });
 
-  test("Response is JSON", () => {
+  test("@smoke Response is JSON", () => {
     try {
       expect(responseContentType).toMatch(/application\/json/);
       combinedLogger.info(`[${expect.getState().currentTestName}] : Sucesso`);
@@ -54,7 +54,7 @@ describe("Verify Wrike API response for folders", () => {
     }
   });
 
-  test("Response contains folders kind", () => {
+  test("@regression Response contains folders kind", () => {
     try {
       expect(responseData.kind).toEqual("folders");
       combinedLogger.info(`[${expect.getState().currentTestName}] : Sucesso`);
@@ -66,7 +66,7 @@ describe("Verify Wrike API response for folders", () => {
     }
   });
 
-  test("Data is an array", () => {
+  test("@regression Data is an array", () => {
     try {
       expect(Array.isArray(responseData.data)).toBe(true);
       combinedLogger.info(`[${expect.getState().currentTestName}] : Sucesso`);
@@ -78,7 +78,7 @@ describe("Verify Wrike API response for folders", () => {
     }
   });
 
-  test("Response matches schema", () => {
+  test("@regression Response matches schema", () => {
     expect(responseData).toBeValidSchema();
     expect(responseData).toMatchSchema(schemaFolder);
   });

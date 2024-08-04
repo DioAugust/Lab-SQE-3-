@@ -18,7 +18,7 @@ describe("Get Space With ID", () => {
     );
   });
 
-  test("Status code is 200", () => {
+  test("@smoke Status code is 200", () => {
     try {
       expect(response.status).toBe(200);
       combinedLogger.info(`[${expect.getState().currentTestName}] : Sucesso`);
@@ -30,7 +30,7 @@ describe("Get Space With ID", () => {
     }
   });
 
-  test("Response is JSON", () => {
+  test("@smoke Response is JSON", () => {
     try {
       expect(response.headers["content-type"]).toMatch(/json/);
       combinedLogger.info(`[${expect.getState().currentTestName}] : Sucesso`);
@@ -42,7 +42,7 @@ describe("Get Space With ID", () => {
     }
   });
 
-  test("Response contains spaces kind", () => {
+  test("@integration Response contains spaces kind", () => {
     try {
       expect(response.data.kind).toEqual("spaces");
       combinedLogger.info(`[${expect.getState().currentTestName}] : Sucesso`);
@@ -54,7 +54,7 @@ describe("Get Space With ID", () => {
     }
   });
 
-  test("Data is an array", () => {
+  test("@integration Data is an array", () => {
     try {
       expect(Array.isArray(response.data.data)).toBe(true);
       combinedLogger.info(`[${expect.getState().currentTestName}] : Sucesso`);
@@ -68,7 +68,7 @@ describe("Get Space With ID", () => {
     }
   });
 
-  test("Responses matches schema", () => {
+  test("@schema Responses matches schema", () => {
     expect(response.data).toBeValidSchema();
     expect(response.data).toMatchSchema(spaceSchema);
   });

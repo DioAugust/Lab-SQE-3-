@@ -29,7 +29,7 @@ describe("Verify Wrike API response for creating a folder with insufficient perm
     }
   });
 
-  test("Status code is 403", () => {
+  test("@smoke Status code is 403", () => {
     try {
       expect(responseStatus).toBe(403);
       combinedLogger.info(`[${expect.getState().currentTestName}] : Sucesso`);
@@ -41,7 +41,7 @@ describe("Verify Wrike API response for creating a folder with insufficient perm
     }
   });
 
-  test("Response is JSON", () => {
+  test("@smoke Response is JSON", () => {
     try {
       expect(responseContentType).toMatch(/application\/json/);
       combinedLogger.info(`[${expect.getState().currentTestName}] : Sucesso`);
@@ -53,7 +53,7 @@ describe("Verify Wrike API response for creating a folder with insufficient perm
     }
   });
 
-  test("Error is not_allowed", () => {
+  test("@regression Error is not_allowed", () => {
     try {
       expect(responseData.error).toEqual("not_allowed");
       combinedLogger.info(`[${expect.getState().currentTestName}] : Sucesso`);

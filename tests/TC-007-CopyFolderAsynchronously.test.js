@@ -29,7 +29,7 @@ describe("Verify Wrike API response for asynchronous folder copy", () => {
     }
   });
 
-  test("Status code is 202", () => {
+  test("@smoke Status code is 202", () => {
     try {
       expect(responseStatus).toBe(202);
       combinedLogger.info(`[${expect.getState().currentTestName}] : Sucesso`);
@@ -41,7 +41,7 @@ describe("Verify Wrike API response for asynchronous folder copy", () => {
     }
   });
 
-  test("Response is JSON", () => {
+  test("@smoke Response is JSON", () => {
     try {
       expect(responseContentType).toMatch(/application\/json/);
       combinedLogger.info(`[${expect.getState().currentTestName}] : Sucesso`);
@@ -53,7 +53,7 @@ describe("Verify Wrike API response for asynchronous folder copy", () => {
     }
   });
 
-  test("Response contains asyncJob kind", () => {
+  test("@integration Response contains asyncJob kind", () => {
     try {
       expect(responseData.kind).toEqual("asyncJob");
       combinedLogger.info(`[${expect.getState().currentTestName}] : Sucesso`);
@@ -65,7 +65,7 @@ describe("Verify Wrike API response for asynchronous folder copy", () => {
     }
   });
 
-  test("Data is an array", () => {
+  test("@integration Data is an array", () => {
     try {
       expect(Array.isArray(responseData.data)).toBe(true);
       combinedLogger.info(`[${expect.getState().currentTestName}] : Sucesso`);
@@ -77,7 +77,7 @@ describe("Verify Wrike API response for asynchronous folder copy", () => {
     }
   });
 
-  test("asyncJob is CopyFolder", () => {
+  test("@integration asyncJob is CopyFolder", () => {
     try {
       expect(responseData.data[0].type).toEqual("CopyFolder");
       combinedLogger.info(`[${expect.getState().currentTestName}] : Sucesso`);

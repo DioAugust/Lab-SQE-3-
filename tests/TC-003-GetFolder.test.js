@@ -29,7 +29,7 @@ describe("Verify Wrike API response for folderTree", () => {
     }
   });
 
-  test("Status code is 200", () => {
+  test("@smoke Status code is 200", () => {
     try {
       expect(responseStatus).toBe(200);
       combinedLogger.info(`[${expect.getState().currentTestName}] : Sucesso`);
@@ -41,7 +41,7 @@ describe("Verify Wrike API response for folderTree", () => {
     }
   });
 
-  test("Response is JSON", () => {
+  test("@smoke Response is JSON", () => {
     try {
       expect(responseContentType).toMatch(/application\/json/);
       combinedLogger.info(`[${expect.getState().currentTestName}] : Sucesso`);
@@ -53,7 +53,7 @@ describe("Verify Wrike API response for folderTree", () => {
     }
   });
 
-  test("Response contains folderTree kind", () => {
+  test("@regression Response contains folderTree kind", () => {
     try {
       expect(responseData.kind).toEqual("folderTree");
       combinedLogger.info(`[${expect.getState().currentTestName}] : Sucesso`);
@@ -65,7 +65,7 @@ describe("Verify Wrike API response for folderTree", () => {
     }
   });
 
-  test("Data is an array", () => {
+  test("@regression Data is an array", () => {
     try {
       expect(Array.isArray(responseData.data)).toBe(true);
       combinedLogger.info(`[${expect.getState().currentTestName}] : Sucesso`);
