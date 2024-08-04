@@ -6,8 +6,8 @@
     "test:smoke": "jest --testNamePattern='@smoke'",
     "test:regression": "jest --testNamePattern='@regression'",
     "test:integration": "jest --testNamePattern='@integration'",
-    "test:error": "jest --testNamePattern'@error'",
-    "test:schema": "jest --testNamePattern'@schema'",
+    "test:error": "jest --testNamePattern='@error'",
+    "test:schema": "jest --testNamePattern='@schema'",
     "test": "jest"
   },
   "keywords": [],
