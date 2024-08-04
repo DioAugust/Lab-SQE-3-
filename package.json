@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "test:smoke": "jest --testNamePattern='@smoke'",
+    "test:regression": "jest --testNamePattern='@regression'",
+    "test:integration": "jest --testNamePattern='@integration'",
+    "test:error": "jest --testNamePattern'@error'",
+    "test:schema": "jest --testNamePattern'@schema'",
     "test": "jest"
   },
   "keywords": [],
