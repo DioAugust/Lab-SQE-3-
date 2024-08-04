@@ -25,7 +25,7 @@ describe("Check Query Of Groups Created By Valid ID", () => {
     responseData = response.data;
   });
 
-  test("Status code is 200", () => {
+  test("@smoke Status code is 200", () => {
     try {
       expect(responseStatus).toBe(200);
       combinedLogger.info(`[${expect.getState().currentTestName}] : Sucesso`);
@@ -37,7 +37,7 @@ describe("Check Query Of Groups Created By Valid ID", () => {
     }
   });
 
-  test("Response is JSON", () => {
+  test("@smoke Response is JSON", () => {
     try {
       expect(responseContentType).toMatch(/json/);
       combinedLogger.info(`[${expect.getState().currentTestName}] : Sucesso`);
@@ -49,7 +49,7 @@ describe("Check Query Of Groups Created By Valid ID", () => {
     }
   });
 
-  test("Response structure", () => {
+  test("@integration Response structure", () => {
     try {
       expect(responseData).toHaveProperty("kind");
       expect(responseData.kind).toEqual("groups");

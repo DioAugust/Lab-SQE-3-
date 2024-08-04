@@ -29,7 +29,7 @@ describe("Verify Wrike API response for invalid space ID", () => {
     }
   });
 
-  test("Status code is 400", () => {
+  test("@smoke Status code is 400", () => {
     try {
       expect(responseStatus).toBe(400);
       combinedLogger.info(`[${expect.getState().currentTestName}] : Sucesso`);
@@ -41,7 +41,7 @@ describe("Verify Wrike API response for invalid space ID", () => {
     }
   });
 
-  test("Response is JSON", () => {
+  test("@smoke Response is JSON", () => {
     try {
       expect(responseContentType).toMatch(/application\/json/);
       combinedLogger.info(`[${expect.getState().currentTestName}] : Sucesso`);
@@ -53,7 +53,7 @@ describe("Verify Wrike API response for invalid space ID", () => {
     }
   });
 
-  test("errorDescription contains error message", () => {
+  test("@integration errorDescription contains error message", () => {
     try {
       expect(responseData.errorDescription).toEqual("Invalid Account ID");
       combinedLogger.info(`[${expect.getState().currentTestName}] : Sucesso`);

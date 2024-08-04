@@ -17,7 +17,7 @@ describe("Basic Test To Ensure Api Service", () => {
     );
   });
 
-  test("Status code is 200", () => {
+  test("@smoke Status code is 200", () => {
     try {
       expect(response.status).toBe(200);
       combinedLogger.info(`[${expect.getState().currentTestName}] : Sucesso`);
@@ -29,7 +29,7 @@ describe("Basic Test To Ensure Api Service", () => {
     }
   });
 
-  test("Response is JSON", () => {
+  test("@smoke Response is JSON", () => {
     try {
       expect(response.headers["content-type"]).toMatch(/json/);
       combinedLogger.info(`[${expect.getState().currentTestName}] : Sucesso`);
@@ -40,7 +40,7 @@ describe("Basic Test To Ensure Api Service", () => {
     }
   });
 
-  test("Response contains version kind", () => {
+  test("@integration Response contains version kind", () => {
     try {
       expect(response.data.kind).toEqual("version");
       combinedLogger.info(` [${expect.getState().currentTestName}] : Sucesso`);
@@ -52,7 +52,7 @@ describe("Basic Test To Ensure Api Service", () => {
     }
   });
 
-  test("Data is an array", () => {
+  test("@integration Data is an array", () => {
     try {
       expect(Array.isArray(response.data.data)).toBe(true);
       combinedLogger.info(`[${expect.getState().currentTestName}] : Sucesso`);

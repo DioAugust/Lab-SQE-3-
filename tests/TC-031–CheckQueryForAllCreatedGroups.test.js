@@ -26,7 +26,7 @@ describe("Check Query For All Created Groups", () => {
     responseData = response.data;
   });
 
-  test("Status code is 200", () => {
+  test("@smoke Status code is 200", () => {
     try {
       expect(responseStatus).toBe(200);
       combinedLogger.info(`[${expect.getState().currentTestName}] : Sucesso`);
@@ -38,7 +38,7 @@ describe("Check Query For All Created Groups", () => {
     }
   });
 
-  test("Response is JSON", () => {
+  test("@smoke Response is JSON", () => {
     try {
       expect(responseContentType).toMatch(/json/);
       combinedLogger.info(`[${expect.getState().currentTestName}] : Sucesso`);
@@ -50,7 +50,7 @@ describe("Check Query For All Created Groups", () => {
     }
   });
 
-  test("Response structure", () => {
+  test("@integration Response structure", () => {
     try {
       expect(responseData).toHaveProperty("kind");
       expect(responseData.kind).toEqual("groups");
@@ -71,7 +71,7 @@ describe("Check Query For All Created Groups", () => {
     }
   });
 
-  test("Response matches schema", () => {
+  test("@schema Response matches schema", () => {
     expect(responseData).toBeValidSchema();
     expect(responseData).toMatchSchema(groupSchema);
   });

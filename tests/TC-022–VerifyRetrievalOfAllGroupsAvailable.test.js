@@ -23,7 +23,7 @@ describe("Verify Retrieval Of All Groups Available", () => {
     responseData = response.data;
   });
 
-  test("Status code is 200", () => {
+  test("@smoke Status code is 200", () => {
     try {
       expect(responseStatus).toBe(200);
       combinedLogger.info(`[${expect.getState().currentTestName}] : Sucesso`);
@@ -35,7 +35,7 @@ describe("Verify Retrieval Of All Groups Available", () => {
     }
   });
 
-  test("Response is JSON", () => {
+  test("@smoke Response is JSON", () => {
     try {
       expect(responseContentType).toMatch(/json/);
       combinedLogger.info(`[${expect.getState().currentTestName}] : Sucesso`);
@@ -47,7 +47,7 @@ describe("Verify Retrieval Of All Groups Available", () => {
     }
   });
 
-  test("Response structure", () => {
+  test("@integration Response structure", () => {
     try {
       expect(responseData).toHaveProperty("kind");
       expect(responseData.kind).toEqual("workschedules");

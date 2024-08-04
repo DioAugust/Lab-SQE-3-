@@ -23,7 +23,7 @@ describe("Assure Request Manager Functionality", () => {
     mock.reset();
   });
 
-  test("should send a GET request successfully", async () => {
+  test("@integration should send a GET request successfully", async () => {
     const mockData = { data: "mocked data" };
     mock.onGet("/endpoint").reply(200, mockData);
 
@@ -43,7 +43,7 @@ describe("Assure Request Manager Functionality", () => {
     ).toHaveBeenCalledWith('Request params: {"param1":"value1"}');
   });
 
-  test("should handle request error", async () => {
+  test("@error should handle request error", async () => {
     mock.onGet("/endpoint/error").reply(500);
 
     await expect(
@@ -55,7 +55,7 @@ describe("Assure Request Manager Functionality", () => {
     );
   });
 
-  test("should send a POST request successfully", async () => {
+  test("@integration should send a POST request successfully", async () => {
     const mockData = { data: "post success" };
     mock.onPost("/post-endpoint").reply(201, mockData);
 
@@ -75,7 +75,7 @@ describe("Assure Request Manager Functionality", () => {
     ).toHaveBeenCalledWith('Request params: {"param1":"value1"}');
   });
 
-  test("should handle network error", async () => {
+  test("@error should handle network error", async () => {
     mock.onGet("/network-error").networkError();
 
     await expect(

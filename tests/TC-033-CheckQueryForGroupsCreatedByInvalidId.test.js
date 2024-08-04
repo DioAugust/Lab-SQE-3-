@@ -33,7 +33,7 @@ describe("Check Query For Groups Created by invalid ID", () => {
     }
   });
 
-  test("Status code is 400", () => {
+  test("@error Status code is 400", () => {
     try {
       expect(responseStatus).toBe(400);
       combinedLogger.info(`[${expect.getState().currentTestName}] : Sucesso`);
@@ -45,7 +45,7 @@ describe("Check Query For Groups Created by invalid ID", () => {
     }
   });
 
-  test("Response is JSON", () => {
+  test("@smoke Response is JSON", () => {
     try {
       expect(responseContentType).toMatch(/json/);
       combinedLogger.info(`[${expect.getState().currentTestName}] : Sucesso`);

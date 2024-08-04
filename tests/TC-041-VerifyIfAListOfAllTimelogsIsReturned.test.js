@@ -19,7 +19,7 @@ describe("Verify If A List Of All Timelogs is Returned", () => {
     );
   });
 
-  test("Status code is 200", () => {
+  test("@smoke Status code is 200", () => {
     try {
       expect(response.status).toBe(200);
       combinedLogger.info(`[${expect.getState().currentTestName}] : Sucesso`);
@@ -31,7 +31,7 @@ describe("Verify If A List Of All Timelogs is Returned", () => {
     }
   });
 
-  test("Response is JSON", () => {
+  test("@smoke Response is JSON", () => {
     try {
       expect(response.headers["content-type"]).toMatch(/json/);
       combinedLogger.info(`[${expect.getState().currentTestName}] : Sucesso`);
@@ -43,7 +43,7 @@ describe("Verify If A List Of All Timelogs is Returned", () => {
     }
   });
 
-  test("Response contains spaces kind", () => {
+  test("@integration Response contains spaces kind", () => {
     try {
       expect(response.data.kind).toEqual("timelogs");
       combinedLogger.info(`[${expect.getState().currentTestName}] : Sucesso`);
@@ -55,7 +55,7 @@ describe("Verify If A List Of All Timelogs is Returned", () => {
     }
   });
 
-  test("Data is an array", () => {
+  test("@integration Data is an array", () => {
     try {
       expect(Array.isArray(response.data.data)).toBe(true);
       combinedLogger.info(`[${expect.getState().currentTestName}] : Sucesso`);
@@ -67,7 +67,7 @@ describe("Verify If A List Of All Timelogs is Returned", () => {
     }
   });
 
-  test("Response matches schema", () => {
+  test("@schema Response matches schema", () => {
     expect(response.data).toBeValidSchema();
     expect(response.data).toMatchSchema(timelogSchema);
   });
