@@ -1,0 +1,95 @@
+{
+  "type": "object",
+  "required": ["kind", "data"],
+  "properties": {
+    "kind": {
+      "type": "string"
+    },
+    "data": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "accountId",
+          "title",
+          "createdDate",
+          "updatedDate",
+          "description",
+          "sharedIds",
+          "parentIds",
+          "childIds",
+          "superParentIds",
+          "scope",
+          "hasAttachments",
+          "permalink",
+          "workflowId",
+          "metadata",
+          "customFields"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "accountId": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "createdDate": {
+            "type": "string"
+          },
+          "updatedDate": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "sharedIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "parentIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "childIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "superParentIds": {
+            "type": "array",
+            "items": {}
+          },
+          "scope": {
+            "type": "string"
+          },
+          "hasAttachments": {
+            "type": "boolean"
+          },
+          "permalink": {
+            "type": "string"
+          },
+          "workflowId": {
+            "type": "string"
+          },
+          "metadata": {
+            "type": "array",
+            "items": {}
+          },
+          "customFields": {
+            "type": "array",
+            "items": {}
+          }
+        }
+      }
+    }
+  }
+}

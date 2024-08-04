@@ -1,0 +1,47 @@
+{
+  "type": "object",
+  "required": ["kind", "data"],
+  "properties": {
+    "kind": {
+      "type": "string"
+    },
+    "data": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "title",
+          "avatarUrl",
+          "accessType",
+          "archived",
+          "defaultProjectWorkflowId",
+          "defaultTaskWorkflowId"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "avatarUrl": {
+            "type": "string"
+          },
+          "accessType": {
+            "type": "string"
+          },
+          "archived": {
+            "type": "boolean"
+          },
+          "defaultProjectWorkflowId": {
+            "type": "string"
+          },
+          "defaultTaskWorkflowId": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

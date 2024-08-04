@@ -1,6 +1,6 @@
-require("dotenv").config({ path: ".env" });
-const requestManager = require("../utils/RequestManager.js");
-const { combinedLogger, errorLogger } = require("../utils/logger");
+const { environment: environment } = require("#utils/environment.js");
+const requestManager = require("#utils/RequestManager.js");
+const { combinedLogger, errorLogger } = require("#utils/logger.js");
 
 describe("Verify Wrike API response for folderTree", () => {
   let responseStatus;
@@ -11,9 +11,9 @@ describe("Verify Wrike API response for folderTree", () => {
     try {
       const response = await requestManager.send(
         "get",
-        `${process.env.BASE_URL}/folders/IEAGHUACI7777777/folders`,
+        `${environment.folder_endpoint}/IEAGHUACI7777777/folders`,
         {},
-        { Authorization: `Bearer ${process.env.ACCESS_TOKEN}` }
+        { Authorization: `Bearer ${environment.access_token}` }
       );
       responseStatus = response.status;
       responseContentType = response.headers["content-type"];

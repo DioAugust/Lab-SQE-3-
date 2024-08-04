@@ -1,6 +1,6 @@
-require("dotenv").config({ path: ".env" });
-const requestManager = require("../utils/RequestManager.js");
-const { combinedLogger, errorLogger } = require("../utils/logger"); // Importa os loggers
+const { environment: environment } = require("#utils/environment.js");
+const requestManager = require("#utils/RequestManager.js");
+const { combinedLogger, errorLogger } = require("#utils/logger.js"); // Importa os loggers
 
 describe("Verify 401 response if no token is given", () => {
   let responseStatus;
@@ -10,7 +10,7 @@ describe("Verify 401 response if no token is given", () => {
   beforeAll(async () => {
     try {
       // Usando requestManager.send ao invés de axios.get, intencionalmente omitindo o token para forçar um erro 401
-      await requestManager.send("get", `${process.env.GROUPS_ENDPOINT}`);
+      await requestManager.send("get", `${environment.groups_endpoint}`);
     } catch (error) {
       if (error.response) {
         responseStatus = error.response.status;

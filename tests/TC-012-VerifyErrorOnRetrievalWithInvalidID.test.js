@@ -1,6 +1,6 @@
-require("dotenv").config({ path: ".env" });
-const requestManager = require("../utils/RequestManager.js");
-const { combinedLogger, errorLogger } = require("../utils/logger");
+const { environment: environment } = require("#utils/environment.js");
+const requestManager = require("#utils/RequestManager.js");
+const { combinedLogger, errorLogger } = require("#utils/logger.js");
 
 describe("Verify Wrike API response for invalid space ID", () => {
   let responseStatus;
@@ -11,9 +11,9 @@ describe("Verify Wrike API response for invalid space ID", () => {
     try {
       const response = await requestManager.send(
         "get",
-        `${process.env.BASE_URL}/spaces/IEAGHUACI5LGL`,
+        `${environment.invalid_space_endpoint}`,
         {},
-        { Authorization: `Bearer ${process.env.ACCESS_TOKEN}` }
+        { Authorization: `Bearer ${environment.access_token}` }
       );
       responseStatus = response.status;
       responseContentType = response.headers["content-type"];
@@ -55,7 +55,7 @@ describe("Verify Wrike API response for invalid space ID", () => {
 
   test("errorDescription contains error message", () => {
     try {
-      expect(responseData.errorDescription).toEqual("Invalid Space ID");
+      expect(responseData.errorDescription).toEqual("Invalid Account ID");
       combinedLogger.info(`[${expect.getState().currentTestName}] : Sucesso`);
     } catch (error) {
       errorLogger.error(

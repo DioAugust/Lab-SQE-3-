@@ -1,6 +1,6 @@
-require("dotenv").config({ path: ".env" });
-const requestManager = require("../utils/RequestManager.js");
-const { combinedLogger, errorLogger } = require("../utils/logger");
+const { environment: environment } = require("#utils/environment.js");
+const requestManager = require("#utils/RequestManager.js");
+const { combinedLogger, errorLogger } = require("#utils/logger.js");
 
 describe("Verify Wrike API response for asynchronous folder copy", () => {
   let responseStatus;
@@ -11,9 +11,9 @@ describe("Verify Wrike API response for asynchronous folder copy", () => {
     try {
       const response = await requestManager.send(
         "post",
-        `${process.env.BASE_URL}/copy_folder_async/IEAGHUACI5LFXEBP`,
+        `/copy_folder_async/IEAGHUACI5LFXEBP`,
         { parent: "IEAGHUACI5LFXEBH", title: "Test Folder Copy async" },
-        { Authorization: `Bearer ${process.env.ACCESS_TOKEN}` }
+        { Authorization: `Bearer ${environment.access_token}` }
       );
       responseStatus = response.status;
       responseContentType = response.headers["content-type"];

@@ -1,0 +1,45 @@
+{
+  "type": "object",
+  "required": ["kind", "data"],
+  "properties": {
+    "kind": {
+      "type": "string"
+    },
+    "data": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "scheduleType", "title", "workweek"],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "scheduleType": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "workweek": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["workDays", "capacityMinutes"],
+              "properties": {
+                "workDays": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "capacityMinutes": {
+                  "type": "integer"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

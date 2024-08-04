@@ -1,6 +1,7 @@
-require("dotenv").config({ path: ".env" });
-const requestManager = require("../utils/RequestManager.js");
-const { combinedLogger, errorLogger } = require("../utils/logger");
+const { environment: environment } = require("#utils/environment.js");
+const requestManager = require("#utils/RequestManager.js");
+const { combinedLogger, errorLogger } = require("#utils/logger.js");
+const schemaFolder = require("#application/schemas/folder.json");
 
 describe("Verify Wrike API response for folders", () => {
   let responseStatus;
@@ -11,9 +12,9 @@ describe("Verify Wrike API response for folders", () => {
     try {
       const response = await requestManager.send(
         "get",
-        `${process.env.BASE_URL}/folders/IEAGHUACI5LGLFOR,`,
+        `${environment.folder_endpoint}/IEAGHUACI5LGLFOR,`,
         {},
-        { Authorization: `Bearer ${process.env.ACCESS_TOKEN}` }
+        { Authorization: `Bearer ${environment.access_token}` }
       );
       responseStatus = response.status;
       responseContentType = response.headers["content-type"];
@@ -75,5 +76,10 @@ describe("Verify Wrike API response for folders", () => {
       );
       throw error;
     }
+  });
+
+  test("Response matches schema", () => {
+    expect(responseData).toBeValidSchema();
+    expect(responseData).toMatchSchema(schemaFolder);
   });
 });
